@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "fetch-dataset": "tsx scripts/fetch-dataset.ts",
-    "validate-dataset": "tsx scripts/validate-dataset.ts"
+    "eval": "tsx scripts/run-eval.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "zod": "^4.4.3"
   }
 }
