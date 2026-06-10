@@ -20,6 +20,8 @@ export interface ItemResult {
   latencyMs: number;
   inputTokens: number;
   outputTokens: number;
+  cacheWriteTokens: number;
+  cacheReadTokens: number;
   error?: string;
 }
 

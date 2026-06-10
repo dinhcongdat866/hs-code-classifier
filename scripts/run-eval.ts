@@ -81,6 +81,8 @@ async function classifyOne(
       latencyMs,
       inputTokens: response.usage.input_tokens,
       outputTokens: response.usage.output_tokens,
+      cacheWriteTokens: response.usage.cache_creation_input_tokens ?? 0,
+      cacheReadTokens: response.usage.cache_read_input_tokens ?? 0,
     };
   } catch (err) {
     return {
@@ -91,6 +93,8 @@ async function classifyOne(
       latencyMs: performance.now() - start,
       inputTokens: 0,
       outputTokens: 0,
+      cacheWriteTokens: 0,
+      cacheReadTokens: 0,
       error: err instanceof Error ? err.message : String(err),
     };
   }
@@ -131,18 +135,26 @@ async function main() {
   console.log(`Evaluating ${rows.length} items | model=${modelCfg.id} | prompt=${prompt} | concurrency=${concurrency}`);
 
   let done = 0;
-  const results = await pool(rows, concurrency, async (row) => {
+  // First item runs alone so the cached system prompt (if any) is written
+  // once before the parallel wave — concurrent first requests would all
+  // pay the full uncached price.
+  const first = await classifyOne(client, modelCfg.id, promptCfg, rows[0]);
+  done++;
+  const rest = await pool(rows.slice(1), concurrency, async (row) => {
     const r = await classifyOne(client, modelCfg.id, promptCfg, row);
     done++;
     if (done % 25 === 0) console.log(`  ${done}/${rows.length}`);
     return r;
   });
+  const results = [first, ...rest];
 
   const ok = results.filter((r) => !r.error);
   const latencies = ok.map((r) => r.latencyMs).sort((a, b) => a - b);
   const totalInput = ok.reduce((s, r) => s + r.inputTokens, 0);
   const totalOutput = ok.reduce((s, r) => s + r.outputTokens, 0);
-  const totalCost = costUsd(modelCfg, totalInput, totalOutput);
+  const totalCacheWrite = ok.reduce((s, r) => s + r.cacheWriteTokens, 0);
+  const totalCacheRead = ok.reduce((s, r) => s + r.cacheReadTokens, 0);
+  const totalCost = costUsd(modelCfg, totalInput, totalOutput, totalCacheWrite, totalCacheRead);
 
   const run: EvalRun = {
     summary: {
@@ -174,7 +186,7 @@ async function main() {
   console.log(`top-3 accuracy : ${(s.top3Accuracy * 100).toFixed(1)}%`);
   console.log(`errors         : ${s.errors}`);
   console.log(`mean latency   : ${s.meanLatencyMs.toFixed(0)} ms (p95 ${s.p95LatencyMs.toFixed(0)} ms)`);
-  console.log(`tokens         : ${s.totalInputTokens} in / ${s.totalOutputTokens} out`);
+  console.log(`tokens         : ${s.totalInputTokens} in / ${s.totalOutputTokens} out (cache: ${totalCacheWrite} written, ${totalCacheRead} read)`);
   console.log(`total cost     : $${s.totalCostUsd.toFixed(4)}`);
   console.log(`cost / 1K SKUs : $${s.costPer1kSkusUsd.toFixed(2)}`);
   console.log(`\nSaved ${outPath}`);

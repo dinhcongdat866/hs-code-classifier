@@ -1,0 +1,3740 @@
+{
+  "summary": {
+    "model": "haiku",
+    "modelId": "claude-haiku-4-5",
+    "prompt": "v1",
+    "timestamp": "2026-06-10T14:20:44.551Z",
+    "n": 248,
+    "top1Accuracy": 0.36693548387096775,
+    "top3Accuracy": 0.5524193548387096,
+    "errors": 0,
+    "meanLatencyMs": 6637.403534677422,
+    "p95LatencyMs": 12516.48960000003,
+    "totalInputTokens": 101878,
+    "totalOutputTokens": 25788,
+    "totalCostUsd": 0.230818,
+    "costPer1kSkusUsd": 0.9307177419354838
+  },
+  "results": [
+    {
+      "id": "N359709",
+      "description": "a woman’s jacket",
+      "expected": "6202",
+      "candidates": [
+        "6204",
+        "6203",
+        "6114"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3276.5977000000003,
+      "inputTokens": 408,
+      "outputTokens": 94
+    },
+    {
+      "id": "N346848",
+      "description": "a textile costume trunk",
+      "expected": "9505",
+      "candidates": [
+        "6209",
+        "9406",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3054.4852,
+      "inputTokens": 408,
+      "outputTokens": 91
+    },
+    {
+      "id": "N341320",
+      "description": "a women’s recovery hoodie",
+      "expected": "6110",
+      "candidates": [
+        "6101",
+        "6104",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3637.2414999999996,
+      "inputTokens": 410,
+      "outputTokens": 123
+    },
+    {
+      "id": "N335561",
+      "description": "a women’s hooded blouse",
+      "expected": "6106",
+      "candidates": [
+        "6206",
+        "6205",
+        "6104"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2201.9365000000007,
+      "inputTokens": 411,
+      "outputTokens": 117
+    },
+    {
+      "id": "N334502",
+      "description": "women’s blouses",
+      "expected": "6106",
+      "candidates": [
+        "6105",
+        "6106",
+        "6104"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8763.055800000002,
+      "inputTokens": 408,
+      "outputTokens": 89
+    },
+    {
+      "id": "N329523",
+      "description": "the “Catnip Cuddle” doll and the “Stuffed Sea Guppy” fish-shaped pillow",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "6307",
+        "9505"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6222.4278,
+      "inputTokens": 433,
+      "outputTokens": 104
+    },
+    {
+      "id": "N327601",
+      "description": "a men’s hooded pullover",
+      "expected": "6110",
+      "candidates": [
+        "6104",
+        "6110",
+        "6203"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8048.2473,
+      "inputTokens": 411,
+      "outputTokens": 132
+    },
+    {
+      "id": "N319174",
+      "description": "women’s and men’s upper body garments",
+      "expected": "6110",
+      "candidates": [
+        "6104",
+        "6105",
+        "6110"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10999.7571,
+      "inputTokens": 413,
+      "outputTokens": 112
+    },
+    {
+      "id": "N310402",
+      "description": "a children’s jumpsuit",
+      "expected": "6211",
+      "candidates": [
+        "6104",
+        "6110",
+        "6205"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7937.452500000001,
+      "inputTokens": 409,
+      "outputTokens": 109
+    },
+    {
+      "id": "N306326",
+      "description": "unisex jackets",
+      "expected": "6102",
+      "candidates": [
+        "6203",
+        "6204",
+        "6111"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8186.345800000001,
+      "inputTokens": 409,
+      "outputTokens": 99
+    },
+    {
+      "id": "N286274",
+      "description": "a girls’ jacket",
+      "expected": "6102",
+      "candidates": [
+        "6110",
+        "6204",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9286.8924,
+      "inputTokens": 408,
+      "outputTokens": 98
+    },
+    {
+      "id": "N336897",
+      "description": "polyethylene retail carrier bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3915",
+        "5609"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2839.7760000000017,
+      "inputTokens": 410,
+      "outputTokens": 99
+    },
+    {
+      "id": "N336728",
+      "description": "women’s knit garments",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6109",
+        "6108"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10565.913400000001,
+      "inputTokens": 410,
+      "outputTokens": 103
+    },
+    {
+      "id": "N332869",
+      "description": "a boy’s garment",
+      "expected": "6109",
+      "candidates": [
+        "6104",
+        "6109",
+        "6110"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5895.0495999999985,
+      "inputTokens": 409,
+      "outputTokens": 125
+    },
+    {
+      "id": "N331830",
+      "description": "a nonwoven t-shirt style bag",
+      "expected": "6307",
+      "candidates": [
+        "6210",
+        "5903",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3507.767600000003,
+      "inputTokens": 413,
+      "outputTokens": 103
+    },
+    {
+      "id": "N325544",
+      "description": "biodegradable plastic bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "5903",
+        "4202"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8196.845599999997,
+      "inputTokens": 410,
+      "outputTokens": 94
+    },
+    {
+      "id": "N309146",
+      "description": "biodegradable plastic retail carrier bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "5909"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2932.001599999996,
+      "inputTokens": 412,
+      "outputTokens": 100
+    },
+    {
+      "id": "N305981",
+      "description": "men’s knit garments",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6109",
+        "6111"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 1877.5355999999956,
+      "inputTokens": 410,
+      "outputTokens": 96
+    },
+    {
+      "id": "N301538",
+      "description": "men’s work shirt",
+      "expected": "6211",
+      "candidates": [
+        "6205",
+        "6204",
+        "6203"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5145.361499999999,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N323309",
+      "description": "men’s trousers",
+      "expected": "6203",
+      "candidates": [
+        "6203",
+        "6204",
+        "6205"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7167.859799999998,
+      "inputTokens": 409,
+      "outputTokens": 112
+    },
+    {
+      "id": "N303026",
+      "description": "women’s trousers",
+      "expected": "6204",
+      "candidates": [
+        "6204",
+        "6203",
+        "6206"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10963.897300000004,
+      "inputTokens": 409,
+      "outputTokens": 124
+    },
+    {
+      "id": "N360990",
+      "description": "a textile Halloween Basket",
+      "expected": "6307",
+      "candidates": [
+        "6307",
+        "4202",
+        "9406"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5545.339399999997,
+      "inputTokens": 409,
+      "outputTokens": 102
+    },
+    {
+      "id": "N360145",
+      "description": "metal furniture",
+      "expected": "9403",
+      "candidates": [
+        "9406",
+        "7326",
+        "9403"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2623.0800000000017,
+      "inputTokens": 406,
+      "outputTokens": 88
+    },
+    {
+      "id": "N360271",
+      "description": "textile furniture",
+      "expected": "9403",
+      "candidates": [
+        "9401",
+        "9402",
+        "9403"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10307.517900000006,
+      "inputTokens": 406,
+      "outputTokens": 105
+    },
+    {
+      "id": "N358985",
+      "description": "bib-shaped textile coverings",
+      "expected": "6307",
+      "candidates": [
+        "6210",
+        "6216",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4134.7384999999995,
+      "inputTokens": 411,
+      "outputTokens": 125
+    },
+    {
+      "id": "N358801",
+      "description": "a framed canvas print",
+      "expected": "4911",
+      "candidates": [
+        "9406",
+        "7007",
+        "4414"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2635.082699999999,
+      "inputTokens": 409,
+      "outputTokens": 104
+    },
+    {
+      "id": "N357841",
+      "description": "two costumes",
+      "expected": "9505",
+      "candidates": [
+        "6204",
+        "6203",
+        "6209"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5738.442500000005,
+      "inputTokens": 407,
+      "outputTokens": 98
+    },
+    {
+      "id": "N361012",
+      "description": "women’s tops",
+      "expected": "6211",
+      "candidates": [
+        "6104",
+        "6105",
+        "6106"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2872.145899999996,
+      "inputTokens": 407,
+      "outputTokens": 112
+    },
+    {
+      "id": "N359769",
+      "description": "a polymerization reactor",
+      "expected": "8419",
+      "candidates": [
+        "8419",
+        "8481",
+        "7326"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 1931.5053999999946,
+      "inputTokens": 409,
+      "outputTokens": 98
+    },
+    {
+      "id": "N357848",
+      "description": "foot prostheses and their individual components",
+      "expected": "9021",
+      "candidates": [
+        "9022",
+        "3926",
+        "8483"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8652.2716,
+      "inputTokens": 412,
+      "outputTokens": 110
+    },
+    {
+      "id": "N355778",
+      "description": "wading boots",
+      "expected": "6402",
+      "candidates": [
+        "6401",
+        "6402",
+        "6405"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5475.8924999999945,
+      "inputTokens": 407,
+      "outputTokens": 113
+    },
+    {
+      "id": "N355201",
+      "description": "workout footwear",
+      "expected": "6405",
+      "candidates": [
+        "6404",
+        "6403",
+        "6402"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8964.821299999996,
+      "inputTokens": 408,
+      "outputTokens": 123
+    },
+    {
+      "id": "N350749",
+      "description": "socks from an undisclosed country",
+      "expected": "6115",
+      "candidates": [
+        "6115",
+        "6111",
+        "6109"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6167.024299999997,
+      "inputTokens": 412,
+      "outputTokens": 119
+    },
+    {
+      "id": "N348907",
+      "description": "AFO Symmetry Straps",
+      "expected": "9021",
+      "candidates": [
+        "9021",
+        "6210",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6561.882000000005,
+      "inputTokens": 412,
+      "outputTokens": 108
+    },
+    {
+      "id": "N339073",
+      "description": "acrylic yarns",
+      "expected": "5509",
+      "candidates": [
+        "5509",
+        "5507",
+        "5510"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10839.894499999995,
+      "inputTokens": 409,
+      "outputTokens": 110
+    },
+    {
+      "id": "N339080",
+      "description": "drawn textured polypropylene yarns",
+      "expected": "5402",
+      "candidates": [
+        "5503",
+        "5501",
+        "5505"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8182.6263000000035,
+      "inputTokens": 413,
+      "outputTokens": 116
+    },
+    {
+      "id": "N340134",
+      "description": "infant socks",
+      "expected": "6111",
+      "candidates": [
+        "6111",
+        "6115",
+        "6102"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7337.084900000002,
+      "inputTokens": 407,
+      "outputTokens": 92
+    },
+    {
+      "id": "N334203",
+      "description": "a Foot Work reflexology kit",
+      "expected": "9019",
+      "candidates": [
+        "9018",
+        "9615",
+        "8479"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7183.150800000003,
+      "inputTokens": 411,
+      "outputTokens": 104
+    },
+    {
+      "id": "N329665",
+      "description": "three steel hangers",
+      "expected": "8302",
+      "candidates": [
+        "7326",
+        "7308",
+        "7325"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12571.555599999992,
+      "inputTokens": 408,
+      "outputTokens": 99
+    },
+    {
+      "id": "N323706",
+      "description": "cotton yarns",
+      "expected": "5205",
+      "candidates": [
+        "5204",
+        "5208",
+        "5206"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12052.89899999999,
+      "inputTokens": 407,
+      "outputTokens": 91
+    },
+    {
+      "id": "N318785",
+      "description": "an article of glass fibers",
+      "expected": "7019",
+      "candidates": [
+        "7019",
+        "7007",
+        "7017"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2407.2871000000014,
+      "inputTokens": 410,
+      "outputTokens": 100
+    },
+    {
+      "id": "N326678",
+      "description": "footwear with a lighted tongue",
+      "expected": "6403",
+      "candidates": [
+        "6404",
+        "6403",
+        "6402"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7909.812000000005,
+      "inputTokens": 412,
+      "outputTokens": 117
+    },
+    {
+      "id": "N287202",
+      "description": "the Razor “Jetts DLX”",
+      "expected": "9506",
+      "candidates": [
+        "9506",
+        "9504",
+        "8714"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 4564.205299999987,
+      "inputTokens": 415,
+      "outputTokens": 128
+    },
+    {
+      "id": "N354200",
+      "description": "a one-piece molded clog",
+      "expected": "6402",
+      "candidates": [
+        "6704",
+        "6405",
+        "6403"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7110.095099999991,
+      "inputTokens": 412,
+      "outputTokens": 110
+    },
+    {
+      "id": "N354301",
+      "description": "a one-piece molded slip-on shoe",
+      "expected": "6402",
+      "candidates": [
+        "6404",
+        "6402",
+        "6403"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2066.0838000000076,
+      "inputTokens": 414,
+      "outputTokens": 130
+    },
+    {
+      "id": "N356922",
+      "description": "a double-walled vacuum sealed stainless-steel tumbler",
+      "expected": "9617",
+      "candidates": [
+        "7310",
+        "7326",
+        "7013"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2851.9550000000017,
+      "inputTokens": 418,
+      "outputTokens": 96
+    },
+    {
+      "id": "N355693",
+      "description": "an electromagnetic stimulation device",
+      "expected": "8543",
+      "candidates": [
+        "9018",
+        "8543",
+        "9027"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2299.7451,
+      "inputTokens": 409,
+      "outputTokens": 93
+    },
+    {
+      "id": "N353548",
+      "description": "a baseball-style hat",
+      "expected": "6505",
+      "candidates": [
+        "6505",
+        "6504",
+        "6502"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8969.360700000005,
+      "inputTokens": 409,
+      "outputTokens": 105
+    },
+    {
+      "id": "N325666",
+      "description": "a cap insert",
+      "expected": "6507",
+      "candidates": [
+        "6505",
+        "6504",
+        "6506"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6203.34150000001,
+      "inputTokens": 407,
+      "outputTokens": 100
+    },
+    {
+      "id": "N356180",
+      "description": "a woman’s skirt",
+      "expected": "3926",
+      "candidates": [
+        "6104",
+        "6204",
+        "6114"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 11591.090899999996,
+      "inputTokens": 409,
+      "outputTokens": 99
+    },
+    {
+      "id": "N347381",
+      "description": "an outsole roughing and sanding machine",
+      "expected": "8477",
+      "candidates": [
+        "8461",
+        "8459",
+        "8464"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2021.199900000007,
+      "inputTokens": 413,
+      "outputTokens": 96
+    },
+    {
+      "id": "N336251",
+      "description": "a women’s belt",
+      "expected": "3926",
+      "candidates": [
+        "6204",
+        "4203",
+        "5809"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9136.795600000012,
+      "inputTokens": 408,
+      "outputTokens": 89
+    },
+    {
+      "id": "N330959",
+      "description": "an emergency survival backpack kit",
+      "expected": "8527",
+      "candidates": [
+        "4202",
+        "9619",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8101.046699999992,
+      "inputTokens": 410,
+      "outputTokens": 103
+    },
+    {
+      "id": "N315669",
+      "description": "a faux leather jacket",
+      "expected": "3926",
+      "candidates": [
+        "6201",
+        "6204",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7226.895499999999,
+      "inputTokens": 409,
+      "outputTokens": 84
+    },
+    {
+      "id": "N352981",
+      "description": "remote mount control unit",
+      "expected": "8517",
+      "candidates": [
+        "8537",
+        "8534",
+        "9031"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 13461.762000000002,
+      "inputTokens": 408,
+      "outputTokens": 93
+    },
+    {
+      "id": "N350114",
+      "description": "a personal assistant robot",
+      "expected": "8543",
+      "candidates": [
+        "8471",
+        "8512",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8329.690300000002,
+      "inputTokens": 408,
+      "outputTokens": 107
+    },
+    {
+      "id": "N348181",
+      "description": "a smart ring",
+      "expected": "9031",
+      "candidates": [
+        "8517",
+        "9113",
+        "8471"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3247.237699999998,
+      "inputTokens": 407,
+      "outputTokens": 102
+    },
+    {
+      "id": "N347828",
+      "description": "an effects pedal",
+      "expected": "8543",
+      "candidates": [
+        "8518",
+        "9209",
+        "8537"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3476.309600000008,
+      "inputTokens": 408,
+      "outputTokens": 104
+    },
+    {
+      "id": "N341281",
+      "description": "a hologram wireless Bluetooth speakers",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8517",
+        "8471"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9414.001299999989,
+      "inputTokens": 411,
+      "outputTokens": 90
+    },
+    {
+      "id": "N340401",
+      "description": "a plastic water bottle",
+      "expected": "3924",
+      "candidates": [
+        "3923",
+        "3924",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2919.9909000000043,
+      "inputTokens": 408,
+      "outputTokens": 90
+    },
+    {
+      "id": "N340388",
+      "description": "3 styles of Bluetooth loud speakers",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8521",
+        "9406"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8422.362599999993,
+      "inputTokens": 413,
+      "outputTokens": 99
+    },
+    {
+      "id": "N340130",
+      "description": "a 5-Tool Combo Kit Power Tool Set",
+      "expected": "8467",
+      "candidates": [
+        "8204",
+        "8207",
+        "8465"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 14155.037599999996,
+      "inputTokens": 415,
+      "outputTokens": 99
+    },
+    {
+      "id": "N337970",
+      "description": "a cellular telephone/watch",
+      "expected": "8517",
+      "candidates": [
+        "8517",
+        "9104",
+        "8471"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3468.0098,
+      "inputTokens": 409,
+      "outputTokens": 92
+    },
+    {
+      "id": "N335141",
+      "description": "an Electric Go-Kart",
+      "expected": "8703",
+      "candidates": [
+        "8703",
+        "8704",
+        "9404"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 1772.6594999999797,
+      "inputTokens": 411,
+      "outputTokens": 101
+    },
+    {
+      "id": "N326117",
+      "description": "a Bluetooth Party Speaker",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8517",
+        "8527"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2538.0996999999916,
+      "inputTokens": 409,
+      "outputTokens": 108
+    },
+    {
+      "id": "N322422",
+      "description": "hoverboard accessories",
+      "expected": "8714",
+      "candidates": [
+        "9704",
+        "8714",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8443.443599999999,
+      "inputTokens": 408,
+      "outputTokens": 114
+    },
+    {
+      "id": "N315726",
+      "description": "a digital media player",
+      "expected": "8517",
+      "candidates": [
+        "8528",
+        "8521",
+        "8519"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 11786.00940000001,
+      "inputTokens": 408,
+      "outputTokens": 93
+    },
+    {
+      "id": "N313553",
+      "description": "radio-broadcast receivers",
+      "expected": "8527",
+      "candidates": [
+        "8527",
+        "8528",
+        "8526"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3233.196200000006,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N357069",
+      "description": "a tinnitus treatment device",
+      "expected": "9018",
+      "candidates": [
+        "3021",
+        "3002",
+        "9018"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2610.6943999999785,
+      "inputTokens": 410,
+      "outputTokens": 100
+    },
+    {
+      "id": "N352742",
+      "description": "watch straps",
+      "expected": "9113",
+      "candidates": [
+        "9113",
+        "4203",
+        "5806"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 4390.596500000014,
+      "inputTokens": 407,
+      "outputTokens": 107
+    },
+    {
+      "id": "N339719",
+      "description": "the FightCamp console and tracker set",
+      "expected": "9031",
+      "candidates": [
+        "9504",
+        "8471",
+        "9506"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2702.6386000000057,
+      "inputTokens": 413,
+      "outputTokens": 96
+    },
+    {
+      "id": "N296023",
+      "description": "the “Herovision” Augmented Reality (AR) set",
+      "expected": "9004",
+      "candidates": [
+        "9504",
+        "8528",
+        "9506"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9205.199800000002,
+      "inputTokens": 419,
+      "outputTokens": 96
+    },
+    {
+      "id": "N287497",
+      "description": "the “R2-D2” smart toy robot",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "8528",
+        "8471"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2044.621999999974,
+      "inputTokens": 415,
+      "outputTokens": 88
+    },
+    {
+      "id": "N287580",
+      "description": "the “Cars Lightning McQueen” smart toy",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "8528",
+        "9504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8519.946800000005,
+      "inputTokens": 414,
+      "outputTokens": 80
+    },
+    {
+      "id": "N347600",
+      "description": "a metal hexagon sticker",
+      "expected": "7326",
+      "candidates": [
+        "4910",
+        "4820",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7836.591000000015,
+      "inputTokens": 410,
+      "outputTokens": 97
+    },
+    {
+      "id": "N347798",
+      "description": "an LCD home automation hub",
+      "expected": "8531",
+      "candidates": [
+        "8471",
+        "8517",
+        "9405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7304.479900000006,
+      "inputTokens": 409,
+      "outputTokens": 109
+    },
+    {
+      "id": "N341056",
+      "description": "a wood identification kit",
+      "expected": "9013",
+      "candidates": [
+        "4407",
+        "9023",
+        "4408"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2737.7728999999817,
+      "inputTokens": 408,
+      "outputTokens": 98
+    },
+    {
+      "id": "N337421",
+      "description": "a card holder",
+      "expected": "4202",
+      "candidates": [
+        "4202",
+        "6307",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7455.789999999979,
+      "inputTokens": 407,
+      "outputTokens": 103
+    },
+    {
+      "id": "N336903",
+      "description": "a cell phone cover with a card case",
+      "expected": "4202",
+      "candidates": [
+        "4202",
+        "3926",
+        "4820"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6029.536200000002,
+      "inputTokens": 412,
+      "outputTokens": 93
+    },
+    {
+      "id": "N336451",
+      "description": "a streaming set",
+      "expected": "9620",
+      "candidates": [
+        "8471",
+        "8528",
+        "8517"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6192.125,
+      "inputTokens": 407,
+      "outputTokens": 85
+    },
+    {
+      "id": "N335514",
+      "description": "the Magsafe Fingerloop Stand",
+      "expected": "7616",
+      "candidates": [
+        "8517",
+        "3926",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7944.25450000001,
+      "inputTokens": 413,
+      "outputTokens": 84
+    },
+    {
+      "id": "N326427",
+      "description": "footwear insoles",
+      "expected": "6406",
+      "candidates": [
+        "6406",
+        "6405",
+        "4015"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2554.5801999999967,
+      "inputTokens": 409,
+      "outputTokens": 103
+    },
+    {
+      "id": "N325560",
+      "description": "the Aavia Pill Case",
+      "expected": "9031",
+      "candidates": [
+        "3924",
+        "3926",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2238.056799999991,
+      "inputTokens": 411,
+      "outputTokens": 85
+    },
+    {
+      "id": "N316886",
+      "description": "a phone case with magnifier",
+      "expected": "9013",
+      "candidates": [
+        "3926",
+        "9017",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7523.716099999991,
+      "inputTokens": 410,
+      "outputTokens": 87
+    },
+    {
+      "id": "N315234",
+      "description": "privacy phone booths and components",
+      "expected": "9403",
+      "candidates": [
+        "9406",
+        "9407",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12311.632400000002,
+      "inputTokens": 410,
+      "outputTokens": 98
+    },
+    {
+      "id": "N306755",
+      "description": "cell phone lanyard",
+      "expected": "5609",
+      "candidates": [
+        "3926",
+        "5911",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3824.2887999999803,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N359291",
+      "description": "an aviation headset battery charger",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8517",
+        "8542"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5393.726300000009,
+      "inputTokens": 411,
+      "outputTokens": 95
+    },
+    {
+      "id": "N359612",
+      "description": "a cordless power hand-held spreader kit",
+      "expected": "8479",
+      "candidates": [
+        "8477",
+        "8509",
+        "8467"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3141.575600000011,
+      "inputTokens": 414,
+      "outputTokens": 111
+    },
+    {
+      "id": "N359248",
+      "description": "a robotic pool skimmer",
+      "expected": "8421",
+      "candidates": [
+        "8479",
+        "8508",
+        "8424"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3333.438699999999,
+      "inputTokens": 411,
+      "outputTokens": 104
+    },
+    {
+      "id": "N359206",
+      "description": "a elevator cable cleaning and lubrication system",
+      "expected": "8479",
+      "candidates": [
+        "8428",
+        "8479",
+        "7318"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8880.087,
+      "inputTokens": 413,
+      "outputTokens": 94
+    },
+    {
+      "id": "N356789",
+      "description": "a universal battery charger",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8507",
+        "8471"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11284.922699999996,
+      "inputTokens": 409,
+      "outputTokens": 87
+    },
+    {
+      "id": "N356778",
+      "description": "a user guide",
+      "expected": "4901",
+      "candidates": [
+        "4901",
+        "4902",
+        "4911"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3374.9934000000067,
+      "inputTokens": 407,
+      "outputTokens": 90
+    },
+    {
+      "id": "N356154",
+      "description": "robotic platforms",
+      "expected": "8479",
+      "candidates": [
+        "8479",
+        "8537",
+        "8528"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8529.017300000007,
+      "inputTokens": 407,
+      "outputTokens": 104
+    },
+    {
+      "id": "N355848",
+      "description": "a battery-powered handheld tool set",
+      "expected": "8467",
+      "candidates": [
+        "8205",
+        "8510",
+        "9031"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8522.946400000015,
+      "inputTokens": 413,
+      "outputTokens": 90
+    },
+    {
+      "id": "N353154",
+      "description": "portable oxygen concentrators",
+      "expected": "9019",
+      "candidates": [
+        "9019",
+        "8421",
+        "8504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3095.4855999999854,
+      "inputTokens": 408,
+      "outputTokens": 95
+    },
+    {
+      "id": "N352352",
+      "description": "a prosthetic hand set and prosthetic elbows sets",
+      "expected": "9021",
+      "candidates": [
+        "9021",
+        "3926",
+        "7326"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10192.979599999991,
+      "inputTokens": 418,
+      "outputTokens": 110
+    },
+    {
+      "id": "N350173",
+      "description": "an LED clip-on light",
+      "expected": "8513",
+      "candidates": [
+        "8512",
+        "9405",
+        "8536"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2514.0756999999867,
+      "inputTokens": 410,
+      "outputTokens": 112
+    },
+    {
+      "id": "N346962",
+      "description": "Christmas decorations",
+      "expected": "9505",
+      "candidates": [
+        "9406",
+        "9405",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9552.390500000009,
+      "inputTokens": 407,
+      "outputTokens": 108
+    },
+    {
+      "id": "N344651",
+      "description": "a liquid crystal lighting device",
+      "expected": "9013",
+      "candidates": [
+        "8471",
+        "9013",
+        "8539"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8717.833400000003,
+      "inputTokens": 409,
+      "outputTokens": 100
+    },
+    {
+      "id": "N337034",
+      "description": "LED lamp boards",
+      "expected": "8539",
+      "candidates": [
+        "8534",
+        "9405",
+        "8541"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6736.188099999999,
+      "inputTokens": 407,
+      "outputTokens": 92
+    },
+    {
+      "id": "N334432",
+      "description": "lighting fixtures",
+      "expected": "9405",
+      "candidates": [
+        "9406",
+        "9405",
+        "8529"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10075.170099999988,
+      "inputTokens": 406,
+      "outputTokens": 85
+    },
+    {
+      "id": "N351198",
+      "description": "piano overlays",
+      "expected": "4911",
+      "candidates": [
+        "9209",
+        "3926",
+        "4820"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9097.866000000009,
+      "inputTokens": 407,
+      "outputTokens": 116
+    },
+    {
+      "id": "N318809",
+      "description": "a portable automatic data processing (ADP) machine",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8517",
+        "8473"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9530.124699999986,
+      "inputTokens": 414,
+      "outputTokens": 91
+    },
+    {
+      "id": "N310447",
+      "description": "a Kurio Next Tablet",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8528",
+        "9504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9758.611499999999,
+      "inputTokens": 411,
+      "outputTokens": 91
+    },
+    {
+      "id": "N303442",
+      "description": "personal computers (PCs)",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8470",
+        "8517"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 1894.3409000000102,
+      "inputTokens": 410,
+      "outputTokens": 87
+    },
+    {
+      "id": "N295452",
+      "description": "a LCD display monitor",
+      "expected": "8528",
+      "candidates": [
+        "8528",
+        "8471",
+        "9013"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6613.063999999984,
+      "inputTokens": 408,
+      "outputTokens": 112
+    },
+    {
+      "id": "N289518",
+      "description": "Virtual Reality (VD) goggles",
+      "expected": "8528",
+      "candidates": [
+        "9004",
+        "8471",
+        "9405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5803.1031000000075,
+      "inputTokens": 413,
+      "outputTokens": 108
+    },
+    {
+      "id": "N289540",
+      "description": "a neutral density filter",
+      "expected": "9002",
+      "candidates": [
+        "9002",
+        "9005",
+        "7007"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8992.7304,
+      "inputTokens": 408,
+      "outputTokens": 102
+    },
+    {
+      "id": "N289532",
+      "description": "drone propellers and propeller guards",
+      "expected": "8803",
+      "candidates": [
+        "3923",
+        "3926",
+        "8803"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10426.549800000008,
+      "inputTokens": 411,
+      "outputTokens": 115
+    },
+    {
+      "id": "N334094",
+      "description": "a power bank kiosk",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8471",
+        "9406"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10050.47139999998,
+      "inputTokens": 410,
+      "outputTokens": 100
+    },
+    {
+      "id": "N328222",
+      "description": "an electric outboard motor",
+      "expected": "8501",
+      "candidates": [
+        "8505",
+        "8501",
+        "8907"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 11144.868000000017,
+      "inputTokens": 409,
+      "outputTokens": 89
+    },
+    {
+      "id": "N306841",
+      "description": "a jump starter and power pack set and a power bank",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8504",
+        "9405"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8070.882599999983,
+      "inputTokens": 415,
+      "outputTokens": 97
+    },
+    {
+      "id": "N305956",
+      "description": "three game machine power supply units",
+      "expected": "9504",
+      "candidates": [
+        "8504",
+        "8471",
+        "9504"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 3867.009100000025,
+      "inputTokens": 410,
+      "outputTokens": 106
+    },
+    {
+      "id": "N289736",
+      "description": "a hybrid generator set",
+      "expected": "8502",
+      "candidates": [
+        "8502",
+        "8501",
+        "8504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8655.572900000028,
+      "inputTokens": 408,
+      "outputTokens": 120
+    },
+    {
+      "id": "N288408",
+      "description": "charging kits",
+      "expected": "8507",
+      "candidates": [
+        "8504",
+        "8517",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2769.696600000025,
+      "inputTokens": 407,
+      "outputTokens": 117
+    },
+    {
+      "id": "N357549",
+      "description": "a ceramic mug and handled ceramic cups",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "6911",
+        "6910"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2839.6700999999885,
+      "inputTokens": 412,
+      "outputTokens": 132
+    },
+    {
+      "id": "N353512",
+      "description": "ceramic cups and a ceramic coaster set",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "6913",
+        "6909"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 4690.086299999995,
+      "inputTokens": 412,
+      "outputTokens": 108
+    },
+    {
+      "id": "N334248",
+      "description": "a ceramic cup and spoon",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "8215",
+        "6910"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3488.6014999999898,
+      "inputTokens": 410,
+      "outputTokens": 86
+    },
+    {
+      "id": "N345071",
+      "description": "a stuffed food preparation",
+      "expected": "1902",
+      "candidates": [
+        "1901",
+        "1905",
+        "1902"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2715.153499999986,
+      "inputTokens": 409,
+      "outputTokens": 119
+    },
+    {
+      "id": "N286356",
+      "description": "a nonstick aluminum frying pan",
+      "expected": "7615",
+      "candidates": [
+        "7324",
+        "6213",
+        "7323"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8559.435799999977,
+      "inputTokens": 412,
+      "outputTokens": 114
+    },
+    {
+      "id": "N358245",
+      "description": "knife sharpeners",
+      "expected": "8205",
+      "candidates": [
+        "8208",
+        "8205",
+        "6804"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2964.402299999987,
+      "inputTokens": 408,
+      "outputTokens": 114
+    },
+    {
+      "id": "N352117",
+      "description": "duvet cover, dish towel, fitted sheet, beach towel and hand towel",
+      "expected": "6302",
+      "candidates": [
+        "6302",
+        "6303",
+        "6304"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3517.847000000009,
+      "inputTokens": 422,
+      "outputTokens": 106
+    },
+    {
+      "id": "N347281",
+      "description": "a six-piece grooming set",
+      "expected": "8214",
+      "candidates": [
+        "8214",
+        "9603",
+        "4202"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10575.326499999996,
+      "inputTokens": 411,
+      "outputTokens": 93
+    },
+    {
+      "id": "N341177",
+      "description": "three knife sets",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8215",
+        "3924"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2442.5525999999954,
+      "inputTokens": 407,
+      "outputTokens": 125
+    },
+    {
+      "id": "N333596",
+      "description": "three individual knives and a set including three knives",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8214",
+        "8215"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11860.311199999996,
+      "inputTokens": 415,
+      "outputTokens": 114
+    },
+    {
+      "id": "N324986",
+      "description": "a duvet cover",
+      "expected": "6302",
+      "candidates": [
+        "6302",
+        "6201",
+        "5907"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2571.714500000002,
+      "inputTokens": 408,
+      "outputTokens": 132
+    },
+    {
+      "id": "N283661",
+      "description": "a paring knife set",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8215",
+        "6908"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12214.665500000003,
+      "inputTokens": 409,
+      "outputTokens": 98
+    },
+    {
+      "id": "N360646",
+      "description": "a household kitchen cutting board",
+      "expected": "7323",
+      "candidates": [
+        "3924",
+        "4421",
+        "6914"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4946.142700000026,
+      "inputTokens": 409,
+      "outputTokens": 91
+    },
+    {
+      "id": "N356962",
+      "description": "an electrical cable",
+      "expected": "8544",
+      "candidates": [
+        "8544",
+        "8471",
+        "8536"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7020.306099999987,
+      "inputTokens": 407,
+      "outputTokens": 81
+    },
+    {
+      "id": "N348734",
+      "description": "a pressure belt",
+      "expected": "8441",
+      "candidates": [
+        "9021",
+        "6307",
+        "4015"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4005.833099999989,
+      "inputTokens": 407,
+      "outputTokens": 100
+    },
+    {
+      "id": "N360484",
+      "description": "two decorative pillows",
+      "expected": "9404",
+      "candidates": [
+        "9404",
+        "6307",
+        "5809"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6124.51939999999,
+      "inputTokens": 409,
+      "outputTokens": 93
+    },
+    {
+      "id": "N359790",
+      "description": "a toddler sleep mat",
+      "expected": "9404",
+      "candidates": [
+        "5811",
+        "9404",
+        "6210"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4998.54879999999,
+      "inputTokens": 410,
+      "outputTokens": 94
+    },
+    {
+      "id": "N358599",
+      "description": "heated lumbar pillow and heated back rest",
+      "expected": "9404",
+      "candidates": [
+        "9019",
+        "6307",
+        "9404"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6906.023199999996,
+      "inputTokens": 413,
+      "outputTokens": 101
+    },
+    {
+      "id": "N358305",
+      "description": "a vibrating alarm clock",
+      "expected": "9105",
+      "candidates": [
+        "9014",
+        "9406",
+        "8504"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5239.189399999974,
+      "inputTokens": 409,
+      "outputTokens": 89
+    },
+    {
+      "id": "N353814",
+      "description": "Optilife chin straps",
+      "expected": "9019",
+      "candidates": [
+        "6217",
+        "9021",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2085.4039999999804,
+      "inputTokens": 411,
+      "outputTokens": 106
+    },
+    {
+      "id": "N360755",
+      "description": "throw blankets",
+      "expected": "6301",
+      "candidates": [
+        "6301",
+        "6302",
+        "5907"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12516.48960000003,
+      "inputTokens": 407,
+      "outputTokens": 134
+    },
+    {
+      "id": "N352005",
+      "description": "knitted and woven blankets",
+      "expected": "6301",
+      "candidates": [
+        "6302",
+        "6001",
+        "5807"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12035.680099999998,
+      "inputTokens": 411,
+      "outputTokens": 113
+    },
+    {
+      "id": "N348968",
+      "description": "injection type molds",
+      "expected": "8480",
+      "candidates": [
+        "3916",
+        "8480",
+        "8481"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2396.107799999998,
+      "inputTokens": 408,
+      "outputTokens": 119
+    },
+    {
+      "id": "N324162",
+      "description": "a kitchen window valance and tier curtain set",
+      "expected": "6303",
+      "candidates": [
+        "6303",
+        "6302",
+        "5407"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5187.160900000017,
+      "inputTokens": 414,
+      "outputTokens": 113
+    },
+    {
+      "id": "N318689",
+      "description": "String Lights",
+      "expected": "9405",
+      "candidates": [
+        "9405",
+        "8536",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2313.5384000000195,
+      "inputTokens": 407,
+      "outputTokens": 97
+    },
+    {
+      "id": "N316502",
+      "description": "curtain wall frames and entrance door frames",
+      "expected": "7604",
+      "candidates": [
+        "7610",
+        "7308",
+        "3916"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5732.043999999994,
+      "inputTokens": 412,
+      "outputTokens": 86
+    },
+    {
+      "id": "N312202",
+      "description": "the Plus Bionics POD",
+      "expected": "9027",
+      "candidates": [
+        "3926",
+        "9021",
+        "8471"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9768.261100000003,
+      "inputTokens": 412,
+      "outputTokens": 124
+    },
+    {
+      "id": "N308394",
+      "description": "a bed valance",
+      "expected": "6303",
+      "candidates": [
+        "6308",
+        "6304",
+        "6303"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9320.87910000002,
+      "inputTokens": 408,
+      "outputTokens": 107
+    },
+    {
+      "id": "N357291",
+      "description": "a hearing aid vacuum cleaner",
+      "expected": "8508",
+      "candidates": [
+        "9018",
+        "8510",
+        "9027"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10215.84659999999,
+      "inputTokens": 410,
+      "outputTokens": 92
+    },
+    {
+      "id": "N356793",
+      "description": "a robot vacuum cleaner featuring mopping, self-cleaning and self-dry function",
+      "expected": "8508",
+      "candidates": [
+        "8471",
+        "8509",
+        "9503"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3243.7711000000127,
+      "inputTokens": 421,
+      "outputTokens": 121
+    },
+    {
+      "id": "N354669",
+      "description": "an aquarium gravel cleaner",
+      "expected": "8421",
+      "candidates": [
+        "8508",
+        "3924",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8260.881500000018,
+      "inputTokens": 411,
+      "outputTokens": 102
+    },
+    {
+      "id": "N343613",
+      "description": "a pool vacuum cleaner",
+      "expected": "8421",
+      "candidates": [
+        "8508",
+        "8511",
+        "8414"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3517.5773000000045,
+      "inputTokens": 409,
+      "outputTokens": 98
+    },
+    {
+      "id": "N326460",
+      "description": "a robotic vacuum cleaner",
+      "expected": "8508",
+      "candidates": [
+        "8471",
+        "8508",
+        "8509"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4450.744000000006,
+      "inputTokens": 410,
+      "outputTokens": 123
+    },
+    {
+      "id": "N316258",
+      "description": "the Shine Bathroom Assistant",
+      "expected": "8424",
+      "candidates": [
+        "8471",
+        "8509",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 13371.548100000015,
+      "inputTokens": 410,
+      "outputTokens": 113
+    },
+    {
+      "id": "N312802",
+      "description": "a jewelry cleaner",
+      "expected": "8509",
+      "candidates": [
+        "3405",
+        "3401",
+        "2842"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2206.7826999999816,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N360909",
+      "description": "“Lao Xie Zhen Frozen Seafood Cheese Rice Burger”",
+      "expected": "1904",
+      "candidates": [
+        "1905",
+        "1604",
+        "2106"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6270.60679999995,
+      "inputTokens": 425,
+      "outputTokens": 101
+    },
+    {
+      "id": "N359553",
+      "description": "a temperature control unit",
+      "expected": "8419",
+      "candidates": [
+        "8418",
+        "8516",
+        "9032"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2552.3530999999493,
+      "inputTokens": 408,
+      "outputTokens": 104
+    },
+    {
+      "id": "N359156",
+      "description": "a battery assembly",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8504",
+        "8541"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3606.9921999999788,
+      "inputTokens": 407,
+      "outputTokens": 92
+    },
+    {
+      "id": "N349794",
+      "description": "two steel soaking tubs",
+      "expected": "7324",
+      "candidates": [
+        "7324",
+        "7326",
+        "6912"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 4075.631699999969,
+      "inputTokens": 410,
+      "outputTokens": 109
+    },
+    {
+      "id": "N348430",
+      "description": "five watch boxes",
+      "expected": "4202",
+      "candidates": [
+        "4202",
+        "3926",
+        "4421"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 17196.543599999975,
+      "inputTokens": 407,
+      "outputTokens": 101
+    },
+    {
+      "id": "N347087",
+      "description": "an ultra low-NOx burner",
+      "expected": "8419",
+      "candidates": [
+        "8406",
+        "8416",
+        "7308"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 1861.189000000013,
+      "inputTokens": 412,
+      "outputTokens": 90
+    },
+    {
+      "id": "N360838",
+      "description": "an Aluminum Frame with Pin Clip System",
+      "expected": "8306",
+      "candidates": [
+        "7610",
+        "7308",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2440.886300000013,
+      "inputTokens": 413,
+      "outputTokens": 111
+    },
+    {
+      "id": "N359791",
+      "description": "a Day of the Dead ofrenda altar",
+      "expected": "4420",
+      "candidates": [
+        "6406",
+        "9406",
+        "4418"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2588.1038999999873,
+      "inputTokens": 413,
+      "outputTokens": 119
+    },
+    {
+      "id": "N359705",
+      "description": "a decorative wire pumpkin",
+      "expected": "8306",
+      "candidates": [
+        "7326",
+        "6702",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2256.6387000000104,
+      "inputTokens": 411,
+      "outputTokens": 100
+    },
+    {
+      "id": "N356897",
+      "description": "a Paint-By-Number Kit",
+      "expected": "3213",
+      "candidates": [
+        "9209",
+        "9706",
+        "4911"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2730.2041999999783,
+      "inputTokens": 411,
+      "outputTokens": 116
+    },
+    {
+      "id": "N356689",
+      "description": "plastic picture frames",
+      "expected": "3924",
+      "candidates": [
+        "3916",
+        "3925",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8219.156399999978,
+      "inputTokens": 407,
+      "outputTokens": 96
+    },
+    {
+      "id": "N353507",
+      "description": "picture frame moldings",
+      "expected": "4421",
+      "candidates": [
+        "4414",
+        "3916",
+        "7610"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10042.845700000005,
+      "inputTokens": 408,
+      "outputTokens": 95
+    },
+    {
+      "id": "N353362",
+      "description": "steel sign frames",
+      "expected": "8306",
+      "candidates": [
+        "7326",
+        "7308",
+        "7610"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 1957.938599999994,
+      "inputTokens": 407,
+      "outputTokens": 93
+    },
+    {
+      "id": "N352141",
+      "description": "paperboard picture frame kit",
+      "expected": "4823",
+      "candidates": [
+        "4414",
+        "3918",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6186.259299999976,
+      "inputTokens": 409,
+      "outputTokens": 99
+    },
+    {
+      "id": "N350696",
+      "description": "modular building components",
+      "expected": "7616",
+      "candidates": [
+        "7326",
+        "9406",
+        "7308"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8810.583500000008,
+      "inputTokens": 408,
+      "outputTokens": 93
+    },
+    {
+      "id": "N339771",
+      "description": "a decorative glass article",
+      "expected": "7013",
+      "candidates": [
+        "7007",
+        "7013",
+        "7010"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 2369.107699999993,
+      "inputTokens": 409,
+      "outputTokens": 108
+    },
+    {
+      "id": "N355963",
+      "description": "children’s soft books",
+      "expected": "4903",
+      "candidates": [
+        "4901",
+        "9406",
+        "6210"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9705.289700000023,
+      "inputTokens": 408,
+      "outputTokens": 106
+    },
+    {
+      "id": "N340532",
+      "description": "a Care Bear Cheer 3D Keychain",
+      "expected": "7326",
+      "candidates": [
+        "9406",
+        "6914",
+        "3916"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8047.040000000037,
+      "inputTokens": 416,
+      "outputTokens": 103
+    },
+    {
+      "id": "N361080",
+      "description": "a large-scale “Battleship” board game",
+      "expected": "9504",
+      "candidates": [
+        "9504",
+        "9505",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 10574.52880000003,
+      "inputTokens": 415,
+      "outputTokens": 92
+    },
+    {
+      "id": "N353019",
+      "description": "a Monopoly game",
+      "expected": "9504",
+      "candidates": [
+        "9504",
+        "9505",
+        "4901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6025.592200000014,
+      "inputTokens": 409,
+      "outputTokens": 111
+    },
+    {
+      "id": "N352320",
+      "description": "“Prism” guided corporate exercises",
+      "expected": "4911",
+      "candidates": [
+        "4901",
+        "4911",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 3534.303899999999,
+      "inputTokens": 412,
+      "outputTokens": 101
+    },
+    {
+      "id": "N344742",
+      "description": "the “Twister Splash” water game",
+      "expected": "9506",
+      "candidates": [
+        "9504",
+        "3924",
+        "4015"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 14464.507199999993,
+      "inputTokens": 414,
+      "outputTokens": 106
+    },
+    {
+      "id": "N331029",
+      "description": "the “Axe Throwing Game Set”",
+      "expected": "9506",
+      "candidates": [
+        "9506",
+        "9507",
+        "9208"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8808.896000000008,
+      "inputTokens": 414,
+      "outputTokens": 99
+    },
+    {
+      "id": "N360455",
+      "description": "bicycle hitch racks",
+      "expected": "8708",
+      "candidates": [
+        "8714",
+        "7326",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2323.6094999999623,
+      "inputTokens": 409,
+      "outputTokens": 114
+    },
+    {
+      "id": "N355873",
+      "description": "printed self-adhesive vinyl bib numbers and helmet stickers",
+      "expected": "3919",
+      "candidates": [
+        "4910",
+        "4911",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10031.027000000002,
+      "inputTokens": 417,
+      "outputTokens": 101
+    },
+    {
+      "id": "N352469",
+      "description": "a bicycle helmet",
+      "expected": "6506",
+      "candidates": [
+        "6506",
+        "6504",
+        "6505"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9038.098899999983,
+      "inputTokens": 407,
+      "outputTokens": 95
+    },
+    {
+      "id": "N352475",
+      "description": "helmet accessories",
+      "expected": "6507",
+      "candidates": [
+        "6505",
+        "9019",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7641.35010000004,
+      "inputTokens": 406,
+      "outputTokens": 93
+    },
+    {
+      "id": "N351067",
+      "description": "a bicycle work stand",
+      "expected": "7616",
+      "candidates": [
+        "7326",
+        "9406",
+        "8466"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10951.947199999995,
+      "inputTokens": 408,
+      "outputTokens": 99
+    },
+    {
+      "id": "N344662",
+      "description": "an Electric Motorcycle",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "8704",
+        "8703"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8686.33150000003,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N340921",
+      "description": "bicycle parts",
+      "expected": "8714",
+      "candidates": [
+        "8714",
+        "8708",
+        "7308"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2064.410600000003,
+      "inputTokens": 406,
+      "outputTokens": 92
+    },
+    {
+      "id": "N340812",
+      "description": "bicycle wheelset",
+      "expected": "8714",
+      "candidates": [
+        "8708",
+        "8714",
+        "8712"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9679.046800000011,
+      "inputTokens": 407,
+      "outputTokens": 108
+    },
+    {
+      "id": "N339879",
+      "description": "a mountain bicycle",
+      "expected": "8712",
+      "candidates": [
+        "1201",
+        "8712",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8892.324100000027,
+      "inputTokens": 407,
+      "outputTokens": 101
+    },
+    {
+      "id": "N337726",
+      "description": "electric scooters and e-bike",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "9406",
+        "8714"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11137.285600000003,
+      "inputTokens": 412,
+      "outputTokens": 124
+    },
+    {
+      "id": "N328813",
+      "description": "rubber dog toy",
+      "expected": "4016",
+      "candidates": [
+        "4217",
+        "9504",
+        "4016"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8042.337799999979,
+      "inputTokens": 407,
+      "outputTokens": 104
+    },
+    {
+      "id": "N336481",
+      "description": "Fishing Rod kit",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "9506",
+        "3916"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8339.10010000004,
+      "inputTokens": 408,
+      "outputTokens": 107
+    },
+    {
+      "id": "N332802",
+      "description": "fishing rod holders",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "3921",
+        "7308"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 13819.137099999993,
+      "inputTokens": 407,
+      "outputTokens": 104
+    },
+    {
+      "id": "N330340",
+      "description": "a fishing cup holder",
+      "expected": "7326",
+      "candidates": [
+        "3926",
+        "7326",
+        "4419"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 10202.027900000045,
+      "inputTokens": 408,
+      "outputTokens": 91
+    },
+    {
+      "id": "N321619",
+      "description": "fly-fishing kits",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "4304",
+        "3916"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3148.881700000027,
+      "inputTokens": 409,
+      "outputTokens": 116
+    },
+    {
+      "id": "N301031",
+      "description": "recreational boats",
+      "expected": "8903",
+      "candidates": [
+        "8903",
+        "8902",
+        "8901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8882.672199999972,
+      "inputTokens": 406,
+      "outputTokens": 100
+    },
+    {
+      "id": "N295506",
+      "description": "a protective sleeve",
+      "expected": "4016",
+      "candidates": [
+        "6210",
+        "3926",
+        "4015"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2066.76880000002,
+      "inputTokens": 407,
+      "outputTokens": 90
+    },
+    {
+      "id": "N354413",
+      "description": "a mobile housing trailer",
+      "expected": "8716",
+      "candidates": [
+        "8704",
+        "9406",
+        "8716"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 14036.613200000022,
+      "inputTokens": 408,
+      "outputTokens": 129
+    },
+    {
+      "id": "N311151",
+      "description": "a truck bed camper shell",
+      "expected": "8708",
+      "candidates": [
+        "3921",
+        "8704",
+        "3916"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 11010.072799999965,
+      "inputTokens": 410,
+      "outputTokens": 93
+    },
+    {
+      "id": "N303866",
+      "description": "a backpacking tent and rain fly",
+      "expected": "6306",
+      "candidates": [
+        "6306",
+        "3926",
+        "4202"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 4634.586699999985,
+      "inputTokens": 412,
+      "outputTokens": 81
+    },
+    {
+      "id": "N302567",
+      "description": "a tent and backpack",
+      "expected": "6306",
+      "candidates": [
+        "6306",
+        "4202",
+        "9406"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2123.7467999999644,
+      "inputTokens": 409,
+      "outputTokens": 154
+    },
+    {
+      "id": "N312986",
+      "description": "an electric scooter",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "8703",
+        "9406"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12312.48119999998,
+      "inputTokens": 409,
+      "outputTokens": 112
+    },
+    {
+      "id": "N303622",
+      "description": "ball bearings used with skateboard wheels",
+      "expected": "8482",
+      "candidates": [
+        "7308",
+        "8482",
+        "8483"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9599.277299999958,
+      "inputTokens": 412,
+      "outputTokens": 108
+    },
+    {
+      "id": "N358621",
+      "description": "an inflatable kayak/stand up paddle board",
+      "expected": "8903",
+      "candidates": [
+        "9506",
+        "4016",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2681.0738999999594,
+      "inputTokens": 414,
+      "outputTokens": 97
+    },
+    {
+      "id": "N357223",
+      "description": "the Titan Pro Ice Pack Set",
+      "expected": "3824",
+      "candidates": [
+        "3923",
+        "3926",
+        "2401"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12694.292299999972,
+      "inputTokens": 411,
+      "outputTokens": 122
+    },
+    {
+      "id": "N300984",
+      "description": "Binders and File Folders",
+      "expected": "4820",
+      "candidates": [
+        "4820",
+        "3926",
+        "4819"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2901.184799999988,
+      "inputTokens": 411,
+      "outputTokens": 132
+    },
+    {
+      "id": "N300397",
+      "description": "a multifunctional tool",
+      "expected": "9017",
+      "candidates": [
+        "8202",
+        "8205",
+        "8206"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8760.54800000001,
+      "inputTokens": 410,
+      "outputTokens": 125
+    },
+    {
+      "id": "N291864",
+      "description": "a unisex garment",
+      "expected": "6210",
+      "candidates": [
+        "6105",
+        "6103",
+        "6104"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3006.469299999997,
+      "inputTokens": 410,
+      "outputTokens": 108
+    },
+    {
+      "id": "N343778",
+      "description": "Shamrock glasses",
+      "expected": "9004",
+      "candidates": [
+        "7013",
+        "7010",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 3676.1535999999614,
+      "inputTokens": 408,
+      "outputTokens": 105
+    },
+    {
+      "id": "N343877",
+      "description": "party favor sunglasses",
+      "expected": "9004",
+      "candidates": [
+        "9004",
+        "6204",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6864.496099999989,
+      "inputTokens": 409,
+      "outputTokens": 99
+    },
+    {
+      "id": "N320210",
+      "description": "a beach chair pocket towel",
+      "expected": "6304",
+      "candidates": [
+        "6302",
+        "6307",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8217.80329999997,
+      "inputTokens": 410,
+      "outputTokens": 103
+    },
+    {
+      "id": "N315235",
+      "description": "eyeglass frame and clip-on sunglasses",
+      "expected": "9003",
+      "candidates": [
+        "9003",
+        "9004",
+        "9005"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9655.454300000041,
+      "inputTokens": 415,
+      "outputTokens": 103
+    },
+    {
+      "id": "N306716",
+      "description": "“Microfiber Lens Wipes”",
+      "expected": "3402",
+      "candidates": [
+        "5911",
+        "6307",
+        "3407"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2194.8049000000465,
+      "inputTokens": 415,
+      "outputTokens": 112
+    },
+    {
+      "id": "N347448",
+      "description": "golf umbrellas",
+      "expected": "6601",
+      "candidates": [
+        "6601",
+        "6209",
+        "3924"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2289.653900000034,
+      "inputTokens": 408,
+      "outputTokens": 104
+    },
+    {
+      "id": "N337801",
+      "description": "an umbrella base",
+      "expected": "6603",
+      "candidates": [
+        "6603",
+        "3924",
+        "7326"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2087.5391999999993,
+      "inputTokens": 408,
+      "outputTokens": 107
+    },
+    {
+      "id": "N334613",
+      "description": "garden umbrellas",
+      "expected": "6601",
+      "candidates": [
+        "6205",
+        "6104",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 11522.38420000003,
+      "inputTokens": 408,
+      "outputTokens": 106
+    },
+    {
+      "id": "N333926",
+      "description": "Classification of a glass twisting machine",
+      "expected": "8445",
+      "candidates": [
+        "8477",
+        "8479",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10105.72159999999,
+      "inputTokens": 411,
+      "outputTokens": 99
+    },
+    {
+      "id": "N303295",
+      "description": "steel fasteners and wire",
+      "expected": "7317",
+      "candidates": [
+        "7308",
+        "7318",
+        "7217"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2181.8964999999735,
+      "inputTokens": 409,
+      "outputTokens": 103
+    },
+    {
+      "id": "N302391",
+      "description": "a patio umbrella",
+      "expected": "6601",
+      "candidates": [
+        "6106",
+        "6105",
+        "9406"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9002.235000000044,
+      "inputTokens": 409,
+      "outputTokens": 140
+    },
+    {
+      "id": "N355090",
+      "description": "a spade bit set",
+      "expected": "8207",
+      "candidates": [
+        "8204",
+        "8207",
+        "8205"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9386.61619999999,
+      "inputTokens": 409,
+      "outputTokens": 100
+    },
+    {
+      "id": "N354082",
+      "description": "a labradorite necklace",
+      "expected": "7116",
+      "candidates": [
+        "7116",
+        "7117",
+        "4303"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2799.1284999999916,
+      "inputTokens": 412,
+      "outputTokens": 128
+    },
+    {
+      "id": "N354151",
+      "description": "a hex key set",
+      "expected": "8204",
+      "candidates": [
+        "8205",
+        "8206",
+        "8203"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7219.767600000021,
+      "inputTokens": 408,
+      "outputTokens": 106
+    },
+    {
+      "id": "N360074",
+      "description": "a children’s projection wristwatch",
+      "expected": "9102",
+      "candidates": [
+        "9102",
+        "9101",
+        "9103"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2942.1059999999707,
+      "inputTokens": 411,
+      "outputTokens": 111
+    },
+    {
+      "id": "N357251",
+      "description": "four wristwatches",
+      "expected": "9102",
+      "candidates": [
+        "9102",
+        "9101",
+        "9104"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11021.732099999965,
+      "inputTokens": 410,
+      "outputTokens": 126
+    },
+    {
+      "id": "N322971",
+      "description": "a cooling wristband",
+      "expected": "7117",
+      "candidates": [
+        "6307",
+        "9025",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6053.618600000045,
+      "inputTokens": 409,
+      "outputTokens": 102
+    },
+    {
+      "id": "N358456",
+      "description": "shampoos for dogs",
+      "expected": "3307",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9110.363400000031,
+      "inputTokens": 409,
+      "outputTokens": 101
+    },
+    {
+      "id": "N346484",
+      "description": "Derma Roller",
+      "expected": "8205",
+      "candidates": [
+        "9018",
+        "8517",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2628.8353999999817,
+      "inputTokens": 409,
+      "outputTokens": 108
+    },
+    {
+      "id": "N344746",
+      "description": "ROOTONIX Golden Biotin Shampoo, ROOTONIX R+ Micro Bio Shampoo, ROOTONIX Blue Xylitol Shampoo, ROOTONIX Hyaluronic Aloe Shampoo, and ROOTONIX Anti-Dandruff Shampoo",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3307",
+        "3304"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7604.4765999999945,
+      "inputTokens": 478,
+      "outputTokens": 111
+    },
+    {
+      "id": "N344747",
+      "description": "ROOTONIX S.O.S. CICA Shampoo",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2331.126500000013,
+      "inputTokens": 421,
+      "outputTokens": 117
+    },
+    {
+      "id": "N329760",
+      "description": "Sashapure Healing Shampoo; Sashapure Healing Conditioner; Sashapure Restorative Conditioning Masque; Sashapure Smoothing & Shine Hair Treatment; and Sashapure Defining Curl Cream from an unknown country",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2285.7153999999864,
+      "inputTokens": 472,
+      "outputTokens": 116
+    },
+    {
+      "id": "N327317",
+      "description": "aluminum locking brackets",
+      "expected": "8301",
+      "candidates": [
+        "7308",
+        "7326",
+        "7307"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4076.0794999999925,
+      "inputTokens": 408,
+      "outputTokens": 90
+    },
+    {
+      "id": "N302458",
+      "description": "a “7 pc. Squeezable Bottle Kit”",
+      "expected": "3924",
+      "candidates": [
+        "3923",
+        "3924",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8060.3524000000325,
+      "inputTokens": 418,
+      "outputTokens": 94
+    },
+    {
+      "id": "N302530",
+      "description": "SF1173 (D4) and SF1202 (D5)",
+      "expected": "2931",
+      "candidates": [
+        "8471",
+        "8517",
+        "8504"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2340.4424,
+      "inputTokens": 421,
+      "outputTokens": 86
+    },
+    {
+      "id": "N298762",
+      "description": "a foamer pump engine",
+      "expected": "8413",
+      "candidates": [
+        "8481",
+        "8413",
+        "3307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9448.117599999998,
+      "inputTokens": 409,
+      "outputTokens": 138
+    },
+    {
+      "id": "N312928",
+      "description": "scented candles",
+      "expected": "3406",
+      "candidates": [
+        "3406",
+        "3307",
+        "3405"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3513.8540000000503,
+      "inputTokens": 408,
+      "outputTokens": 113
+    },
+    {
+      "id": "N312634",
+      "description": "soy wax scented candles",
+      "expected": "3406",
+      "candidates": [
+        "3406",
+        "3307",
+        "2712"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 14089.568900000013,
+      "inputTokens": 412,
+      "outputTokens": 130
+    },
+    {
+      "id": "N305925",
+      "description": "a “Multipurpose SPA Gift Set”",
+      "expected": "9613",
+      "candidates": [
+        "3304",
+        "3307",
+        "3401"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 20303.47159999999,
+      "inputTokens": 415,
+      "outputTokens": 95
+    },
+    {
+      "id": "N353266",
+      "description": "a vacuum-insulated stainless steel water bottle",
+      "expected": "9617",
+      "candidates": [
+        "7310",
+        "7323",
+        "9023"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10083.62969999999,
+      "inputTokens": 415,
+      "outputTokens": 97
+    },
+    {
+      "id": "N336485",
+      "description": "hand sanitizer",
+      "expected": "3808",
+      "candidates": [
+        "3401",
+        "3405",
+        "3808"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5106.026599999983,
+      "inputTokens": 407,
+      "outputTokens": 106
+    },
+    {
+      "id": "N335826",
+      "description": "Snow Color Markers",
+      "expected": "3213",
+      "candidates": [
+        "9609",
+        "3215",
+        "9610"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2514.3343999999925,
+      "inputTokens": 408,
+      "outputTokens": 98
+    },
+    {
+      "id": "N325431",
+      "description": "a dog collar",
+      "expected": "4201",
+      "candidates": [
+        "4303",
+        "4204",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12918.166399999987,
+      "inputTokens": 407,
+      "outputTokens": 85
+    },
+    {
+      "id": "N357453",
+      "description": "Frozen Braised Beef",
+      "expected": "1602",
+      "candidates": [
+        "0210",
+        "1602",
+        "0202"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8122.0152000000235,
+      "inputTokens": 411,
+      "outputTokens": 94
+    },
+    {
+      "id": "N349684",
+      "description": "the Aspen tumbler",
+      "expected": "9617",
+      "candidates": [
+        "7010",
+        "7013",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9705.450399999972,
+      "inputTokens": 410,
+      "outputTokens": 101
+    },
+    {
+      "id": "N350527",
+      "description": "Seasoned Frozen Boneless Beef",
+      "expected": "0202",
+      "candidates": [
+        "0202",
+        "0210",
+        "1601"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9638.944400000037,
+      "inputTokens": 414,
+      "outputTokens": 101
+    },
+    {
+      "id": "N321134",
+      "description": "a stainless steel tumbler",
+      "expected": "7323",
+      "candidates": [
+        "7310",
+        "7326",
+        "9405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9917.421399999992,
+      "inputTokens": 411,
+      "outputTokens": 102
+    },
+    {
+      "id": "N306280",
+      "description": "travel padlocks",
+      "expected": "8301",
+      "candidates": [
+        "8301",
+        "8302",
+        "7326"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8884.275600000052,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N305865",
+      "description": "welding cable locks",
+      "expected": "8301",
+      "candidates": [
+        "7308",
+        "7326",
+        "8486"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2157.370200000005,
+      "inputTokens": 408,
+      "outputTokens": 100
+    },
+    {
+      "id": "N297759",
+      "description": "insulated stainless steel beverage tumblers",
+      "expected": "7323",
+      "candidates": [
+        "7310",
+        "7326",
+        "9617"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9995.894500000053,
+      "inputTokens": 415,
+      "outputTokens": 117
+    },
+    {
+      "id": "N358918",
+      "description": "art instruction book sets",
+      "expected": "4901",
+      "candidates": [
+        "4901",
+        "4911",
+        "4903"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 3629.147900000098,
+      "inputTokens": 408,
+      "outputTokens": 119
+    },
+    {
+      "id": "N356833",
+      "description": "Nimbo Organic Insecticide",
+      "expected": "3808",
+      "candidates": [
+        "3808",
+        "3002",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 2197.5564000000013,
+      "inputTokens": 413,
+      "outputTokens": 101
+    },
+    {
+      "id": "N351670",
+      "description": "oil hose reels",
+      "expected": "4009",
+      "candidates": [
+        "8708",
+        "8479",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6180.180999999982,
+      "inputTokens": 409,
+      "outputTokens": 105
+    },
+    {
+      "id": "N348330",
+      "description": "ready-to-eat snack mixes",
+      "expected": "2008",
+      "candidates": [
+        "1905",
+        "1904",
+        "2106"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 2722.7442000000738,
+      "inputTokens": 413,
+      "outputTokens": 111
+    },
+    {
+      "id": "N342688",
+      "description": "an Instant Iced Tea",
+      "expected": "2106",
+      "candidates": [
+        "2106",
+        "0902",
+        "2101"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7811.709000000032,
+      "inputTokens": 411,
+      "outputTokens": 98
+    },
+    {
+      "id": "N342775",
+      "description": "Animal Feed Additive",
+      "expected": "2309",
+      "candidates": [
+        "2309",
+        "2308",
+        "3824"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9498.349300000002,
+      "inputTokens": 409,
+      "outputTokens": 97
+    },
+    {
+      "id": "N341295",
+      "description": "multilayer wood flooring",
+      "expected": "4412",
+      "candidates": [
+        "4409",
+        "4407",
+        "4412"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 3588.0267999999924,
+      "inputTokens": 409,
+      "outputTokens": 100
+    }
+  ]
+}
