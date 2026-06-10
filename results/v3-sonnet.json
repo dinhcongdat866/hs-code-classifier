@@ -2,18 +2,18 @@
   "summary": {
     "model": "sonnet",
     "modelId": "claude-sonnet-4-6",
-    "prompt": "v2",
-    "timestamp": "2026-06-10T14:53:28.474Z",
+    "prompt": "v3",
+    "timestamp": "2026-06-10T15:29:30.095Z",
     "n": 248,
-    "top1Accuracy": 0.5443548387096774,
-    "top3Accuracy": 0.7903225806451613,
+    "top1Accuracy": 0.5604838709677419,
+    "top3Accuracy": 0.7661290322580645,
     "errors": 0,
-    "meanLatencyMs": 9142.444835080647,
-    "p95LatencyMs": 13937.337900000042,
-    "totalInputTokens": 208518,
-    "totalOutputTokens": 31066,
-    "totalCostUsd": 1.091544,
-    "costPer1kSkusUsd": 4.401387096774195
+    "meanLatencyMs": 14270.006427016133,
+    "p95LatencyMs": 61901.356,
+    "totalInputTokens": 3670,
+    "totalOutputTokens": 29482,
+    "totalCostUsd": 3.5500351500000003,
+    "costPer1kSkusUsd": 14.314657862903227
   },
   "results": [
     {
@@ -21,16 +21,16 @@
       "description": "a woman’s jacket",
       "expected": "6202",
       "candidates": [
-        "6202",
-        "6102",
-        "6211"
+        "6204",
+        "6104",
+        "6202"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5402.5766,
-      "inputTokens": 838,
-      "outputTokens": 155,
-      "cacheWriteTokens": 0,
+      "latencyMs": 15200.404,
+      "inputTokens": 12,
+      "outputTokens": 117,
+      "cacheWriteTokens": 39779,
       "cacheReadTokens": 0
     },
     {
@@ -39,16 +39,16 @@
       "expected": "9505",
       "candidates": [
         "4202",
-        "6307",
-        "9505"
+        "9505",
+        "6307"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4735.626700000001,
-      "inputTokens": 838,
-      "outputTokens": 142,
+      "latencyMs": 58321.933999999994,
+      "inputTokens": 12,
+      "outputTokens": 124,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N341320",
@@ -56,16 +56,16 @@
       "expected": "6110",
       "candidates": [
         "6110",
-        "6114",
-        "6109"
+        "6102",
+        "6114"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8245.677499999998,
-      "inputTokens": 840,
-      "outputTokens": 148,
+      "latencyMs": 61901.356,
+      "inputTokens": 14,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N335561",
@@ -73,16 +73,16 @@
       "expected": "6106",
       "candidates": [
         "6106",
-        "6211",
-        "6110"
+        "6110",
+        "6204"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7576.6806,
-      "inputTokens": 841,
-      "outputTokens": 137,
+      "latencyMs": 148120.64909999998,
+      "inputTokens": 15,
+      "outputTokens": 140,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334502",
@@ -90,16 +90,16 @@
       "expected": "6106",
       "candidates": [
         "6206",
-        "6211",
-        "6109"
+        "6106",
+        "6211"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8050.951300000001,
-      "inputTokens": 838,
-      "outputTokens": 110,
+      "top3Correct": true,
+      "latencyMs": 8493.038400000005,
+      "inputTokens": 12,
+      "outputTokens": 102,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N329523",
@@ -112,11 +112,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9976.5727,
-      "inputTokens": 863,
-      "outputTokens": 147,
+      "latencyMs": 8813.165800000002,
+      "inputTokens": 37,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N327601",
@@ -125,15 +125,15 @@
       "candidates": [
         "6110",
         "6101",
-        "6211"
+        "6114"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4040.797999999999,
-      "inputTokens": 841,
-      "outputTokens": 128,
+      "latencyMs": 5121.96560000001,
+      "inputTokens": 15,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N319174",
@@ -146,11 +146,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9933.016800000001,
-      "inputTokens": 843,
-      "outputTokens": 124,
+      "latencyMs": 7465.258100000006,
+      "inputTokens": 17,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N310402",
@@ -158,16 +158,16 @@
       "expected": "6211",
       "candidates": [
         "6111",
-        "6113",
-        "6211"
+        "6209",
+        "6114"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 7609.6486,
-      "inputTokens": 839,
-      "outputTokens": 135,
+      "top3Correct": false,
+      "latencyMs": 12798.499500000005,
+      "inputTokens": 13,
+      "outputTokens": 138,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N306326",
@@ -180,28 +180,28 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7387.0929,
-      "inputTokens": 839,
-      "outputTokens": 141,
+      "latencyMs": 13518.814799999993,
+      "inputTokens": 13,
+      "outputTokens": 153,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N286274",
       "description": "a girls’ jacket",
       "expected": "6102",
       "candidates": [
-        "6202",
         "6102",
-        "6204"
+        "6104",
+        "6202"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11767.156200000001,
-      "inputTokens": 838,
-      "outputTokens": 131,
+      "latencyMs": 6042.9535999999935,
+      "inputTokens": 12,
+      "outputTokens": 133,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336897",
@@ -214,45 +214,45 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10346.607099999997,
-      "inputTokens": 840,
-      "outputTokens": 120,
+      "latencyMs": 8156.451499999996,
+      "inputTokens": 14,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336728",
       "description": "women’s knit garments",
       "expected": "6109",
       "candidates": [
+        "6104",
         "6110",
-        "6109",
-        "6108"
+        "6109"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 7676.445799999994,
-      "inputTokens": 840,
-      "outputTokens": 98,
+      "latencyMs": 12593.900699999998,
+      "inputTokens": 14,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N332869",
       "description": "a boy’s garment",
       "expected": "6109",
       "candidates": [
-        "6110",
-        "6109",
-        "6203"
+        "6103",
+        "6203",
+        "6109"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 14293.873899999999,
-      "inputTokens": 839,
-      "outputTokens": 132,
+      "latencyMs": 4132.432000000001,
+      "inputTokens": 13,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N331830",
@@ -260,16 +260,16 @@
       "expected": "6307",
       "candidates": [
         "6305",
-        "4202",
-        "6307"
+        "6307",
+        "4202"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4919.022499999999,
-      "inputTokens": 843,
-      "outputTokens": 121,
+      "latencyMs": 9861.835699999996,
+      "inputTokens": 17,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N325544",
@@ -282,11 +282,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9403.921600000001,
-      "inputTokens": 840,
-      "outputTokens": 135,
+      "latencyMs": 11880.62969999999,
+      "inputTokens": 14,
+      "outputTokens": 133,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N309146",
@@ -295,15 +295,15 @@
       "candidates": [
         "3923",
         "3926",
-        "4819"
+        "6305"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11602.9807,
-      "inputTokens": 842,
-      "outputTokens": 116,
+      "latencyMs": 9903.291100000002,
+      "inputTokens": 16,
+      "outputTokens": 125,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N305981",
@@ -312,15 +312,15 @@
       "candidates": [
         "6110",
         "6109",
-        "6108"
+        "6103"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9149.4767,
-      "inputTokens": 840,
-      "outputTokens": 115,
+      "latencyMs": 4625.585100000026,
+      "inputTokens": 14,
+      "outputTokens": 167,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N301538",
@@ -333,11 +333,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5122.550900000002,
-      "inputTokens": 838,
-      "outputTokens": 116,
+      "latencyMs": 4894.650099999999,
+      "inputTokens": 12,
+      "outputTokens": 145,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N323309",
@@ -345,33 +345,33 @@
       "expected": "6203",
       "candidates": [
         "6203",
-        "6211",
-        "6114"
+        "6103",
+        "6211"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8617.111000000004,
-      "inputTokens": 839,
-      "outputTokens": 135,
+      "latencyMs": 9415.873900000006,
+      "inputTokens": 13,
+      "outputTokens": 149,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N303026",
       "description": "women’s trousers",
       "expected": "6204",
       "candidates": [
+        "6104",
         "6204",
-        "6114",
-        "6104"
+        "6211"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12597.907100000004,
-      "inputTokens": 839,
-      "outputTokens": 170,
+      "latencyMs": 12286.892599999992,
+      "inputTokens": 13,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360990",
@@ -379,16 +379,16 @@
       "expected": "6307",
       "candidates": [
         "9505",
-        "4202",
+        "4602",
         "6307"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 11636.192800000004,
-      "inputTokens": 839,
-      "outputTokens": 118,
+      "latencyMs": 11161.738500000007,
+      "inputTokens": 13,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360145",
@@ -401,45 +401,45 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10130.296300000002,
-      "inputTokens": 836,
-      "outputTokens": 111,
+      "latencyMs": 12699.429999999993,
+      "inputTokens": 10,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360271",
       "description": "textile furniture",
       "expected": "9403",
       "candidates": [
-        "9401",
         "9403",
+        "9404",
         "6304"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8853.109899999996,
-      "inputTokens": 836,
-      "outputTokens": 116,
+      "latencyMs": 62161.07029999999,
+      "inputTokens": 10,
+      "outputTokens": 96,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358985",
       "description": "bib-shaped textile coverings",
       "expected": "6307",
       "candidates": [
-        "6217",
         "6307",
-        "6111"
+        "6111",
+        "6209"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9778.207900000009,
-      "inputTokens": 841,
-      "outputTokens": 127,
+      "latencyMs": 6753.160799999983,
+      "inputTokens": 15,
+      "outputTokens": 133,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358801",
@@ -448,15 +448,15 @@
       "candidates": [
         "9701",
         "4911",
-        "3926"
+        "8306"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12099.4384,
-      "inputTokens": 839,
-      "outputTokens": 108,
+      "latencyMs": 9731.400200000004,
+      "inputTokens": 13,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357841",
@@ -465,15 +465,15 @@
       "candidates": [
         "9505",
         "6211",
-        "6110"
+        "6114"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8171.905100000004,
-      "inputTokens": 837,
-      "outputTokens": 121,
+      "latencyMs": 5554.540799999988,
+      "inputTokens": 11,
+      "outputTokens": 98,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N361012",
@@ -482,15 +482,15 @@
       "candidates": [
         "6109",
         "6110",
-        "6211"
+        "6206"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 8086.289699999994,
-      "inputTokens": 837,
-      "outputTokens": 120,
+      "top3Correct": false,
+      "latencyMs": 11360.916499999992,
+      "inputTokens": 11,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359769",
@@ -499,15 +499,15 @@
       "candidates": [
         "8419",
         "8479",
-        "8405"
+        "8417"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8327.148700000005,
-      "inputTokens": 839,
-      "outputTokens": 112,
+      "latencyMs": 6016.980899999995,
+      "inputTokens": 13,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357848",
@@ -516,32 +516,32 @@
       "candidates": [
         "9021",
         "9019",
-        "8462"
+        "6406"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14079.085600000006,
-      "inputTokens": 842,
-      "outputTokens": 127,
+      "latencyMs": 7274.38440000001,
+      "inputTokens": 16,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355778",
       "description": "wading boots",
       "expected": "6402",
       "candidates": [
-        "6404",
+        "6401",
         "6402",
-        "6401"
+        "6404"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9837.4522,
-      "inputTokens": 837,
-      "outputTokens": 133,
+      "latencyMs": 9266.891600000003,
+      "inputTokens": 11,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355201",
@@ -554,11 +554,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 3965.2553999999946,
-      "inputTokens": 838,
-      "outputTokens": 100,
+      "latencyMs": 4604.9038,
+      "inputTokens": 12,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N350749",
@@ -566,16 +566,16 @@
       "expected": "6115",
       "candidates": [
         "6115",
-        "6115",
-        "6116"
+        "6117",
+        "6307"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11729.477899999998,
-      "inputTokens": 842,
-      "outputTokens": 112,
+      "latencyMs": 7579.2022,
+      "inputTokens": 16,
+      "outputTokens": 127,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348907",
@@ -588,11 +588,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11506.998299999992,
-      "inputTokens": 842,
-      "outputTokens": 133,
+      "latencyMs": 8143.054499999998,
+      "inputTokens": 16,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N339073",
@@ -601,15 +601,15 @@
       "candidates": [
         "5509",
         "5402",
-        "5606"
+        "5511"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10251.088099999994,
-      "inputTokens": 839,
-      "outputTokens": 134,
+      "latencyMs": 12184.23490000001,
+      "inputTokens": 13,
+      "outputTokens": 147,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N339080",
@@ -617,16 +617,16 @@
       "expected": "5402",
       "candidates": [
         "5402",
-        "5404",
-        "5501"
+        "5406",
+        "5404"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8659.859500000006,
-      "inputTokens": 843,
-      "outputTokens": 152,
+      "latencyMs": 14542.080099999992,
+      "inputTokens": 17,
+      "outputTokens": 151,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340134",
@@ -635,15 +635,15 @@
       "candidates": [
         "6111",
         "6115",
-        "6116"
+        "6209"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10570.562000000005,
-      "inputTokens": 837,
-      "outputTokens": 127,
+      "latencyMs": 71477.21910000002,
+      "inputTokens": 11,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334203",
@@ -652,15 +652,15 @@
       "candidates": [
         "9019",
         "9018",
-        "3304"
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9366.452999999994,
-      "inputTokens": 841,
-      "outputTokens": 115,
+      "latencyMs": 4713.376999999979,
+      "inputTokens": 15,
+      "outputTokens": 95,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N329665",
@@ -673,11 +673,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11773.276099999988,
-      "inputTokens": 838,
-      "outputTokens": 96,
+      "latencyMs": 5283.667699999991,
+      "inputTokens": 12,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N323706",
@@ -690,11 +690,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4000.7753999999986,
-      "inputTokens": 837,
-      "outputTokens": 118,
+      "latencyMs": 4191.109000000026,
+      "inputTokens": 11,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N318785",
@@ -707,45 +707,45 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10070.720499999996,
-      "inputTokens": 840,
-      "outputTokens": 136,
+      "latencyMs": 4952.051000000007,
+      "inputTokens": 14,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N326678",
       "description": "footwear with a lighted tongue",
       "expected": "6403",
       "candidates": [
-        "6404",
         "6402",
+        "6404",
         "6403"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8432.209800000011,
-      "inputTokens": 842,
-      "outputTokens": 125,
+      "latencyMs": 5575.093700000027,
+      "inputTokens": 16,
+      "outputTokens": 142,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N287202",
       "description": "the Razor “Jetts DLX”",
       "expected": "9506",
       "candidates": [
-        "9503",
+        "8712",
         "9506",
-        "6402"
+        "6406"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9317.927800000005,
-      "inputTokens": 845,
-      "outputTokens": 119,
+      "latencyMs": 12180.74489999999,
+      "inputTokens": 19,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354200",
@@ -753,33 +753,33 @@
       "expected": "6402",
       "candidates": [
         "6402",
-        "6404",
-        "6405"
+        "6405",
+        "6404"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10748.230500000005,
-      "inputTokens": 842,
-      "outputTokens": 137,
+      "latencyMs": 4420.431199999992,
+      "inputTokens": 16,
+      "outputTokens": 129,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354301",
       "description": "a one-piece molded slip-on shoe",
       "expected": "6402",
       "candidates": [
-        "6405",
         "6402",
+        "6405",
         "6404"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15235.212599999999,
-      "inputTokens": 844,
-      "outputTokens": 127,
+      "latencyMs": 10584.402099999978,
+      "inputTokens": 18,
+      "outputTokens": 142,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356922",
@@ -792,11 +792,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10112.272999999986,
-      "inputTokens": 848,
-      "outputTokens": 111,
+      "latencyMs": 9763.180099999998,
+      "inputTokens": 22,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355693",
@@ -809,11 +809,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4541.969899999996,
-      "inputTokens": 839,
-      "outputTokens": 146,
+      "latencyMs": 12394.844100000017,
+      "inputTokens": 13,
+      "outputTokens": 154,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353548",
@@ -826,62 +826,62 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5305.489000000001,
-      "inputTokens": 839,
-      "outputTokens": 146,
+      "latencyMs": 14203.802599999995,
+      "inputTokens": 13,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N325666",
       "description": "a cap insert",
       "expected": "6507",
       "candidates": [
-        "6505",
-        "6217",
-        "3926"
+        "6506",
+        "6507",
+        "6117"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 14551.466600000014,
-      "inputTokens": 837,
-      "outputTokens": 144,
+      "top3Correct": true,
+      "latencyMs": 16097.12400000001,
+      "inputTokens": 11,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356180",
       "description": "a woman’s skirt",
       "expected": "3926",
       "candidates": [
-        "6204",
         "6104",
-        "6217"
+        "6204",
+        "6114"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7142.383099999977,
-      "inputTokens": 839,
-      "outputTokens": 144,
+      "latencyMs": 9417.944599999988,
+      "inputTokens": 13,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347381",
       "description": "an outsole roughing and sanding machine",
       "expected": "8477",
       "candidates": [
-        "8462",
-        "8464",
-        "8453"
+        "8453",
+        "8460",
+        "8479"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10140.95120000001,
-      "inputTokens": 843,
-      "outputTokens": 150,
+      "latencyMs": 11243.597200000018,
+      "inputTokens": 17,
+      "outputTokens": 143,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336251",
@@ -889,16 +889,16 @@
       "expected": "3926",
       "candidates": [
         "6217",
-        "6217",
-        "4203"
+        "4203",
+        "6615"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5780.933400000009,
-      "inputTokens": 838,
-      "outputTokens": 151,
+      "latencyMs": 77087.48340000003,
+      "inputTokens": 12,
+      "outputTokens": 96,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N330959",
@@ -906,33 +906,33 @@
       "expected": "8527",
       "candidates": [
         "4202",
-        "6307",
-        "8479"
+        "6306",
+        "9506"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13136.864000000001,
-      "inputTokens": 840,
-      "outputTokens": 121,
+      "latencyMs": 7065.678200000024,
+      "inputTokens": 14,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N315669",
       "description": "a faux leather jacket",
       "expected": "3926",
       "candidates": [
+        "6210",
         "6201",
-        "6202",
-        "6210"
+        "6202"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4575.894700000004,
-      "inputTokens": 839,
-      "outputTokens": 133,
+      "latencyMs": 10367.459099999978,
+      "inputTokens": 13,
+      "outputTokens": 146,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352981",
@@ -941,15 +941,15 @@
       "candidates": [
         "8537",
         "8543",
-        "8529"
+        "8526"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13132.715100000001,
-      "inputTokens": 838,
-      "outputTokens": 122,
+      "latencyMs": 10340.580299999972,
+      "inputTokens": 12,
+      "outputTokens": 124,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N350114",
@@ -958,49 +958,49 @@
       "candidates": [
         "8479",
         "8543",
-        "9503"
+        "8471"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9357.254199999996,
-      "inputTokens": 838,
-      "outputTokens": 137,
+      "latencyMs": 13201.827600000019,
+      "inputTokens": 12,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348181",
       "description": "a smart ring",
       "expected": "9031",
       "candidates": [
-        "8517",
         "8543",
-        "9021"
+        "9102",
+        "7117"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9652.81210000001,
-      "inputTokens": 837,
-      "outputTokens": 125,
+      "latencyMs": 9973.108000000007,
+      "inputTokens": 11,
+      "outputTokens": 120,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347828",
       "description": "an effects pedal",
       "expected": "8543",
       "candidates": [
+        "9207",
         "8543",
-        "8518",
-        "9207"
+        "8479"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9964.480500000005,
-      "inputTokens": 838,
-      "outputTokens": 123,
+      "latencyMs": 11585.180999999982,
+      "inputTokens": 12,
+      "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N341281",
@@ -1013,11 +1013,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12274.889800000004,
-      "inputTokens": 841,
-      "outputTokens": 122,
+      "latencyMs": 10608.801600000006,
+      "inputTokens": 15,
+      "outputTokens": 111,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340401",
@@ -1025,16 +1025,16 @@
       "expected": "3924",
       "candidates": [
         "3924",
-        "3926",
-        "9617"
+        "3923",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6745.624599999981,
-      "inputTokens": 838,
-      "outputTokens": 100,
+      "latencyMs": 10445.98920000001,
+      "inputTokens": 12,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340388",
@@ -1047,11 +1047,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4461.898600000015,
-      "inputTokens": 843,
-      "outputTokens": 135,
+      "latencyMs": 12787.087800000038,
+      "inputTokens": 17,
+      "outputTokens": 113,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340130",
@@ -1059,16 +1059,16 @@
       "expected": "8467",
       "candidates": [
         "8467",
-        "8508",
-        "8543"
+        "8543",
+        "8205"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7164.570599999977,
-      "inputTokens": 845,
-      "outputTokens": 136,
+      "latencyMs": 7267.5214999999735,
+      "inputTokens": 19,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N337970",
@@ -1081,11 +1081,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8600.877999999997,
-      "inputTokens": 839,
-      "outputTokens": 98,
+      "latencyMs": 9111.51079999999,
+      "inputTokens": 13,
+      "outputTokens": 111,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N335141",
@@ -1093,16 +1093,16 @@
       "expected": "8703",
       "candidates": [
         "8703",
-        "8711",
-        "9503"
+        "9503",
+        "8706"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10787.1875,
-      "inputTokens": 841,
-      "outputTokens": 128,
+      "latencyMs": 10549.219199999992,
+      "inputTokens": 15,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N326117",
@@ -1115,45 +1115,45 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 18540.808699999994,
-      "inputTokens": 839,
-      "outputTokens": 128,
+      "latencyMs": 12299.470399999991,
+      "inputTokens": 13,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N322422",
       "description": "hoverboard accessories",
       "expected": "8714",
       "candidates": [
-        "8534",
+        "9503",
         "8714",
-        "8507"
+        "8708"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8837.031199999998,
-      "inputTokens": 838,
-      "outputTokens": 102,
+      "latencyMs": 4413.800699999963,
+      "inputTokens": 12,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N315726",
       "description": "a digital media player",
       "expected": "8517",
       "candidates": [
-        "8521",
         "8519",
-        "8543"
+        "8543",
+        "8528"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11012.012199999997,
-      "inputTokens": 838,
-      "outputTokens": 137,
+      "latencyMs": 4610.250800000038,
+      "inputTokens": 12,
+      "outputTokens": 115,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N313553",
@@ -1161,33 +1161,33 @@
       "expected": "8527",
       "candidates": [
         "8527",
-        "8526",
-        "8525"
+        "8543",
+        "8517"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9535.23000000001,
-      "inputTokens": 838,
+      "latencyMs": 5930.957899999979,
+      "inputTokens": 12,
       "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357069",
       "description": "a tinnitus treatment device",
       "expected": "9018",
       "candidates": [
-        "9018",
         "9019",
+        "9018",
         "8543"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12126.815999999992,
-      "inputTokens": 840,
-      "outputTokens": 133,
+      "latencyMs": 7670.656299999973,
+      "inputTokens": 14,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352742",
@@ -1195,16 +1195,16 @@
       "expected": "9113",
       "candidates": [
         "9113",
-        "9112",
-        "4205"
+        "4205",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 3812.888399999996,
-      "inputTokens": 837,
-      "outputTokens": 101,
+      "latencyMs": 8596.523099999991,
+      "inputTokens": 11,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N339719",
@@ -1212,33 +1212,33 @@
       "expected": "9031",
       "candidates": [
         "8543",
-        "9031",
-        "8517"
+        "9506",
+        "8471"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 11149.390699999989,
-      "inputTokens": 843,
-      "outputTokens": 136,
+      "top3Correct": false,
+      "latencyMs": 9933.291499999992,
+      "inputTokens": 17,
+      "outputTokens": 123,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N296023",
       "description": "the “Herovision” Augmented Reality (AR) set",
       "expected": "9004",
       "candidates": [
-        "9013",
-        "8528",
-        "9021"
+        "9004",
+        "8543",
+        "8528"
       ],
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 14366.243199999997,
-      "inputTokens": 849,
-      "outputTokens": 126,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11260.901200000022,
+      "inputTokens": 23,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N287497",
@@ -1246,16 +1246,16 @@
       "expected": "9503",
       "candidates": [
         "9503",
-        "8548",
-        "8543"
+        "8543",
+        "9504"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4442.8879000000015,
-      "inputTokens": 845,
-      "outputTokens": 123,
+      "latencyMs": 143460.5994,
+      "inputTokens": 19,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N287580",
@@ -1263,16 +1263,16 @@
       "expected": "9503",
       "candidates": [
         "9503",
-        "9504",
-        "8543"
+        "8543",
+        "9504"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10316.296300000016,
-      "inputTokens": 844,
-      "outputTokens": 126,
+      "latencyMs": 5021.229500000016,
+      "inputTokens": 18,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347600",
@@ -1280,16 +1280,16 @@
       "expected": "7326",
       "candidates": [
         "8310",
-        "8308",
+        "8306",
         "7326"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9836.93180000002,
-      "inputTokens": 840,
-      "outputTokens": 161,
+      "latencyMs": 14776.167499999981,
+      "inputTokens": 14,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347798",
@@ -1302,28 +1302,28 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9334.248200000002,
-      "inputTokens": 839,
-      "outputTokens": 108,
+      "latencyMs": 8592.902500000026,
+      "inputTokens": 13,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N341056",
       "description": "a wood identification kit",
       "expected": "9013",
       "candidates": [
-        "4420",
         "9023",
-        "9596"
+        "9027",
+        "4421"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9765.43300000002,
-      "inputTokens": 838,
-      "outputTokens": 131,
+      "latencyMs": 9219.793599999975,
+      "inputTokens": 12,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N337421",
@@ -1331,16 +1331,16 @@
       "expected": "4202",
       "candidates": [
         "4202",
-        "3926",
-        "7326"
+        "7113",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4234.9156000000075,
-      "inputTokens": 837,
-      "outputTokens": 106,
+      "latencyMs": 10619.209099999978,
+      "inputTokens": 11,
+      "outputTokens": 113,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336903",
@@ -1353,45 +1353,45 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9464.544900000008,
-      "inputTokens": 842,
-      "outputTokens": 118,
+      "latencyMs": 9214.174500000023,
+      "inputTokens": 16,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336451",
       "description": "a streaming set",
       "expected": "9620",
       "candidates": [
+        "8517",
         "8528",
-        "8543",
-        "8517"
+        "8543"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7998.126500000013,
-      "inputTokens": 837,
-      "outputTokens": 116,
+      "latencyMs": 9321.469099999988,
+      "inputTokens": 11,
+      "outputTokens": 124,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N335514",
       "description": "the Magsafe Fingerloop Stand",
       "expected": "7616",
       "candidates": [
+        "8517",
         "8473",
-        "8529",
-        "3926"
+        "8306"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9297.810200000007,
-      "inputTokens": 843,
-      "outputTokens": 117,
+      "latencyMs": 13515.077499999956,
+      "inputTokens": 17,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N326427",
@@ -1399,50 +1399,50 @@
       "expected": "6406",
       "candidates": [
         "6406",
-        "3926",
-        "4015"
+        "6404",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5041.127399999998,
-      "inputTokens": 839,
-      "outputTokens": 109,
+      "latencyMs": 9274.670700000017,
+      "inputTokens": 13,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N325560",
       "description": "the Aavia Pill Case",
       "expected": "9031",
       "candidates": [
-        "4202",
-        "3923",
-        "3926"
+        "3924",
+        "3926",
+        "4202"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 12561.296900000016,
-      "inputTokens": 841,
-      "outputTokens": 102,
+      "latencyMs": 9828.429100000008,
+      "inputTokens": 15,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N316886",
       "description": "a phone case with magnifier",
       "expected": "9013",
       "candidates": [
-        "4202",
-        "9013",
-        "8517"
+        "8517",
+        "9004",
+        "3926"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 10892.510600000038,
-      "inputTokens": 840,
-      "outputTokens": 122,
+      "top3Correct": false,
+      "latencyMs": 4236.861800000013,
+      "inputTokens": 14,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N315234",
@@ -1450,33 +1450,33 @@
       "expected": "9403",
       "candidates": [
         "9403",
-        "8302",
-        "7610"
+        "6306",
+        "7308"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4375.035500000027,
-      "inputTokens": 840,
-      "outputTokens": 122,
+      "latencyMs": 6246.868099999963,
+      "inputTokens": 14,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N306755",
       "description": "cell phone lanyard",
       "expected": "5609",
       "candidates": [
-        "4202",
         "6307",
-        "3926"
+        "3926",
+        "4205"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11063.201900000044,
-      "inputTokens": 838,
-      "outputTokens": 125,
+      "latencyMs": 12797.375300000014,
+      "inputTokens": 12,
+      "outputTokens": 101,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359291",
@@ -1489,28 +1489,28 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4032.9878000000026,
-      "inputTokens": 841,
-      "outputTokens": 128,
+      "latencyMs": 14545.63910000003,
+      "inputTokens": 15,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359612",
       "description": "a cordless power hand-held spreader kit",
       "expected": "8479",
       "candidates": [
-        "8432",
+        "8467",
         "8479",
-        "8467"
+        "8424"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 10550.956799999985,
-      "inputTokens": 844,
-      "outputTokens": 134,
+      "latencyMs": 7894.591200000024,
+      "inputTokens": 18,
+      "outputTokens": 135,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359248",
@@ -1518,16 +1518,16 @@
       "expected": "8421",
       "candidates": [
         "8479",
-        "8508",
+        "8421",
         "8543"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11398.983600000036,
-      "inputTokens": 841,
-      "outputTokens": 120,
+      "top3Correct": true,
+      "latencyMs": 13413.964800000016,
+      "inputTokens": 15,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359206",
@@ -1535,33 +1535,33 @@
       "expected": "8479",
       "candidates": [
         "8479",
-        "8467",
-        "8424"
+        "8424",
+        "8467"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10299.73570000002,
-      "inputTokens": 843,
-      "outputTokens": 145,
+      "latencyMs": 6341.355700000015,
+      "inputTokens": 17,
+      "outputTokens": 125,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356789",
       "description": "a universal battery charger",
       "expected": "8504",
       "candidates": [
-        "8507",
         "8504",
+        "8507",
         "8543"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4206.416900000011,
-      "inputTokens": 839,
-      "outputTokens": 130,
+      "latencyMs": 13041.620400000014,
+      "inputTokens": 13,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356778",
@@ -1569,16 +1569,16 @@
       "expected": "4901",
       "candidates": [
         "4901",
-        "4900",
-        "4911"
+        "4911",
+        "4923"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14370.530499999993,
-      "inputTokens": 837,
-      "outputTokens": 99,
+      "latencyMs": 11058.998699999996,
+      "inputTokens": 11,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356154",
@@ -1586,16 +1586,16 @@
       "expected": "8479",
       "candidates": [
         "8479",
-        "8537",
+        "8486",
         "8428"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13109.75039999996,
-      "inputTokens": 837,
-      "outputTokens": 109,
+      "latencyMs": 8364.735699999961,
+      "inputTokens": 11,
+      "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355848",
@@ -1603,16 +1603,16 @@
       "expected": "8467",
       "candidates": [
         "8467",
-        "8508",
-        "8205"
+        "8205",
+        "8206"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12262.998699999996,
-      "inputTokens": 843,
-      "outputTokens": 140,
+      "latencyMs": 6757.7491000000155,
+      "inputTokens": 17,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353154",
@@ -1621,15 +1621,15 @@
       "candidates": [
         "9019",
         "9018",
-        "8479"
+        "8414"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9267.93670000002,
-      "inputTokens": 838,
-      "outputTokens": 104,
+      "latencyMs": 9617.839600000007,
+      "inputTokens": 12,
+      "outputTokens": 120,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352352",
@@ -1637,16 +1637,16 @@
       "expected": "9021",
       "candidates": [
         "9021",
-        "9020",
+        "9018",
         "8479"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4386.539999999979,
-      "inputTokens": 848,
-      "outputTokens": 120,
+      "latencyMs": 10238.704900000012,
+      "inputTokens": 22,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N350173",
@@ -1654,16 +1654,16 @@
       "expected": "8513",
       "candidates": [
         "8513",
-        "8512",
-        "9405"
+        "9405",
+        "8539"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14378.167000000016,
-      "inputTokens": 840,
-      "outputTokens": 94,
+      "latencyMs": 14850.552400000044,
+      "inputTokens": 14,
+      "outputTokens": 123,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N346962",
@@ -1671,33 +1671,33 @@
       "expected": "9505",
       "candidates": [
         "9505",
-        "6307",
-        "3926"
+        "6702",
+        "8306"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10148.636400000018,
-      "inputTokens": 837,
-      "outputTokens": 129,
+      "latencyMs": 5732.029499999946,
+      "inputTokens": 11,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N344651",
       "description": "a liquid crystal lighting device",
       "expected": "9013",
       "candidates": [
-        "9405",
         "8543",
-        "9013"
+        "9405",
+        "8528"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 5259.717699999979,
-      "inputTokens": 839,
-      "outputTokens": 111,
+      "top3Correct": false,
+      "latencyMs": 9103.600399999996,
+      "inputTokens": 13,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N337034",
@@ -1705,16 +1705,16 @@
       "expected": "8539",
       "candidates": [
         "8539",
-        "8543",
-        "9405"
+        "8541",
+        "8534"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9637.552399999986,
-      "inputTokens": 837,
-      "outputTokens": 123,
+      "latencyMs": 9830.572000000044,
+      "inputTokens": 11,
+      "outputTokens": 131,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334432",
@@ -1727,28 +1727,28 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9400.357900000003,
-      "inputTokens": 836,
-      "outputTokens": 111,
+      "latencyMs": 89100.86040000006,
+      "inputTokens": 10,
+      "outputTokens": 102,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N351198",
       "description": "piano overlays",
       "expected": "4911",
       "candidates": [
+        "9201",
         "9209",
-        "9205",
-        "3919"
+        "6307"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8832.840800000005,
-      "inputTokens": 837,
-      "outputTokens": 124,
+      "latencyMs": 10750.133399999992,
+      "inputTokens": 11,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N318809",
@@ -1756,16 +1756,16 @@
       "expected": "8471",
       "candidates": [
         "8471",
-        "8473",
-        "8517"
+        "8517",
+        "8543"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4695.498499999987,
-      "inputTokens": 844,
-      "outputTokens": 124,
+      "latencyMs": 14298.431900000025,
+      "inputTokens": 18,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N310447",
@@ -1778,11 +1778,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9756.394900000014,
-      "inputTokens": 841,
-      "outputTokens": 124,
+      "latencyMs": 6764.228400000022,
+      "inputTokens": 15,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N303442",
@@ -1791,15 +1791,15 @@
       "candidates": [
         "8471",
         "8473",
-        "8543"
+        "8517"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11317.691500000015,
-      "inputTokens": 840,
-      "outputTokens": 126,
+      "latencyMs": 7514.974500000011,
+      "inputTokens": 14,
+      "outputTokens": 96,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N295452",
@@ -1807,33 +1807,33 @@
       "expected": "8528",
       "candidates": [
         "8528",
-        "8531",
-        "8543"
+        "8524",
+        "8471"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10450.046999999962,
-      "inputTokens": 838,
-      "outputTokens": 137,
+      "latencyMs": 8295.65300000005,
+      "inputTokens": 12,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N289518",
       "description": "Virtual Reality (VD) goggles",
       "expected": "8528",
       "candidates": [
-        "9005",
-        "8528",
-        "9013"
+        "9004",
+        "8543",
+        "8528"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8799.192899999965,
-      "inputTokens": 843,
-      "outputTokens": 127,
+      "latencyMs": 10964.135699999984,
+      "inputTokens": 17,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N289540",
@@ -1842,66 +1842,66 @@
       "candidates": [
         "9002",
         "9001",
-        "8529"
+        "9006"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11019.975200000044,
-      "inputTokens": 838,
-      "outputTokens": 136,
+      "latencyMs": 9762.130999999936,
+      "inputTokens": 12,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N289532",
       "description": "drone propellers and propeller guards",
       "expected": "8803",
       "candidates": [
-        "8806",
-        "8803",
-        "8484"
+        "8807",
+        "8479",
+        "8806"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 4187.986900000018,
-      "inputTokens": 841,
-      "outputTokens": 118,
+      "top3Correct": false,
+      "latencyMs": 15247.932700000005,
+      "inputTokens": 15,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334094",
       "description": "a power bank kiosk",
       "expected": "8504",
       "candidates": [
-        "8504",
+        "8507",
         "8543",
         "8476"
       ],
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 11068.178600000043,
-      "inputTokens": 840,
-      "outputTokens": 144,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 13372.640000000014,
+      "inputTokens": 14,
+      "outputTokens": 140,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N328222",
       "description": "an electric outboard motor",
       "expected": "8501",
       "candidates": [
-        "8571",
-        "8479",
-        "8501"
+        "8412",
+        "8501",
+        "8479"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 7213.943700000003,
-      "inputTokens": 839,
-      "outputTokens": 105,
+      "latencyMs": 5531.763399999938,
+      "inputTokens": 13,
+      "outputTokens": 135,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N306841",
@@ -1914,11 +1914,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11764.344600000011,
-      "inputTokens": 845,
-      "outputTokens": 121,
+      "latencyMs": 10750.44140000001,
+      "inputTokens": 19,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N305956",
@@ -1926,16 +1926,16 @@
       "expected": "9504",
       "candidates": [
         "8504",
-        "9504",
-        "8543"
+        "8473",
+        "9504"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9636.22199999995,
-      "inputTokens": 840,
-      "outputTokens": 120,
+      "latencyMs": 4915.555900000036,
+      "inputTokens": 14,
+      "outputTokens": 102,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N289736",
@@ -1944,15 +1944,15 @@
       "candidates": [
         "8502",
         "8501",
-        "8504"
+        "8479"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9266.630799999984,
-      "inputTokens": 838,
-      "outputTokens": 148,
+      "latencyMs": 9117.018100000103,
+      "inputTokens": 12,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N288408",
@@ -1960,16 +1960,16 @@
       "expected": "8507",
       "candidates": [
         "8504",
-        "8507",
-        "8544"
+        "8544",
+        "8543"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 10379.613100000017,
-      "inputTokens": 837,
-      "outputTokens": 126,
+      "top3Correct": false,
+      "latencyMs": 9217.82070000004,
+      "inputTokens": 11,
+      "outputTokens": 103,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357549",
@@ -1978,15 +1978,15 @@
       "candidates": [
         "6912",
         "6911",
-        "6914"
+        "6913"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8930.974099999992,
-      "inputTokens": 842,
-      "outputTokens": 108,
+      "latencyMs": 4297.798999999999,
+      "inputTokens": 16,
+      "outputTokens": 113,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353512",
@@ -1995,15 +1995,15 @@
       "candidates": [
         "6912",
         "6911",
-        "6914"
+        "6913"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4580.218799999973,
-      "inputTokens": 842,
-      "outputTokens": 110,
+      "latencyMs": 135660.77450000006,
+      "inputTokens": 16,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334248",
@@ -2016,28 +2016,28 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10017.389599999995,
-      "inputTokens": 840,
-      "outputTokens": 113,
+      "latencyMs": 8685.620500000077,
+      "inputTokens": 14,
+      "outputTokens": 121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N345071",
       "description": "a stuffed food preparation",
       "expected": "1902",
       "candidates": [
-        "2106",
-        "1902",
-        "1601"
+        "9503",
+        "1602",
+        "2106"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 10285.035600000003,
-      "inputTokens": 839,
-      "outputTokens": 137,
+      "top3Correct": false,
+      "latencyMs": 12386.161300000036,
+      "inputTokens": 13,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N286356",
@@ -2046,32 +2046,32 @@
       "candidates": [
         "7615",
         "7323",
-        "8516"
+        "8419"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11849.437900000019,
-      "inputTokens": 842,
-      "outputTokens": 100,
+      "latencyMs": 11694.073900000076,
+      "inputTokens": 16,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358245",
       "description": "knife sharpeners",
       "expected": "8205",
       "candidates": [
-        "8214",
-        "8467",
-        "8205"
+        "8210",
+        "8205",
+        "8214"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4265.505999999994,
-      "inputTokens": 838,
-      "outputTokens": 120,
+      "latencyMs": 12689.390800000052,
+      "inputTokens": 12,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352117",
@@ -2084,11 +2084,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10231.487699999998,
-      "inputTokens": 852,
-      "outputTokens": 121,
+      "latencyMs": 5229.635000000009,
+      "inputTokens": 26,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347281",
@@ -2096,16 +2096,16 @@
       "expected": "8214",
       "candidates": [
         "8214",
-        "8215",
-        "3304"
+        "9605",
+        "8510"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8049.900900000008,
-      "inputTokens": 841,
-      "outputTokens": 162,
+      "latencyMs": 10337.619999999995,
+      "inputTokens": 15,
+      "outputTokens": 148,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N341177",
@@ -2113,16 +2113,16 @@
       "expected": "8211",
       "candidates": [
         "8211",
-        "8214",
-        "8215"
+        "8215",
+        "8206"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10019.940300000017,
-      "inputTokens": 837,
-      "outputTokens": 144,
+      "latencyMs": 13931.944299999974,
+      "inputTokens": 11,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N333596",
@@ -2130,16 +2130,16 @@
       "expected": "8211",
       "candidates": [
         "8211",
-        "8214",
-        "8215"
+        "8215",
+        "8206"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11237.8358,
-      "inputTokens": 845,
-      "outputTokens": 157,
+      "latencyMs": 10951.546500000055,
+      "inputTokens": 19,
+      "outputTokens": 162,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N324986",
@@ -2152,11 +2152,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11694.769200000039,
-      "inputTokens": 838,
-      "outputTokens": 102,
+      "latencyMs": 9009.378099999973,
+      "inputTokens": 12,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N283661",
@@ -2164,33 +2164,33 @@
       "expected": "8211",
       "candidates": [
         "8211",
-        "8214",
-        "8215"
+        "8215",
+        "8214"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13949.36579999997,
-      "inputTokens": 839,
-      "outputTokens": 136,
+      "latencyMs": 8366.992599999998,
+      "inputTokens": 13,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360646",
       "description": "a household kitchen cutting board",
       "expected": "7323",
       "candidates": [
-        "3924",
         "4419",
-        "3926"
+        "3924",
+        "6912"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9063.47960000002,
-      "inputTokens": 839,
-      "outputTokens": 101,
+      "latencyMs": 4128.682400000049,
+      "inputTokens": 13,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356962",
@@ -2198,33 +2198,33 @@
       "expected": "8544",
       "candidates": [
         "8544",
-        "8546",
+        "8537",
         "8536"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12888.205799999996,
-      "inputTokens": 837,
-      "outputTokens": 110,
+      "latencyMs": 15463.501700000023,
+      "inputTokens": 11,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348734",
       "description": "a pressure belt",
       "expected": "8441",
       "candidates": [
-        "8448",
-        "8422",
-        "4010"
+        "6307",
+        "9021",
+        "6212"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4565.502199999988,
-      "inputTokens": 837,
-      "outputTokens": 110,
+      "latencyMs": 7198.435899999924,
+      "inputTokens": 11,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360484",
@@ -2233,15 +2233,15 @@
       "candidates": [
         "9404",
         "6304",
-        "6301"
+        "6307"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5016.353200000012,
-      "inputTokens": 839,
-      "outputTokens": 118,
+      "latencyMs": 9607.755300000077,
+      "inputTokens": 13,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359790",
@@ -2249,33 +2249,33 @@
       "expected": "9404",
       "candidates": [
         "9404",
-        "5705",
-        "3926"
+        "9503",
+        "6307"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8285.953999999969,
-      "inputTokens": 840,
-      "outputTokens": 117,
+      "latencyMs": 5039.292599999928,
+      "inputTokens": 14,
+      "outputTokens": 132,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358599",
       "description": "heated lumbar pillow and heated back rest",
       "expected": "9404",
       "candidates": [
+        "9404",
         "6304",
-        "8516",
-        "9404"
+        "8543"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10456.689599999983,
-      "inputTokens": 843,
+      "latencyMs": 8487.69299999997,
+      "inputTokens": 17,
       "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358305",
@@ -2288,28 +2288,28 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10333.475800000015,
-      "inputTokens": 839,
-      "outputTokens": 130,
+      "latencyMs": 12682.035400000052,
+      "inputTokens": 13,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353814",
       "description": "Optilife chin straps",
       "expected": "9019",
       "candidates": [
-        "9020",
-        "9019",
-        "6217"
+        "9021",
+        "6307",
+        "9019"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12147.50020000001,
-      "inputTokens": 841,
-      "outputTokens": 124,
+      "latencyMs": 11977.17650000006,
+      "inputTokens": 15,
+      "outputTokens": 143,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360755",
@@ -2318,15 +2318,15 @@
       "candidates": [
         "6301",
         "6304",
-        "6117"
+        "6302"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4128.64519999997,
-      "inputTokens": 837,
-      "outputTokens": 114,
+      "latencyMs": 4084.985500000068,
+      "inputTokens": 11,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352005",
@@ -2335,15 +2335,15 @@
       "candidates": [
         "6301",
         "6110",
-        "6302"
+        "6304"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9932.065000000002,
-      "inputTokens": 841,
-      "outputTokens": 128,
+      "latencyMs": 4715.189599999925,
+      "inputTokens": 15,
+      "outputTokens": 119,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348968",
@@ -2351,16 +2351,16 @@
       "expected": "8480",
       "candidates": [
         "8480",
-        "8457",
-        "8466"
+        "8479",
+        "8207"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10931.815900000045,
-      "inputTokens": 838,
-      "outputTokens": 116,
+      "latencyMs": 9924.202399999951,
+      "inputTokens": 12,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N324162",
@@ -2368,16 +2368,16 @@
       "expected": "6303",
       "candidates": [
         "6303",
-        "6304",
-        "6302"
+        "6302",
+        "6304"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10679.569500000041,
-      "inputTokens": 844,
-      "outputTokens": 113,
+      "latencyMs": 4101.887100000051,
+      "inputTokens": 18,
+      "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N318689",
@@ -2386,15 +2386,15 @@
       "candidates": [
         "9405",
         "8539",
-        "8544"
+        "8543"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10308.146499999973,
-      "inputTokens": 837,
-      "outputTokens": 126,
+      "latencyMs": 13632.475999999908,
+      "inputTokens": 11,
+      "outputTokens": 102,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N316502",
@@ -2407,11 +2407,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4169.615300000005,
-      "inputTokens": 842,
-      "outputTokens": 114,
+      "latencyMs": 9039.55150000006,
+      "inputTokens": 16,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N312202",
@@ -2419,50 +2419,50 @@
       "expected": "9027",
       "candidates": [
         "9021",
-        "8543",
-        "9031"
+        "9019",
+        "8543"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7353.715599999996,
-      "inputTokens": 842,
-      "outputTokens": 147,
+      "latencyMs": 12680.714600000065,
+      "inputTokens": 16,
+      "outputTokens": 140,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N308394",
       "description": "a bed valance",
       "expected": "6303",
       "candidates": [
+        "6303",
         "6302",
-        "6304",
-        "6303"
+        "6304"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8262.619200000016,
-      "inputTokens": 838,
-      "outputTokens": 119,
+      "latencyMs": 9640.788100000005,
+      "inputTokens": 12,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357291",
       "description": "a hearing aid vacuum cleaner",
       "expected": "8508",
       "candidates": [
-        "9021",
+        "9018",
         "8508",
-        "9019"
+        "9021"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 3860.5762000000104,
-      "inputTokens": 840,
-      "outputTokens": 105,
+      "latencyMs": 12805.319800000056,
+      "inputTokens": 14,
+      "outputTokens": 125,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356793",
@@ -2475,11 +2475,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13169.91730000003,
-      "inputTokens": 851,
-      "outputTokens": 133,
+      "latencyMs": 77958.7376,
+      "inputTokens": 25,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354669",
@@ -2487,33 +2487,33 @@
       "expected": "8421",
       "candidates": [
         "8421",
-        "9506",
+        "8479",
         "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12635.446999999986,
-      "inputTokens": 841,
-      "outputTokens": 119,
+      "latencyMs": 11433.130999999936,
+      "inputTokens": 15,
+      "outputTokens": 145,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N343613",
       "description": "a pool vacuum cleaner",
       "expected": "8421",
       "candidates": [
-        "8543",
+        "8508",
         "8479",
-        "8509"
+        "8421"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 9301.91710000002,
-      "inputTokens": 839,
-      "outputTokens": 115,
+      "top3Correct": true,
+      "latencyMs": 11312.017100000056,
+      "inputTokens": 13,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N326460",
@@ -2521,16 +2521,16 @@
       "expected": "8508",
       "candidates": [
         "8508",
-        "8479",
-        "8543"
+        "8543",
+        "8479"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13937.337900000042,
-      "inputTokens": 840,
-      "outputTokens": 122,
+      "latencyMs": 3932.159400000004,
+      "inputTokens": 14,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N316258",
@@ -2539,66 +2539,66 @@
       "candidates": [
         "8543",
         "8517",
-        "9032"
+        "8479"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13264.287699999986,
-      "inputTokens": 840,
-      "outputTokens": 121,
+      "latencyMs": 7876.907699999982,
+      "inputTokens": 14,
+      "outputTokens": 101,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N312802",
       "description": "a jewelry cleaner",
       "expected": "8509",
       "candidates": [
-        "8479",
-        "8543",
-        "3405"
+        "3402",
+        "3824",
+        "3304"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5299.266599999974,
-      "inputTokens": 838,
-      "outputTokens": 125,
+      "latencyMs": 8789.446400000015,
+      "inputTokens": 12,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360909",
       "description": "“Lao Xie Zhen Frozen Seafood Cheese Rice Burger”",
       "expected": "1904",
       "candidates": [
-        "1905",
-        "1602",
-        "0304"
+        "1605",
+        "1904",
+        "1602"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8593.982799999998,
-      "inputTokens": 855,
-      "outputTokens": 149,
+      "top3Correct": true,
+      "latencyMs": 4791.521100000013,
+      "inputTokens": 29,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359553",
       "description": "a temperature control unit",
       "expected": "8419",
       "candidates": [
-        "8419",
         "9032",
+        "8419",
         "8543"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 11164.536299999978,
-      "inputTokens": 838,
-      "outputTokens": 122,
+      "latencyMs": 10934.762400000007,
+      "inputTokens": 12,
+      "outputTokens": 106,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359156",
@@ -2607,15 +2607,15 @@
       "candidates": [
         "8507",
         "8506",
-        "8544"
+        "8548"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9730.263399999996,
-      "inputTokens": 837,
-      "outputTokens": 142,
+      "latencyMs": 5974.407299999963,
+      "inputTokens": 11,
+      "outputTokens": 127,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N349794",
@@ -2623,16 +2623,16 @@
       "expected": "7324",
       "candidates": [
         "7324",
-        "3922",
-        "7323"
+        "6910",
+        "3922"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9801.030000000028,
-      "inputTokens": 840,
-      "outputTokens": 118,
+      "latencyMs": 4872.500400000019,
+      "inputTokens": 14,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348430",
@@ -2641,15 +2641,15 @@
       "candidates": [
         "4202",
         "3923",
-        "4819"
+        "4420"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10882.626099999994,
-      "inputTokens": 837,
-      "outputTokens": 111,
+      "latencyMs": 12138.568800000008,
+      "inputTokens": 11,
+      "outputTokens": 113,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347087",
@@ -2662,11 +2662,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4534.397800000035,
-      "inputTokens": 842,
+      "latencyMs": 9839.869399999967,
+      "inputTokens": 16,
       "outputTokens": 139,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360838",
@@ -2675,15 +2675,15 @@
       "candidates": [
         "7610",
         "7616",
-        "8302"
+        "7604"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 20067.853500000027,
-      "inputTokens": 843,
-      "outputTokens": 120,
+      "latencyMs": 8258.905999999959,
+      "inputTokens": 17,
+      "outputTokens": 96,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359791",
@@ -2691,67 +2691,67 @@
       "expected": "4420",
       "candidates": [
         "9505",
-        "4421",
-        "6304"
+        "9403",
+        "4421"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9397.920400000003,
-      "inputTokens": 843,
-      "outputTokens": 118,
+      "latencyMs": 9490.010499999975,
+      "inputTokens": 17,
+      "outputTokens": 111,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N359705",
       "description": "a decorative wire pumpkin",
       "expected": "8306",
       "candidates": [
-        "8301",
         "8306",
-        "6702"
+        "7326",
+        "7314"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8690.84169999999,
-      "inputTokens": 841,
-      "outputTokens": 145,
+      "latencyMs": 9584.081099999952,
+      "inputTokens": 15,
+      "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356897",
       "description": "a Paint-By-Number Kit",
       "expected": "3213",
       "candidates": [
+        "9503",
         "9505",
-        "3213",
-        "9502"
+        "3213"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12769.190400000021,
-      "inputTokens": 841,
-      "outputTokens": 130,
+      "latencyMs": 9507.737900000066,
+      "inputTokens": 15,
+      "outputTokens": 121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356689",
       "description": "plastic picture frames",
       "expected": "3924",
       "candidates": [
-        "3924",
         "3926",
-        "4414"
+        "4414",
+        "8306"
       ],
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 11491.465400000045,
-      "inputTokens": 837,
-      "outputTokens": 122,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10224.293500000029,
+      "inputTokens": 11,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353507",
@@ -2759,16 +2759,16 @@
       "expected": "4421",
       "candidates": [
         "4414",
-        "3916",
-        "8302"
+        "7326",
+        "3916"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4300.145299999975,
-      "inputTokens": 838,
-      "outputTokens": 144,
+      "latencyMs": 222043.26749999996,
+      "inputTokens": 12,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353362",
@@ -2781,11 +2781,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4585.142899999977,
-      "inputTokens": 837,
-      "outputTokens": 124,
+      "latencyMs": 11993.209599999944,
+      "inputTokens": 11,
+      "outputTokens": 92,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352141",
@@ -2794,15 +2794,15 @@
       "candidates": [
         "4414",
         "4823",
-        "4421"
+        "9503"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4584.913600000029,
-      "inputTokens": 839,
+      "latencyMs": 6112.775299999979,
+      "inputTokens": 13,
       "outputTokens": 120,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N350696",
@@ -2810,16 +2810,16 @@
       "expected": "7616",
       "candidates": [
         "9406",
-        "3925",
-        "7308"
+        "7308",
+        "3925"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10551.979300000006,
-      "inputTokens": 838,
-      "outputTokens": 119,
+      "latencyMs": 9966.384899999946,
+      "inputTokens": 12,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N339771",
@@ -2827,50 +2827,50 @@
       "expected": "7013",
       "candidates": [
         "7013",
-        "7018",
-        "7020"
+        "7020",
+        "6913"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4866.790900000022,
-      "inputTokens": 839,
-      "outputTokens": 136,
+      "latencyMs": 12595.163500000024,
+      "inputTokens": 13,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355963",
       "description": "children’s soft books",
       "expected": "4903",
       "candidates": [
-        "4903",
+        "9503",
         "4901",
-        "9503"
+        "4903"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 7432.290299999993,
-      "inputTokens": 838,
-      "outputTokens": 126,
+      "latencyMs": 9316.261499999906,
+      "inputTokens": 12,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340532",
       "description": "a Care Bear Cheer 3D Keychain",
       "expected": "7326",
       "candidates": [
-        "3926",
         "7117",
+        "3926",
         "9503"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10215.623599999934,
-      "inputTokens": 846,
-      "outputTokens": 114,
+      "latencyMs": 12719.229399999953,
+      "inputTokens": 20,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N361080",
@@ -2883,11 +2883,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4035.277999999933,
-      "inputTokens": 845,
-      "outputTokens": 119,
+      "latencyMs": 3891.3227999999654,
+      "inputTokens": 19,
+      "outputTokens": 98,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353019",
@@ -2900,62 +2900,62 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10565.958500000008,
-      "inputTokens": 839,
-      "outputTokens": 111,
+      "latencyMs": 4159.119399999967,
+      "inputTokens": 13,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352320",
       "description": "“Prism” guided corporate exercises",
       "expected": "4911",
       "candidates": [
-        "9206",
-        "4901",
-        "4911"
+        "9506",
+        "9023",
+        "4901"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 8295.190100000007,
-      "inputTokens": 842,
-      "outputTokens": 175,
+      "top3Correct": false,
+      "latencyMs": 10695.86930000002,
+      "inputTokens": 16,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N344742",
       "description": "the “Twister Splash” water game",
       "expected": "9506",
       "candidates": [
-        "9504",
         "9506",
-        "9503"
+        "9503",
+        "9505"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4310.136200000066,
-      "inputTokens": 844,
-      "outputTokens": 111,
+      "latencyMs": 4514.700700000045,
+      "inputTokens": 18,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N331029",
       "description": "the “Axe Throwing Game Set”",
       "expected": "9506",
       "candidates": [
-        "9504",
         "9506",
-        "9305"
+        "9504",
+        "9503"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10965.575799999991,
-      "inputTokens": 844,
-      "outputTokens": 121,
+      "latencyMs": 10622.061800000025,
+      "inputTokens": 18,
+      "outputTokens": 96,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360455",
@@ -2968,11 +2968,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12583.363899999997,
-      "inputTokens": 839,
-      "outputTokens": 118,
+      "latencyMs": 10410.573800000013,
+      "inputTokens": 13,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355873",
@@ -2985,11 +2985,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 10774.948800000013,
-      "inputTokens": 847,
-      "outputTokens": 206,
+      "latencyMs": 7273.135300000082,
+      "inputTokens": 21,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352469",
@@ -2997,50 +2997,50 @@
       "expected": "6506",
       "candidates": [
         "6506",
-        "6507",
-        "9506"
+        "9506",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13593.677199999918,
-      "inputTokens": 837,
-      "outputTokens": 105,
+      "latencyMs": 13816.901500000036,
+      "inputTokens": 11,
+      "outputTokens": 88,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N352475",
       "description": "helmet accessories",
       "expected": "6507",
       "candidates": [
-        "9506",
         "6506",
-        "8714"
+        "9506",
+        "6307"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4601.055599999963,
-      "inputTokens": 836,
-      "outputTokens": 115,
+      "latencyMs": 7656.332999999984,
+      "inputTokens": 10,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N351067",
       "description": "a bicycle work stand",
       "expected": "7616",
       "candidates": [
+        "9506",
         "8716",
-        "8714",
-        "9403"
+        "7326"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9649.728000000003,
-      "inputTokens": 838,
-      "outputTokens": 112,
+      "latencyMs": 3840.0113999999594,
+      "inputTokens": 12,
+      "outputTokens": 93,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N344662",
@@ -3049,15 +3049,15 @@
       "candidates": [
         "8711",
         "8703",
-        "8714"
+        "8712"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11427.267200000002,
-      "inputTokens": 838,
-      "outputTokens": 105,
+      "latencyMs": 11770.169899999979,
+      "inputTokens": 12,
+      "outputTokens": 129,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340921",
@@ -3066,15 +3066,15 @@
       "candidates": [
         "8714",
         "8712",
-        "8716"
+        "8487"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7664.873099999968,
-      "inputTokens": 836,
-      "outputTokens": 120,
+      "latencyMs": 4403.027899999986,
+      "inputTokens": 10,
+      "outputTokens": 99,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N340812",
@@ -3087,11 +3087,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5034.829099999974,
-      "inputTokens": 837,
-      "outputTokens": 142,
+      "latencyMs": 10055.263400000054,
+      "inputTokens": 11,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N339879",
@@ -3099,16 +3099,16 @@
       "expected": "8712",
       "candidates": [
         "8712",
-        "8714",
-        "8711"
+        "9506",
+        "8714"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5062.725800000015,
-      "inputTokens": 837,
-      "outputTokens": 122,
+      "latencyMs": 3894.9601000000257,
+      "inputTokens": 11,
+      "outputTokens": 95,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N337726",
@@ -3117,15 +3117,15 @@
       "candidates": [
         "8712",
         "8711",
-        "8715"
+        "8714"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9448.63779999991,
-      "inputTokens": 842,
+      "latencyMs": 14351.313700000057,
+      "inputTokens": 16,
       "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N328813",
@@ -3134,15 +3134,15 @@
       "candidates": [
         "9503",
         "4016",
-        "6307"
+        "9506"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8390.778900000034,
-      "inputTokens": 837,
-      "outputTokens": 102,
+      "latencyMs": 3806.446200000006,
+      "inputTokens": 11,
+      "outputTokens": 89,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336481",
@@ -3151,15 +3151,15 @@
       "candidates": [
         "9507",
         "9506",
-        "8486"
+        "8207"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12403.9277,
-      "inputTokens": 838,
-      "outputTokens": 98,
+      "latencyMs": 5161.741700000013,
+      "inputTokens": 12,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N332802",
@@ -3167,16 +3167,16 @@
       "expected": "9507",
       "candidates": [
         "9507",
-        "8302",
-        "3926"
+        "3926",
+        "7326"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9915.59289999993,
-      "inputTokens": 837,
-      "outputTokens": 115,
+      "latencyMs": 13373.147099999944,
+      "inputTokens": 11,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N330340",
@@ -3184,16 +3184,16 @@
       "expected": "7326",
       "candidates": [
         "9507",
-        "3924",
-        "7326"
+        "9506",
+        "3926"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 9943.81640000001,
-      "inputTokens": 838,
-      "outputTokens": 116,
+      "top3Correct": false,
+      "latencyMs": 14672.389399999985,
+      "inputTokens": 12,
+      "outputTokens": 99,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N321619",
@@ -3201,16 +3201,16 @@
       "expected": "9507",
       "candidates": [
         "9507",
-        "9508",
-        "6507"
+        "9506",
+        "4202"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9079.428500000038,
-      "inputTokens": 839,
-      "outputTokens": 141,
+      "latencyMs": 5596.978400000022,
+      "inputTokens": 13,
+      "outputTokens": 134,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N301031",
@@ -3219,15 +3219,15 @@
       "candidates": [
         "8903",
         "8906",
-        "8901"
+        "8907"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9981.250700000091,
-      "inputTokens": 836,
-      "outputTokens": 108,
+      "latencyMs": 9919.26139999996,
+      "inputTokens": 10,
+      "outputTokens": 112,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N295506",
@@ -3240,11 +3240,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11040.189200000023,
-      "inputTokens": 837,
-      "outputTokens": 115,
+      "latencyMs": 7926.190300000017,
+      "inputTokens": 11,
+      "outputTokens": 111,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354413",
@@ -3257,28 +3257,28 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13236.727500000037,
-      "inputTokens": 838,
-      "outputTokens": 159,
+      "latencyMs": 4591.1546999999555,
+      "inputTokens": 12,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N311151",
       "description": "a truck bed camper shell",
       "expected": "8708",
       "candidates": [
-        "8716",
         "8707",
-        "8708"
+        "8716",
+        "3926"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 10299.845199999982,
-      "inputTokens": 840,
-      "outputTokens": 154,
+      "top3Correct": false,
+      "latencyMs": 4628.268900000025,
+      "inputTokens": 14,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N303866",
@@ -3286,16 +3286,16 @@
       "expected": "6306",
       "candidates": [
         "6306",
-        "3926",
-        "5911"
+        "6307",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9554.504399999976,
-      "inputTokens": 842,
-      "outputTokens": 121,
+      "latencyMs": 9963.613000000012,
+      "inputTokens": 16,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N302567",
@@ -3304,32 +3304,32 @@
       "candidates": [
         "6306",
         "4202",
-        "6306"
+        "6307"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10662.615100000054,
-      "inputTokens": 839,
-      "outputTokens": 114,
+      "latencyMs": 3885.845100000035,
+      "inputTokens": 13,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N312986",
       "description": "an electric scooter",
       "expected": "8711",
       "candidates": [
-        "8712",
         "8711",
-        "8713"
+        "8712",
+        "8703"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12579.663100000005,
-      "inputTokens": 839,
-      "outputTokens": 166,
+      "latencyMs": 10713.776300000027,
+      "inputTokens": 13,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N303622",
@@ -3337,16 +3337,16 @@
       "expected": "8482",
       "candidates": [
         "8482",
-        "8716",
-        "8483"
+        "9506",
+        "8716"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7935.960399999982,
-      "inputTokens": 842,
-      "outputTokens": 121,
+      "latencyMs": 4351.860900000087,
+      "inputTokens": 16,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358621",
@@ -3355,49 +3355,49 @@
       "candidates": [
         "8903",
         "9506",
-        "3926"
+        "9503"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4381.931300000055,
-      "inputTokens": 844,
-      "outputTokens": 116,
+      "latencyMs": 10187.51980000001,
+      "inputTokens": 18,
+      "outputTokens": 115,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357223",
       "description": "the Titan Pro Ice Pack Set",
       "expected": "3824",
       "candidates": [
+        "9506",
         "3824",
-        "3926",
-        "6307"
+        "3926"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 11135.860999999917,
-      "inputTokens": 841,
-      "outputTokens": 119,
+      "latencyMs": 12087.678799999994,
+      "inputTokens": 15,
+      "outputTokens": 103,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N300984",
       "description": "Binders and File Folders",
       "expected": "4820",
       "candidates": [
-        "3926",
         "4820",
-        "4819"
+        "4819",
+        "3926"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9899.195299999905,
-      "inputTokens": 841,
-      "outputTokens": 113,
+      "latencyMs": 4667.373900000006,
+      "inputTokens": 15,
+      "outputTokens": 124,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N300397",
@@ -3405,16 +3405,16 @@
       "expected": "9017",
       "candidates": [
         "8205",
-        "8206",
-        "8467"
+        "8211",
+        "8206"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10785.827700000023,
-      "inputTokens": 840,
-      "outputTokens": 150,
+      "latencyMs": 11912.655999999959,
+      "inputTokens": 14,
+      "outputTokens": 143,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N291864",
@@ -3427,45 +3427,45 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8333.827099999995,
-      "inputTokens": 840,
-      "outputTokens": 120,
+      "latencyMs": 4311.698000000091,
+      "inputTokens": 14,
+      "outputTokens": 119,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N343778",
       "description": "Shamrock glasses",
       "expected": "9004",
       "candidates": [
-        "9004",
         "9505",
-        "3926"
+        "9004",
+        "7117"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 10006.764199999976,
-      "inputTokens": 838,
-      "outputTokens": 126,
+      "latencyMs": 9401.262999999919,
+      "inputTokens": 12,
+      "outputTokens": 133,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N343877",
       "description": "party favor sunglasses",
       "expected": "9004",
       "candidates": [
-        "9004",
         "9505",
-        "3926"
+        "9004",
+        "7117"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 6576.14320000005,
-      "inputTokens": 839,
-      "outputTokens": 130,
+      "latencyMs": 6487.727599999984,
+      "inputTokens": 13,
+      "outputTokens": 105,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N320210",
@@ -3473,16 +3473,16 @@
       "expected": "6304",
       "candidates": [
         "6302",
-        "6217",
-        "6307"
+        "6307",
+        "9506"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8795.850399999996,
-      "inputTokens": 840,
-      "outputTokens": 125,
+      "latencyMs": 14479.21940000006,
+      "inputTokens": 14,
+      "outputTokens": 121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N315235",
@@ -3491,32 +3491,32 @@
       "candidates": [
         "9003",
         "9004",
-        "9001"
+        "9005"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13007.31500000006,
-      "inputTokens": 845,
-      "outputTokens": 120,
+      "latencyMs": 12701.944600000046,
+      "inputTokens": 19,
+      "outputTokens": 128,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N306716",
       "description": "“Microfiber Lens Wipes”",
       "expected": "3402",
       "candidates": [
-        "3407",
+        "3307",
         "6307",
         "3401"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10849.029699999955,
-      "inputTokens": 845,
-      "outputTokens": 133,
+      "latencyMs": 9475.299499999965,
+      "inputTokens": 19,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N347448",
@@ -3524,16 +3524,16 @@
       "expected": "6601",
       "candidates": [
         "6601",
-        "6602",
-        "6603"
+        "6603",
+        "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4433.4218999999575,
-      "inputTokens": 838,
-      "outputTokens": 127,
+      "latencyMs": 4331.280700000003,
+      "inputTokens": 12,
+      "outputTokens": 121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N337801",
@@ -3541,16 +3541,16 @@
       "expected": "6603",
       "candidates": [
         "6601",
-        "6603",
+        "3926",
         "7326"
       ],
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 8968.606299999985,
-      "inputTokens": 838,
-      "outputTokens": 121,
+      "top3Correct": false,
+      "latencyMs": 8347.820399999968,
+      "inputTokens": 12,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N334613",
@@ -3558,16 +3558,16 @@
       "expected": "6601",
       "candidates": [
         "6601",
-        "6602",
+        "6603",
         "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4988.942800000077,
-      "inputTokens": 838,
-      "outputTokens": 144,
+      "latencyMs": 8237.643900000025,
+      "inputTokens": 12,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N333926",
@@ -3575,33 +3575,33 @@
       "expected": "8445",
       "candidates": [
         "8445",
-        "8479",
-        "8463"
+        "8475",
+        "8479"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13280.381799999974,
-      "inputTokens": 841,
-      "outputTokens": 145,
+      "latencyMs": 5468.738000000012,
+      "inputTokens": 15,
+      "outputTokens": 141,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N303295",
       "description": "steel fasteners and wire",
       "expected": "7317",
       "candidates": [
-        "7317",
         "7318",
+        "7317",
         "7217"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 13323.913100000005,
-      "inputTokens": 839,
-      "outputTokens": 96,
+      "latencyMs": 3501.605199999991,
+      "inputTokens": 13,
+      "outputTokens": 99,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N302391",
@@ -3609,16 +3609,16 @@
       "expected": "6601",
       "candidates": [
         "6601",
-        "6602",
+        "6306",
         "3926"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4761.205199999968,
-      "inputTokens": 839,
-      "outputTokens": 124,
+      "latencyMs": 11627.33850000007,
+      "inputTokens": 13,
+      "outputTokens": 133,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N355090",
@@ -3631,11 +3631,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11971.778799999971,
-      "inputTokens": 839,
-      "outputTokens": 128,
+      "latencyMs": 85212.04830000002,
+      "inputTokens": 13,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354082",
@@ -3648,11 +3648,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4819.678100000019,
-      "inputTokens": 842,
-      "outputTokens": 129,
+      "latencyMs": 10421.863699999987,
+      "inputTokens": 16,
+      "outputTokens": 136,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N354151",
@@ -3665,11 +3665,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4608.046700000064,
-      "inputTokens": 838,
-      "outputTokens": 119,
+      "latencyMs": 8303.537300000084,
+      "inputTokens": 12,
+      "outputTokens": 156,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N360074",
@@ -3677,16 +3677,16 @@
       "expected": "9102",
       "candidates": [
         "9102",
-        "9114",
+        "9503",
         "8543"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10738.306899999967,
-      "inputTokens": 841,
-      "outputTokens": 130,
+      "latencyMs": 16682.713699999964,
+      "inputTokens": 15,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357251",
@@ -3695,32 +3695,32 @@
       "candidates": [
         "9102",
         "9101",
-        "9103"
+        "9114"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11190.273099999991,
-      "inputTokens": 840,
-      "outputTokens": 118,
+      "latencyMs": 4577.697400000063,
+      "inputTokens": 14,
+      "outputTokens": 100,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N322971",
       "description": "a cooling wristband",
       "expected": "7117",
       "candidates": [
+        "6307",
         "6217",
-        "6117",
         "3926"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11701.517200000002,
-      "inputTokens": 839,
-      "outputTokens": 129,
+      "latencyMs": 7461.488199999905,
+      "inputTokens": 13,
+      "outputTokens": 108,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358456",
@@ -3729,15 +3729,15 @@
       "candidates": [
         "3305",
         "3307",
-        "3808"
+        "3402"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 11377.938300000038,
-      "inputTokens": 839,
-      "outputTokens": 129,
+      "latencyMs": 15016.657200000016,
+      "inputTokens": 13,
+      "outputTokens": 104,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N346484",
@@ -3745,16 +3745,16 @@
       "expected": "8205",
       "candidates": [
         "9018",
-        "8215",
-        "3304"
+        "8543",
+        "3926"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7370.224399999948,
-      "inputTokens": 839,
-      "outputTokens": 113,
+      "latencyMs": 9442.566999999923,
+      "inputTokens": 13,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N344746",
@@ -3763,15 +3763,15 @@
       "candidates": [
         "3305",
         "3304",
-        "3307"
+        "3402"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4205.209499999997,
-      "inputTokens": 908,
-      "outputTokens": 127,
+      "latencyMs": 5339.054600000032,
+      "inputTokens": 82,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N344747",
@@ -3780,15 +3780,15 @@
       "candidates": [
         "3305",
         "3304",
-        "3307"
+        "3402"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12493.848200000008,
-      "inputTokens": 851,
-      "outputTokens": 130,
+      "latencyMs": 25215.834499999997,
+      "inputTokens": 25,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N329760",
@@ -3801,11 +3801,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8662.11770000006,
-      "inputTokens": 902,
-      "outputTokens": 127,
+      "latencyMs": 6367.91929999995,
+      "inputTokens": 76,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N327317",
@@ -3814,49 +3814,49 @@
       "candidates": [
         "7616",
         "8302",
-        "7308"
+        "7326"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8362.424399999902,
-      "inputTokens": 838,
-      "outputTokens": 144,
+      "latencyMs": 12059.328800000018,
+      "inputTokens": 12,
+      "outputTokens": 110,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N302458",
       "description": "a “7 pc. Squeezable Bottle Kit”",
       "expected": "3924",
       "candidates": [
+        "3923",
         "3924",
-        "3926",
-        "3923"
+        "3926"
       ],
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8927.068800000008,
-      "inputTokens": 848,
-      "outputTokens": 97,
+      "latencyMs": 4648.115700000199,
+      "inputTokens": 22,
+      "outputTokens": 123,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N302530",
       "description": "SF1173 (D4) and SF1202 (D5)",
       "expected": "2931",
       "candidates": [
-        "8483",
-        "8482",
-        "8484"
+        "2902",
+        "2931",
+        "3910"
       ],
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8972.773099999991,
-      "inputTokens": 851,
-      "outputTokens": 132,
+      "top3Correct": true,
+      "latencyMs": 9371.05389999994,
+      "inputTokens": 25,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N298762",
@@ -3864,16 +3864,16 @@
       "expected": "8413",
       "candidates": [
         "8413",
-        "8424",
+        "8479",
         "3923"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14905.091299999971,
-      "inputTokens": 839,
-      "outputTokens": 140,
+      "latencyMs": 80544.14599999995,
+      "inputTokens": 13,
+      "outputTokens": 141,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N312928",
@@ -3886,11 +3886,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4224.322900000028,
-      "inputTokens": 838,
-      "outputTokens": 114,
+      "latencyMs": 9980.362100000028,
+      "inputTokens": 12,
+      "outputTokens": 121,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N312634",
@@ -3903,11 +3903,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4579.394300000044,
-      "inputTokens": 842,
-      "outputTokens": 115,
+      "latencyMs": 4153.772000000114,
+      "inputTokens": 16,
+      "outputTokens": 123,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N305925",
@@ -3916,15 +3916,15 @@
       "candidates": [
         "3307",
         "3304",
-        "3401"
+        "9605"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10488.635399999912,
-      "inputTokens": 845,
-      "outputTokens": 143,
+      "latencyMs": 8371.79740000004,
+      "inputTokens": 19,
+      "outputTokens": 135,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N353266",
@@ -3933,15 +3933,15 @@
       "candidates": [
         "9617",
         "7323",
-        "3924"
+        "7615"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12812.037099999958,
-      "inputTokens": 845,
-      "outputTokens": 109,
+      "latencyMs": 7231.554599999916,
+      "inputTokens": 19,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N336485",
@@ -3950,66 +3950,66 @@
       "candidates": [
         "3808",
         "3307",
-        "3402"
+        "3401"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4445.460099999909,
-      "inputTokens": 837,
-      "outputTokens": 127,
+      "latencyMs": 4386.995499999961,
+      "inputTokens": 11,
+      "outputTokens": 117,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N335826",
       "description": "Snow Color Markers",
       "expected": "3213",
       "candidates": [
-        "9608",
+        "9609",
         "3213",
-        "3212"
+        "3208"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4330.865600000019,
-      "inputTokens": 838,
-      "outputTokens": 128,
+      "latencyMs": 10903.185100000119,
+      "inputTokens": 12,
+      "outputTokens": 131,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N325431",
       "description": "a dog collar",
       "expected": "4201",
       "candidates": [
-        "6604",
         "4201",
-        "6217"
+        "6307",
+        "3926"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4166.15969999996,
-      "inputTokens": 837,
-      "outputTokens": 121,
+      "latencyMs": 8684.23760000011,
+      "inputTokens": 11,
+      "outputTokens": 109,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N357453",
       "description": "Frozen Braised Beef",
       "expected": "1602",
       "candidates": [
-        "0202",
         "1602",
-        "0210"
+        "0202",
+        "1601"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 16761.164100000053,
-      "inputTokens": 841,
-      "outputTokens": 142,
+      "latencyMs": 14745.579199999804,
+      "inputTokens": 15,
+      "outputTokens": 123,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N349684",
@@ -4022,11 +4022,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13363.298100000015,
-      "inputTokens": 840,
-      "outputTokens": 122,
+      "latencyMs": 4276.073700000066,
+      "inputTokens": 14,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N350527",
@@ -4039,11 +4039,11 @@
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7596.965800000005,
-      "inputTokens": 844,
-      "outputTokens": 118,
+      "latencyMs": 13313.999700000044,
+      "inputTokens": 18,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N321134",
@@ -4056,11 +4056,11 @@
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 10671.412699999986,
-      "inputTokens": 841,
-      "outputTokens": 128,
+      "latencyMs": 15703.599199999822,
+      "inputTokens": 15,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N306280",
@@ -4068,33 +4068,33 @@
       "expected": "8301",
       "candidates": [
         "8301",
-        "8302",
-        "3926"
+        "4202",
+        "8302"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9340.993600000045,
-      "inputTokens": 838,
-      "outputTokens": 127,
+      "latencyMs": 4424.63049999997,
+      "inputTokens": 12,
+      "outputTokens": 102,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N305865",
       "description": "welding cable locks",
       "expected": "8301",
       "candidates": [
-        "8311",
-        "8536",
-        "8484"
+        "8301",
+        "8544",
+        "8468"
       ],
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 10588.027699999977,
-      "inputTokens": 838,
-      "outputTokens": 149,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8990.325600000098,
+      "inputTokens": 12,
+      "outputTokens": 116,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N297759",
@@ -4103,15 +4103,15 @@
       "candidates": [
         "9617",
         "7323",
-        "7615"
+        "3924"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 13255.44299999997,
-      "inputTokens": 845,
-      "outputTokens": 121,
+      "latencyMs": 11174.636799999978,
+      "inputTokens": 19,
+      "outputTokens": 113,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N358918",
@@ -4119,16 +4119,16 @@
       "expected": "4901",
       "candidates": [
         "4901",
-        "4911",
-        "9502"
+        "4903",
+        "4820"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4652.323200000101,
-      "inputTokens": 838,
-      "outputTokens": 134,
+      "latencyMs": 4447.159200000111,
+      "inputTokens": 12,
+      "outputTokens": 114,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N356833",
@@ -4136,50 +4136,50 @@
       "expected": "3808",
       "candidates": [
         "3808",
-        "2930",
-        "1302"
+        "3824",
+        "1211"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9601.257899999968,
-      "inputTokens": 843,
-      "outputTokens": 155,
+      "latencyMs": 83634.86549999984,
+      "inputTokens": 17,
+      "outputTokens": 159,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N351670",
       "description": "oil hose reels",
       "expected": "4009",
       "candidates": [
-        "8307",
-        "7326",
-        "8413"
+        "8479",
+        "8413",
+        "8481"
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5039.7521000000415,
-      "inputTokens": 839,
-      "outputTokens": 115,
+      "latencyMs": 4727.241200000048,
+      "inputTokens": 13,
+      "outputTokens": 126,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N348330",
       "description": "ready-to-eat snack mixes",
       "expected": "2008",
       "candidates": [
-        "2106",
+        "2008",
         "1904",
-        "2008"
+        "2106"
       ],
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9926.249500000034,
-      "inputTokens": 843,
-      "outputTokens": 130,
+      "latencyMs": 14732.833300000057,
+      "inputTokens": 17,
+      "outputTokens": 144,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N342688",
@@ -4192,11 +4192,11 @@
       ],
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4323.3925000000745,
-      "inputTokens": 841,
-      "outputTokens": 141,
+      "latencyMs": 8685.661699999822,
+      "inputTokens": 15,
+      "outputTokens": 107,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N342775",
@@ -4204,16 +4204,16 @@
       "expected": "2309",
       "candidates": [
         "2309",
-        "3824",
+        "2836",
         "2936"
       ],
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4656.958999999915,
-      "inputTokens": 839,
-      "outputTokens": 121,
+      "latencyMs": 11547.256700000027,
+      "inputTokens": 13,
+      "outputTokens": 122,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     },
     {
       "id": "N341295",
@@ -4222,15 +4222,15 @@
       "candidates": [
         "4418",
         "4412",
-        "4421"
+        "4409"
       ],
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5247.168699999922,
-      "inputTokens": 839,
-      "outputTokens": 126,
+      "latencyMs": 10183.623399999924,
+      "inputTokens": 13,
+      "outputTokens": 118,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 39779
     }
   ]
 }
