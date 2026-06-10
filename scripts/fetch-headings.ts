@@ -33,15 +33,18 @@ async function main() {
   const lines = (await res.text()).split(/\r?\n/).slice(1);
 
   const headings: Record<string, string> = {};
+  const chapters: Record<string, string> = {};
   for (const line of lines) {
     if (!line.trim()) continue;
     const [, hscode, description, , level] = parseCsvLine(line);
     if (level === "4") headings[hscode] = description;
+    if (level === "2") chapters[hscode] = description;
   }
 
   mkdirSync("data", { recursive: true });
   writeFileSync("data/headings.json", JSON.stringify(headings, null, 2));
-  console.log(`Wrote ${Object.keys(headings).length} headings to data/headings.json`);
+  writeFileSync("data/chapters.json", JSON.stringify(chapters, null, 2));
+  console.log(`Wrote ${Object.keys(headings).length} headings and ${Object.keys(chapters).length} chapters`);
 }
 
 main();

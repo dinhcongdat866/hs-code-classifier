@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "model": "haiku",
+    "modelId": "claude-haiku-4-5",
+    "prompt": "two-stage",
+    "timestamp": "2026-06-10T16:24:48.098Z",
+    "n": 5,
+    "top1Accuracy": 0,
+    "top3Accuracy": 0.4,
+    "chapterRecall": 0.8,
+    "errors": 0,
+    "meanLatencyMs": 5481.118240000001,
+    "p95LatencyMs": 7402.542100000001,
+    "totalInputTokens": 21049,
+    "totalOutputTokens": 948,
+    "totalCostUsd": 0.025789,
+    "costPer1kSkusUsd": 5.1578
+  },
+  "results": [
+    {
+      "id": "N359709",
+      "description": "a woman’s jacket",
+      "expected": "6202",
+      "candidates": [
+        "6204",
+        "6102",
+        "6114"
+      ],
+      "pickedChapters": [
+        "62",
+        "61"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7402.542100000001,
+      "inputTokens": 4382,
+      "outputTokens": 192,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N346848",
+      "description": "a textile costume trunk",
+      "expected": "9505",
+      "candidates": [
+        "6304",
+        "6307",
+        "9403"
+      ],
+      "pickedChapters": [
+        "63",
+        "94"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5197.735199999999,
+      "inputTokens": 3511,
+      "outputTokens": 175,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341320",
+      "description": "a women’s recovery hoodie",
+      "expected": "6110",
+      "candidates": [
+        "6102",
+        "6110",
+        "6104"
+      ],
+      "pickedChapters": [
+        "61",
+        "62"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5763.8763,
+      "inputTokens": 4386,
+      "outputTokens": 196,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N335561",
+      "description": "a women’s hooded blouse",
+      "expected": "6106",
+      "candidates": [
+        "6206",
+        "6114",
+        "6102"
+      ],
+      "pickedChapters": [
+        "61",
+        "62"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4245.074300000002,
+      "inputTokens": 4388,
+      "outputTokens": 204,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334502",
+      "description": "women’s blouses",
+      "expected": "6106",
+      "candidates": [
+        "6206",
+        "6106",
+        "6204"
+      ],
+      "pickedChapters": [
+        "62",
+        "61"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4796.363299999999,
+      "inputTokens": 4382,
+      "outputTokens": 181,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    }
+  ]
+}
