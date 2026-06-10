@@ -1,20 +1,20 @@
 {
   "summary": {
-    "model": "haiku",
-    "modelId": "claude-haiku-4-5",
+    "model": "sonnet",
+    "modelId": "claude-sonnet-4-6",
     "prompt": "two-stage",
-    "timestamp": "2026-06-10T17:45:26.021Z",
+    "timestamp": "2026-06-10T17:08:49.510Z",
     "n": 248,
-    "top1Accuracy": 0.4838709677419355,
-    "top3Accuracy": 0.6733870967741935,
-    "chapterRecall": 0.8024193548387096,
-    "errors": 0,
-    "meanLatencyMs": 11103.94942298387,
-    "p95LatencyMs": 22097.882900000084,
-    "totalInputTokens": 1197044,
-    "totalOutputTokens": 44872,
-    "totalCostUsd": 1.421404,
-    "costPer1kSkusUsd": 5.731467741935483
+    "top1Accuracy": 0.5887096774193549,
+    "top3Accuracy": 0.7701612903225806,
+    "chapterRecall": 0.8387096774193549,
+    "errors": 1,
+    "meanLatencyMs": 14916.920887449394,
+    "p95LatencyMs": 31038.821999999927,
+    "totalInputTokens": 646319,
+    "totalOutputTokens": 46600,
+    "totalCostUsd": 2.80678335,
+    "costPer1kSkusUsd": 11.363495344129554
   },
   "results": [
     {
@@ -22,21 +22,21 @@
       "description": "a woman’s jacket",
       "expected": "6202",
       "candidates": [
+        "6202",
         "6204",
-        "6102",
-        "6202"
+        "6102"
       ],
       "pickedChapters": [
         "62",
         "61"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4590.2724,
-      "inputTokens": 4382,
-      "outputTokens": 182,
-      "cacheWriteTokens": 0,
+      "latencyMs": 9063.6379,
+      "inputTokens": 2207,
+      "outputTokens": 212,
+      "cacheWriteTokens": 2177,
       "cacheReadTokens": 0
     },
     {
@@ -44,30 +44,30 @@
       "description": "a textile costume trunk",
       "expected": "9505",
       "candidates": [
-        "6304",
+        "6306",
         "6307",
-        "3923"
+        "6305"
       ],
       "pickedChapters": [
         "63",
-        "39"
+        "62"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7253.5215,
-      "inputTokens": 4092,
-      "outputTokens": 174,
+      "latencyMs": 7967.7786,
+      "inputTokens": 1825,
+      "outputTokens": 219,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N341320",
       "description": "a women’s recovery hoodie",
       "expected": "6110",
       "candidates": [
-        "6102",
         "6110",
+        "6102",
         "6114"
       ],
       "pickedChapters": [
@@ -75,57 +75,57 @@
         "62"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6699.2681999999995,
-      "inputTokens": 4386,
-      "outputTokens": 212,
+      "latencyMs": 7741.342200000001,
+      "inputTokens": 2211,
+      "outputTokens": 222,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N335561",
       "description": "a women’s hooded blouse",
       "expected": "6106",
       "candidates": [
-        "6206",
-        "6104",
-        "6202"
+        "6106",
+        "6110",
+        "6104"
       ],
       "pickedChapters": [
         "61",
         "62"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 4784.253499999999,
-      "inputTokens": 4388,
-      "outputTokens": 199,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7682.406899999998,
+      "inputTokens": 2213,
+      "outputTokens": 201,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N334502",
       "description": "women’s blouses",
       "expected": "6106",
       "candidates": [
-        "6206",
         "6106",
-        "6204"
+        "6206",
+        "6211"
       ],
       "pickedChapters": [
         "61",
         "62"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4166.8616,
-      "inputTokens": 4382,
-      "outputTokens": 183,
+      "latencyMs": 7185.0963999999985,
+      "inputTokens": 2207,
+      "outputTokens": 198,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N329523",
@@ -143,11 +143,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5399.562300000001,
-      "inputTokens": 3539,
-      "outputTokens": 209,
+      "latencyMs": 8450.3934,
+      "inputTokens": 1364,
+      "outputTokens": 226,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N327601",
@@ -165,11 +165,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6293.843700000001,
-      "inputTokens": 4388,
-      "outputTokens": 208,
+      "latencyMs": 7219.207699999999,
+      "inputTokens": 2213,
+      "outputTokens": 211,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N319174",
@@ -177,7 +177,7 @@
       "expected": "6110",
       "candidates": [
         "6110",
-        "6114",
+        "6109",
         "6211"
       ],
       "pickedChapters": [
@@ -187,11 +187,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 3731.6632000000027,
-      "inputTokens": 4392,
-      "outputTokens": 178,
+      "latencyMs": 8321.944,
+      "inputTokens": 2217,
+      "outputTokens": 198,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N310402",
@@ -199,8 +199,8 @@
       "expected": "6211",
       "candidates": [
         "6111",
-        "6209",
-        "6112"
+        "6114",
+        "6211"
       ],
       "pickedChapters": [
         "61",
@@ -208,219 +208,21 @@
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 3641.1741,
-      "inputTokens": 4384,
-      "outputTokens": 179,
+      "top3Correct": true,
+      "latencyMs": 8323.329199999996,
+      "inputTokens": 2209,
+      "outputTokens": 222,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N306326",
       "description": "unisex jackets",
       "expected": "6102",
       "candidates": [
+        "6201",
         "6101",
-        "6102",
-        "6201"
-      ],
-      "pickedChapters": [
-        "61",
-        "62"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 4352.723900000001,
-      "inputTokens": 4384,
-      "outputTokens": 191,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N286274",
-      "description": "a girls’ jacket",
-      "expected": "6102",
-      "candidates": [
-        "6104",
-        "6202",
-        "6102"
-      ],
-      "pickedChapters": [
-        "61",
-        "62"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 4688.8865000000005,
-      "inputTokens": 4382,
-      "outputTokens": 192,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N336897",
-      "description": "polyethylene retail carrier bags",
-      "expected": "3923",
-      "candidates": [
-        "3923",
-        "3926",
-        "3920"
-      ],
-      "pickedChapters": [
-        "39",
-        "63"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 5136.193299999999,
-      "inputTokens": 4096,
-      "outputTokens": 160,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N336728",
-      "description": "women’s knit garments",
-      "expected": "6109",
-      "candidates": [
-        "6104",
-        "6106",
-        "6114"
-      ],
-      "pickedChapters": [
-        "61",
-        "62"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 4715.245799999997,
-      "inputTokens": 4386,
-      "outputTokens": 200,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N332869",
-      "description": "a boy’s garment",
-      "expected": "6109",
-      "candidates": [
-        "6111",
-        "6103",
-        "6114"
-      ],
-      "pickedChapters": [
-        "61",
-        "62"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 4658.719599999997,
-      "inputTokens": 4384,
-      "outputTokens": 230,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N331830",
-      "description": "a nonwoven t-shirt style bag",
-      "expected": "6307",
-      "candidates": [
-        "5603",
-        "3926",
-        "5609"
-      ],
-      "pickedChapters": [
-        "56",
-        "39"
-      ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 5557.876199999999,
-      "inputTokens": 4204,
-      "outputTokens": 190,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N325544",
-      "description": "biodegradable plastic bags",
-      "expected": "3923",
-      "candidates": [
-        "3923",
-        "3926",
-        "3920"
-      ],
-      "pickedChapters": [
-        "39",
-        "34"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 4947.144999999997,
-      "inputTokens": 4111,
-      "outputTokens": 194,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N309146",
-      "description": "biodegradable plastic retail carrier bags",
-      "expected": "3923",
-      "candidates": [
-        "3923",
-        "3926",
-        "3924"
-      ],
-      "pickedChapters": [
-        "39",
-        "34"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 4784.788500000002,
-      "inputTokens": 4115,
-      "outputTokens": 195,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N305981",
-      "description": "men’s knit garments",
-      "expected": "6109",
-      "candidates": [
-        "6110",
-        "6114",
-        "6105"
-      ],
-      "pickedChapters": [
-        "61",
-        "62"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 5018.861899999996,
-      "inputTokens": 4386,
-      "outputTokens": 204,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N301538",
-      "description": "men’s work shirt",
-      "expected": "6211",
-      "candidates": [
-        "6205",
-        "6203",
-        "6105"
+        "6211"
       ],
       "pickedChapters": [
         "62",
@@ -429,11 +231,209 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4288.565600000002,
-      "inputTokens": 4382,
+      "latencyMs": 8337.564300000002,
+      "inputTokens": 2209,
+      "outputTokens": 229,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N286274",
+      "description": "a girls’ jacket",
+      "expected": "6102",
+      "candidates": [
+        "6104",
+        "6202",
+        "6204"
+      ],
+      "pickedChapters": [
+        "61",
+        "62"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7176.263200000001,
+      "inputTokens": 2207,
+      "outputTokens": 215,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N336897",
+      "description": "polyethylene retail carrier bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "6305"
+      ],
+      "pickedChapters": [
+        "39",
+        "63"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8132.719799999999,
+      "inputTokens": 1921,
+      "outputTokens": 206,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N336728",
+      "description": "women’s knit garments",
+      "expected": "6109",
+      "candidates": [
+        "6104",
+        "6110",
+        "6109"
+      ],
+      "pickedChapters": [
+        "61",
+        "60"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9488.6394,
+      "inputTokens": 1769,
+      "outputTokens": 212,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N332869",
+      "description": "a boy’s garment",
+      "expected": "6109",
+      "candidates": [
+        "6103",
+        "6203",
+        "6109"
+      ],
+      "pickedChapters": [
+        "61",
+        "62"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6548.932200000003,
+      "inputTokens": 2209,
+      "outputTokens": 183,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N331830",
+      "description": "a nonwoven t-shirt style bag",
+      "expected": "6307",
+      "candidates": [
+        "6307",
+        "6305",
+        "3923"
+      ],
+      "pickedChapters": [
+        "63",
+        "39"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 18173.6382,
+      "inputTokens": 1927,
       "outputTokens": 194,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N325544",
+      "description": "biodegradable plastic bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "3907"
+      ],
+      "pickedChapters": [
+        "39",
+        "63"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7001.3096000000005,
+      "inputTokens": 1921,
+      "outputTokens": 197,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N309146",
+      "description": "biodegradable plastic retail carrier bags",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "6305"
+      ],
+      "pickedChapters": [
+        "39",
+        "63"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7342.532500000001,
+      "inputTokens": 1925,
+      "outputTokens": 202,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N305981",
+      "description": "men’s knit garments",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6105",
+        "6109"
+      ],
+      "pickedChapters": [
+        "61",
+        "60"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8227.931700000001,
+      "inputTokens": 1769,
+      "outputTokens": 196,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N301538",
+      "description": "men’s work shirt",
+      "expected": "6211",
+      "candidates": [
+        "6205",
+        "6105",
+        "6211"
+      ],
+      "pickedChapters": [
+        "62",
+        "61"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7165.564700000003,
+      "inputTokens": 2207,
+      "outputTokens": 202,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N323309",
@@ -451,55 +451,55 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5286.159,
-      "inputTokens": 4384,
-      "outputTokens": 201,
+      "latencyMs": 6969.596900000004,
+      "inputTokens": 2209,
+      "outputTokens": 206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N303026",
       "description": "women’s trousers",
       "expected": "6204",
       "candidates": [
-        "6204",
         "6104",
-        "6114"
+        "6204",
+        "6211"
       ],
       "pickedChapters": [
         "62",
         "61"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5083.669599999994,
-      "inputTokens": 4384,
-      "outputTokens": 190,
+      "latencyMs": 6848.227800000001,
+      "inputTokens": 2209,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360990",
       "description": "a textile Halloween Basket",
       "expected": "6307",
       "candidates": [
-        "6211",
-        "6304",
-        "6307"
+        "9505",
+        "6307",
+        "6305"
       ],
       "pickedChapters": [
         "63",
-        "62"
+        "95"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5419.197499999995,
-      "inputTokens": 4002,
-      "outputTokens": 182,
+      "latencyMs": 7618.164100000002,
+      "inputTokens": 1384,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360145",
@@ -517,99 +517,99 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5246.637200000005,
-      "inputTokens": 4153,
-      "outputTokens": 151,
+      "latencyMs": 6859.044300000009,
+      "inputTokens": 1978,
+      "outputTokens": 167,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360271",
       "description": "textile furniture",
       "expected": "9403",
       "candidates": [
-        "9404",
         "9403",
-        "5811"
+        "9404",
+        "6304"
       ],
       "pickedChapters": [
         "94",
-        "58"
+        "63"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6510.0422000000035,
-      "inputTokens": 3693,
-      "outputTokens": 198,
+      "latencyMs": 7706.361399999994,
+      "inputTokens": 1332,
+      "outputTokens": 176,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358985",
       "description": "bib-shaped textile coverings",
       "expected": "6307",
       "candidates": [
-        "6209",
-        "6217",
-        "6307"
+        "6307",
+        "6111",
+        "6117"
       ],
       "pickedChapters": [
         "63",
-        "62"
+        "61"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6367.823499999999,
-      "inputTokens": 4006,
-      "outputTokens": 184,
+      "latencyMs": 8732.877700000012,
+      "inputTokens": 1792,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358801",
       "description": "a framed canvas print",
       "expected": "4911",
       "candidates": [
-        "9405",
-        "9403",
-        "9406"
+        "4911",
+        "9701",
+        "4908"
       ],
       "pickedChapters": [
-        "62",
-        "94"
+        "97",
+        "49"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11436.765000000014,
-      "inputTokens": 3934,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8108.543900000004,
+      "inputTokens": 1350,
       "outputTokens": 170,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357841",
       "description": "two costumes",
       "expected": "9505",
       "candidates": [
-        "6114",
+        "9505",
         "6211",
-        "6210"
+        "6114"
       ],
       "pickedChapters": [
         "61",
         "62"
       ],
       "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 10181.22970000001,
-      "inputTokens": 4380,
-      "outputTokens": 167,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7472.963099999994,
+      "inputTokens": 2205,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N361012",
@@ -617,8 +617,8 @@
       "expected": "6211",
       "candidates": [
         "6106",
-        "6104",
-        "6109"
+        "6109",
+        "6206"
       ],
       "pickedChapters": [
         "61",
@@ -627,11 +627,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 18948.9844,
-      "inputTokens": 4380,
-      "outputTokens": 193,
+      "latencyMs": 7290.455199999997,
+      "inputTokens": 2205,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359769",
@@ -640,20 +640,20 @@
       "candidates": [
         "8419",
         "8479",
-        "8514"
+        "8477"
       ],
       "pickedChapters": [
         "84",
-        "85"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10038.764200000005,
-      "inputTokens": 7751,
-      "outputTokens": 170,
+      "latencyMs": 8060.818299999999,
+      "inputTokens": 4768,
+      "outputTokens": 201,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357848",
@@ -661,8 +661,8 @@
       "expected": "9021",
       "candidates": [
         "9021",
-        "9033",
-        "8487"
+        "9019",
+        "9031"
       ],
       "pickedChapters": [
         "90",
@@ -671,42 +671,20 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15676.508600000001,
-      "inputTokens": 7337,
-      "outputTokens": 211,
+      "latencyMs": 8385.174899999998,
+      "inputTokens": 5162,
+      "outputTokens": 204,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355778",
       "description": "wading boots",
       "expected": "6402",
       "candidates": [
-        "6401",
+        "6403",
         "6404",
         "6402"
-      ],
-      "pickedChapters": [
-        "64",
-        "65"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 6073.647799999992,
-      "inputTokens": 3478,
-      "outputTokens": 193,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N355201",
-      "description": "workout footwear",
-      "expected": "6405",
-      "candidates": [
-        "6402",
-        "6404",
-        "6405"
       ],
       "pickedChapters": [
         "64",
@@ -715,11 +693,33 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 22945.909499999994,
-      "inputTokens": 3497,
-      "outputTokens": 200,
+      "latencyMs": 7060.175199999998,
+      "inputTokens": 1320,
+      "outputTokens": 160,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N355201",
+      "description": "workout footwear",
+      "expected": "6405",
+      "candidates": [
+        "6404",
+        "6402",
+        "6403"
+      ],
+      "pickedChapters": [
+        "64",
+        "95"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 26246.685300000012,
+      "inputTokens": 1322,
+      "outputTokens": 166,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N350749",
@@ -727,8 +727,8 @@
       "expected": "6115",
       "candidates": [
         "6115",
-        "6116",
-        "6117"
+        "6111",
+        "6116"
       ],
       "pickedChapters": [
         "61",
@@ -737,11 +737,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10614.625799999994,
-      "inputTokens": 4390,
-      "outputTokens": 183,
+      "latencyMs": 13785.094300000012,
+      "inputTokens": 2215,
+      "outputTokens": 200,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348907",
@@ -749,21 +749,21 @@
       "expected": "9021",
       "candidates": [
         "9021",
-        "6406",
-        "9018"
+        "6307",
+        "9033"
       ],
       "pickedChapters": [
-        "64",
-        "90"
+        "90",
+        "63"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5584.830400000006,
-      "inputTokens": 4428,
-      "outputTokens": 212,
+      "latencyMs": 8710.852100000004,
+      "inputTokens": 2313,
+      "outputTokens": 206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N339073",
@@ -772,29 +772,7 @@
       "candidates": [
         "5509",
         "5511",
-        "5515"
-      ],
-      "pickedChapters": [
-        "55",
-        "56"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 6297.2081000000035,
-      "inputTokens": 3815,
-      "outputTokens": 211,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N339080",
-      "description": "drawn textured polypropylene yarns",
-      "expected": "5402",
-      "candidates": [
-        "5402",
-        "5406",
-        "5509"
+        "5402"
       ],
       "pickedChapters": [
         "55",
@@ -803,11 +781,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14863.241900000008,
-      "inputTokens": 3752,
-      "outputTokens": 211,
+      "latencyMs": 6373.1633,
+      "inputTokens": 1569,
+      "outputTokens": 210,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N339080",
+      "description": "drawn textured polypropylene yarns",
+      "expected": "5402",
+      "candidates": [
+        "5402",
+        "5406",
+        "5404"
+      ],
+      "pickedChapters": [
+        "54",
+        "55"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7432.0965,
+      "inputTokens": 1577,
+      "outputTokens": 238,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340134",
@@ -825,11 +825,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7360.03780000002,
-      "inputTokens": 4380,
-      "outputTokens": 206,
+      "latencyMs": 6741.39850000001,
+      "inputTokens": 2205,
+      "outputTokens": 190,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N334203",
@@ -837,43 +837,43 @@
       "expected": "9019",
       "candidates": [
         "9019",
-        "9021",
-        "9506"
+        "9603",
+        "9018"
       ],
       "pickedChapters": [
         "90",
-        "95"
+        "96"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8183.760699999984,
-      "inputTokens": 4464,
-      "outputTokens": 177,
+      "latencyMs": 7489.1921,
+      "inputTokens": 2738,
+      "outputTokens": 186,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N329665",
       "description": "three steel hangers",
       "expected": "8302",
       "candidates": [
+        "7323",
         "7326",
-        "7318",
-        "8205"
+        "7318"
       ],
       "pickedChapters": [
         "73",
-        "82"
+        "44"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8167.055099999998,
-      "inputTokens": 4579,
-      "outputTokens": 167,
+      "latencyMs": 8389.66339999999,
+      "inputTokens": 2516,
+      "outputTokens": 196,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N323706",
@@ -886,16 +886,16 @@
       ],
       "pickedChapters": [
         "52",
-        "54"
+        "63"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11731.717000000004,
-      "inputTokens": 3654,
-      "outputTokens": 195,
+      "latencyMs": 6304.975000000006,
+      "inputTokens": 1448,
+      "outputTokens": 186,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N318785",
@@ -904,20 +904,20 @@
       "candidates": [
         "7019",
         "7020",
-        "7001"
+        "6815"
       ],
       "pickedChapters": [
         "70",
-        "71"
+        "68"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12367.882200000022,
-      "inputTokens": 4214,
-      "outputTokens": 150,
+      "latencyMs": 7773.7978,
+      "inputTokens": 2139,
+      "outputTokens": 170,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N326678",
@@ -926,7 +926,7 @@
       "candidates": [
         "6402",
         "6404",
-        "6405"
+        "6403"
       ],
       "pickedChapters": [
         "64",
@@ -934,34 +934,34 @@
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8488.10090000002,
-      "inputTokens": 4848,
-      "outputTokens": 197,
+      "top3Correct": true,
+      "latencyMs": 7859.072100000005,
+      "inputTokens": 2673,
+      "outputTokens": 189,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N287202",
       "description": "the Razor “Jetts DLX”",
       "expected": "9506",
       "candidates": [
-        "9503",
         "9506",
-        "8711"
+        "6406",
+        "6402"
       ],
       "pickedChapters": [
         "95",
-        "87"
+        "64"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11375.296400000021,
-      "inputTokens": 3710,
-      "outputTokens": 206,
+      "latencyMs": 7832.6054,
+      "inputTokens": 1336,
+      "outputTokens": 192,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N354200",
@@ -969,8 +969,8 @@
       "expected": "6402",
       "candidates": [
         "6402",
-        "6405",
-        "3924"
+        "6401",
+        "6405"
       ],
       "pickedChapters": [
         "64",
@@ -979,11 +979,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8789.045199999993,
-      "inputTokens": 4040,
-      "outputTokens": 191,
+      "latencyMs": 22498.88090000002,
+      "inputTokens": 1865,
+      "outputTokens": 228,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N354301",
@@ -991,8 +991,8 @@
       "expected": "6402",
       "candidates": [
         "6402",
-        "6405",
-        "6404"
+        "6401",
+        "6405"
       ],
       "pickedChapters": [
         "64",
@@ -1001,55 +1001,55 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8216.225399999996,
-      "inputTokens": 4044,
-      "outputTokens": 177,
+      "latencyMs": 10686.229199999987,
+      "inputTokens": 1869,
+      "outputTokens": 228,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356922",
       "description": "a double-walled vacuum sealed stainless-steel tumbler",
       "expected": "9617",
       "candidates": [
-        "7310",
-        "7326",
-        "7323"
+        "9617",
+        "7323",
+        "7326"
       ],
       "pickedChapters": [
         "73",
-        "76"
+        "39"
       ],
       "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11123.327099999995,
-      "inputTokens": 4413,
-      "outputTokens": 180,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12773.511200000008,
+      "inputTokens": 2583,
+      "outputTokens": 200,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355693",
       "description": "an electromagnetic stimulation device",
       "expected": "8543",
       "candidates": [
-        "8505",
-        "8543",
-        "9018"
+        "9018",
+        "9019",
+        "8543"
       ],
       "pickedChapters": [
-        "85",
-        "90"
+        "90",
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 13914.554800000013,
-      "inputTokens": 5803,
-      "outputTokens": 170,
+      "latencyMs": 7818.213000000018,
+      "inputTokens": 3628,
+      "outputTokens": 195,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353548",
@@ -1067,33 +1067,27 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10768.846099999995,
-      "inputTokens": 3963,
-      "outputTokens": 176,
+      "latencyMs": 13891.555599999992,
+      "inputTokens": 1788,
+      "outputTokens": 207,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N325666",
       "description": "a cap insert",
       "expected": "6507",
-      "candidates": [
-        "6507",
-        "6505",
-        "6506"
-      ],
-      "pickedChapters": [
-        "65",
-        "66"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 6340.038300000015,
-      "inputTokens": 3350,
-      "outputTokens": 188,
+      "candidates": [],
+      "pickedChapters": [],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 21539.684600000008,
+      "inputTokens": 0,
+      "outputTokens": 0,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 0,
+      "error": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: a5a2fca4-8abf-4f03-8c4d-106aab4c60aa, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"},\"request_id\":\"req_011CbuvZUSkixtjvZ5RvfyB4\"}"
     },
     {
       "id": "N356180",
@@ -1111,33 +1105,33 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 21343.466199999995,
-      "inputTokens": 4384,
-      "outputTokens": 182,
+      "latencyMs": 10350.60990000001,
+      "inputTokens": 2209,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347381",
       "description": "an outsole roughing and sanding machine",
       "expected": "8477",
       "candidates": [
-        "8465",
+        "8453",
         "8460",
         "8479"
       ],
       "pickedChapters": [
         "84",
-        "82"
+        "64"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5589.275599999994,
-      "inputTokens": 6792,
-      "outputTokens": 199,
+      "latencyMs": 8862.403900000005,
+      "inputTokens": 4203,
+      "outputTokens": 231,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N336251",
@@ -1145,8 +1139,52 @@
       "expected": "3926",
       "candidates": [
         "6217",
-        "6212",
-        "6214"
+        "4203",
+        "6217"
+      ],
+      "pickedChapters": [
+        "62",
+        "42"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 13492.335200000001,
+      "inputTokens": 1727,
+      "outputTokens": 175,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N330959",
+      "description": "an emergency survival backpack kit",
+      "expected": "8527",
+      "candidates": [
+        "6306",
+        "6307",
+        "9506"
+      ],
+      "pickedChapters": [
+        "63",
+        "95"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 10897.054399999994,
+      "inputTokens": 1386,
+      "outputTokens": 197,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N315669",
+      "description": "a faux leather jacket",
+      "expected": "3926",
+      "candidates": [
+        "6210",
+        "6211",
+        "6201"
       ],
       "pickedChapters": [
         "62",
@@ -1155,55 +1193,11 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 14005.521999999997,
-      "inputTokens": 4382,
-      "outputTokens": 202,
+      "latencyMs": 22852.748899999977,
+      "inputTokens": 2209,
+      "outputTokens": 266,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N330959",
-      "description": "an emergency survival backpack kit",
-      "expected": "8527",
-      "candidates": [
-        "4202",
-        "9506",
-        "4201"
-      ],
-      "pickedChapters": [
-        "95",
-        "42"
-      ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 7672.390799999994,
-      "inputTokens": 3463,
-      "outputTokens": 193,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N315669",
-      "description": "a faux leather jacket",
-      "expected": "3926",
-      "candidates": [
-        "6201",
-        "6202",
-        "3926"
-      ],
-      "pickedChapters": [
-        "62",
-        "39"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 10675.205300000001,
-      "inputTokens": 4515,
-      "outputTokens": 194,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352981",
@@ -1211,8 +1205,8 @@
       "expected": "8517",
       "candidates": [
         "8537",
-        "8536",
-        "8543"
+        "8543",
+        "8536"
       ],
       "pickedChapters": [
         "85",
@@ -1221,33 +1215,33 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10939.311999999976,
-      "inputTokens": 7749,
-      "outputTokens": 170,
+      "latencyMs": 7086.864000000001,
+      "inputTokens": 5574,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N350114",
       "description": "a personal assistant robot",
       "expected": "8543",
       "candidates": [
+        "8479",
         "8543",
-        "8471",
-        "8509"
+        "8471"
       ],
       "pickedChapters": [
         "85",
         "84"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 13291.079999999987,
-      "inputTokens": 7749,
-      "outputTokens": 176,
+      "latencyMs": 22214.97959999999,
+      "inputTokens": 5574,
+      "outputTokens": 173,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348181",
@@ -1256,42 +1250,42 @@
       "candidates": [
         "8517",
         "8543",
-        "8541"
+        "9031"
       ],
       "pickedChapters": [
         "85",
-        "91"
+        "71"
       ],
       "chapterRecall": false,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 15367.718400000012,
-      "inputTokens": 4926,
-      "outputTokens": 197,
+      "top3Correct": true,
+      "latencyMs": 19005.705199999997,
+      "inputTokens": 2947,
+      "outputTokens": 210,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347828",
       "description": "an effects pedal",
       "expected": "8543",
       "candidates": [
+        "9207",
         "8543",
-        "8518",
-        "8536"
+        "9209"
       ],
       "pickedChapters": [
         "85",
         "92"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 18100.795299999998,
-      "inputTokens": 4896,
+      "latencyMs": 39668.624500000005,
+      "inputTokens": 2721,
       "outputTokens": 164,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N341281",
@@ -1300,42 +1294,42 @@
       "candidates": [
         "8518",
         "8543",
-        "8521"
+        "8531"
       ],
       "pickedChapters": [
         "85",
-        "90"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12975.766199999984,
-      "inputTokens": 5807,
-      "outputTokens": 174,
+      "latencyMs": 17141.31639999998,
+      "inputTokens": 3244,
+      "outputTokens": 164,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340401",
       "description": "a plastic water bottle",
       "expected": "3924",
       "candidates": [
-        "3923",
         "3924",
+        "3923",
         "3926"
       ],
       "pickedChapters": [
         "39",
-        "84"
+        "73"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14301.575000000012,
-      "inputTokens": 6941,
-      "outputTokens": 178,
+      "latencyMs": 18158.436799999996,
+      "inputTokens": 2563,
+      "outputTokens": 174,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340388",
@@ -1343,43 +1337,43 @@
       "expected": "8518",
       "candidates": [
         "8518",
-        "8519",
-        "8543"
+        "8543",
+        "8527"
       ],
       "pickedChapters": [
         "85",
-        "94"
+        "84"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10512.990500000014,
-      "inputTokens": 4842,
-      "outputTokens": 191,
+      "latencyMs": 29766.49840000001,
+      "inputTokens": 5584,
+      "outputTokens": 175,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340130",
       "description": "a 5-Tool Combo Kit Power Tool Set",
       "expected": "8467",
       "candidates": [
-        "8206",
         "8467",
-        "8479"
+        "8479",
+        "8466"
       ],
       "pickedChapters": [
-        "84",
-        "82"
+        "85",
+        "84"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11907.666199999978,
-      "inputTokens": 6796,
-      "outputTokens": 171,
+      "latencyMs": 13745.379400000005,
+      "inputTokens": 5588,
+      "outputTokens": 193,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N337970",
@@ -1397,11 +1391,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 17326.420199999993,
-      "inputTokens": 4930,
-      "outputTokens": 193,
+      "latencyMs": 13263.607699999993,
+      "inputTokens": 2755,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N335141",
@@ -1409,21 +1403,21 @@
       "expected": "8703",
       "candidates": [
         "8703",
-        "8705",
-        "8704"
+        "9503",
+        "9506"
       ],
       "pickedChapters": [
         "87",
-        "85"
+        "95"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15219.737000000023,
-      "inputTokens": 5045,
-      "outputTokens": 206,
+      "latencyMs": 24022.470299999986,
+      "inputTokens": 1527,
+      "outputTokens": 190,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N326117",
@@ -1431,74 +1425,8 @@
       "expected": "8518",
       "candidates": [
         "8518",
-        "8517",
-        "8543"
-      ],
-      "pickedChapters": [
-        "85",
-        "90"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 14622.145000000019,
-      "inputTokens": 5803,
-      "outputTokens": 174,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N322422",
-      "description": "hoverboard accessories",
-      "expected": "8714",
-      "candidates": [
-        "8714",
-        "8708",
-        "9506"
-      ],
-      "pickedChapters": [
-        "95",
-        "87"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 7566.664199999999,
-      "inputTokens": 3696,
-      "outputTokens": 230,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N315726",
-      "description": "a digital media player",
-      "expected": "8517",
-      "candidates": [
-        "8521",
-        "8519",
-        "8543"
-      ],
-      "pickedChapters": [
-        "85",
-        "90"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 10071.13010000001,
-      "inputTokens": 5801,
-      "outputTokens": 173,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N313553",
-      "description": "radio-broadcast receivers",
-      "expected": "8527",
-      "candidates": [
-        "8527",
-        "8528",
-        "8517"
+        "8543",
+        "8519"
       ],
       "pickedChapters": [
         "85",
@@ -1507,20 +1435,86 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13804.224300000002,
-      "inputTokens": 7749,
-      "outputTokens": 164,
+      "latencyMs": 16751.820299999992,
+      "inputTokens": 5576,
+      "outputTokens": 185,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N322422",
+      "description": "hoverboard accessories",
+      "expected": "8714",
+      "candidates": [
+        "9506",
+        "8543",
+        "8507"
+      ],
+      "pickedChapters": [
+        "95",
+        "85"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 37634.07579999999,
+      "inputTokens": 2703,
+      "outputTokens": 179,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N315726",
+      "description": "a digital media player",
+      "expected": "8517",
+      "candidates": [
+        "8521",
+        "8543",
+        "8471"
+      ],
+      "pickedChapters": [
+        "85",
+        "84"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 17992.879099999962,
+      "inputTokens": 5574,
+      "outputTokens": 169,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N313553",
+      "description": "radio-broadcast receivers",
+      "expected": "8527",
+      "candidates": [
+        "8527",
+        "8517",
+        "8543"
+      ],
+      "pickedChapters": [
+        "85",
+        "90"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 32140.306300000026,
+      "inputTokens": 3626,
+      "outputTokens": 189,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357069",
       "description": "a tinnitus treatment device",
       "expected": "9018",
       "candidates": [
-        "8517",
+        "9021",
         "9018",
-        "8543"
+        "9019"
       ],
       "pickedChapters": [
         "90",
@@ -1529,11 +1523,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 18671.945999999996,
-      "inputTokens": 5805,
-      "outputTokens": 192,
+      "latencyMs": 15463.855500000005,
+      "inputTokens": 3630,
+      "outputTokens": 204,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352742",
@@ -1542,7 +1536,7 @@
       "candidates": [
         "9113",
         "9114",
-        "4202"
+        "4203"
       ],
       "pickedChapters": [
         "91",
@@ -1551,19 +1545,19 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15393.0184,
-      "inputTokens": 3507,
-      "outputTokens": 195,
+      "latencyMs": 17631.93670000002,
+      "inputTokens": 1332,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N339719",
       "description": "the FightCamp console and tracker set",
       "expected": "9031",
       "candidates": [
-        "8504",
         "8543",
+        "8517",
         "9506"
       ],
       "pickedChapters": [
@@ -1573,59 +1567,37 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7565.658100000001,
-      "inputTokens": 4888,
-      "outputTokens": 164,
+      "latencyMs": 24031.20319999999,
+      "inputTokens": 2713,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N296023",
       "description": "the “Herovision” Augmented Reality (AR) set",
       "expected": "9004",
       "candidates": [
-        "8524",
-        "8528",
-        "8543"
+        "9004",
+        "8543",
+        "8528"
       ],
       "pickedChapters": [
         "90",
         "85"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 25961.278099999996,
-      "inputTokens": 5823,
-      "outputTokens": 164,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 13460.820899999992,
+      "inputTokens": 3648,
+      "outputTokens": 179,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N287497",
       "description": "the “R2-D2” smart toy robot",
-      "expected": "9503",
-      "candidates": [
-        "9503",
-        "8543",
-        "8517"
-      ],
-      "pickedChapters": [
-        "95",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 5262.439699999988,
-      "inputTokens": 4892,
-      "outputTokens": 156,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N287580",
-      "description": "the “Cars Lightning McQueen” smart toy",
       "expected": "9503",
       "candidates": [
         "9503",
@@ -1639,11 +1611,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5503.97570000001,
-      "inputTokens": 4890,
-      "outputTokens": 178,
+      "latencyMs": 13070.679799999984,
+      "inputTokens": 2717,
+      "outputTokens": 169,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N287580",
+      "description": "the “Cars Lightning McQueen” smart toy",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "8543",
+        "8517"
+      ],
+      "pickedChapters": [
+        "95",
+        "85"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 33963.21840000001,
+      "inputTokens": 2715,
+      "outputTokens": 184,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347600",
@@ -1652,29 +1646,29 @@
       "candidates": [
         "8310",
         "8306",
-        "8302"
+        "3919"
       ],
       "pickedChapters": [
         "83",
-        "82"
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13773.7684,
-      "inputTokens": 4189,
-      "outputTokens": 174,
+      "latencyMs": 12554.286499999987,
+      "inputTokens": 2173,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347798",
       "description": "an LCD home automation hub",
       "expected": "8531",
       "candidates": [
-        "8528",
-        "8517",
-        "8543"
+        "8537",
+        "8543",
+        "8471"
       ],
       "pickedChapters": [
         "85",
@@ -1683,121 +1677,121 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13464.798499999975,
-      "inputTokens": 7751,
-      "outputTokens": 158,
+      "latencyMs": 14894.660799999954,
+      "inputTokens": 5576,
+      "outputTokens": 162,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N341056",
       "description": "a wood identification kit",
       "expected": "9013",
       "candidates": [
-        "9023",
-        "4421",
-        "9031"
+        "4901",
+        "4911",
+        "4421"
       ],
       "pickedChapters": [
-        "44",
-        "90"
+        "49",
+        "44"
       ],
-      "chapterRecall": true,
+      "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7680.809600000037,
-      "inputTokens": 4946,
-      "outputTokens": 160,
+      "latencyMs": 19638.52740000002,
+      "inputTokens": 1899,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N337421",
       "description": "a card holder",
       "expected": "4202",
       "candidates": [
-        "3926",
         "4202",
-        "3924"
+        "3926",
+        "4205"
       ],
       "pickedChapters": [
         "42",
         "39"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14167.267299999949,
-      "inputTokens": 3992,
-      "outputTokens": 168,
+      "latencyMs": 12468.219600000011,
+      "inputTokens": 1817,
+      "outputTokens": 167,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N336903",
       "description": "a cell phone cover with a card case",
       "expected": "4202",
       "candidates": [
-        "3926",
         "4202",
-        "3924"
+        "3926",
+        "4205"
       ],
       "pickedChapters": [
-        "42",
-        "39"
+        "39",
+        "42"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14602.3468,
-      "inputTokens": 4002,
-      "outputTokens": 210,
+      "latencyMs": 10349.322800000024,
+      "inputTokens": 1827,
+      "outputTokens": 188,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N336451",
       "description": "a streaming set",
       "expected": "9620",
       "candidates": [
-        "8525",
-        "8471",
+        "8517",
+        "8528",
         "8543"
       ],
       "pickedChapters": [
         "85",
-        "84"
+        "94"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 6269.440200000012,
-      "inputTokens": 7747,
-      "outputTokens": 176,
+      "latencyMs": 22532.652299999958,
+      "inputTokens": 2655,
+      "outputTokens": 212,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N335514",
       "description": "the Magsafe Fingerloop Stand",
       "expected": "7616",
       "candidates": [
-        "3926",
-        "8543",
-        "3924"
+        "8505",
+        "8517",
+        "3926"
       ],
       "pickedChapters": [
-        "39",
-        "85"
+        "85",
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 24528.440900000045,
-      "inputTokens": 5423,
-      "outputTokens": 176,
+      "latencyMs": 8192.08659999998,
+      "inputTokens": 3248,
+      "outputTokens": 192,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N326427",
@@ -1805,30 +1799,30 @@
       "expected": "6406",
       "candidates": [
         "6406",
-        "6405",
+        "3926",
         "6402"
       ],
       "pickedChapters": [
         "64",
-        "12"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13604.192099999986,
-      "inputTokens": 3660,
-      "outputTokens": 185,
+      "latencyMs": 24713.615500000014,
+      "inputTokens": 1859,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N325560",
       "description": "the Aavia Pill Case",
       "expected": "9031",
       "candidates": [
+        "4202",
         "3924",
-        "3926",
-        "4202"
+        "3926"
       ],
       "pickedChapters": [
         "39",
@@ -1837,41 +1831,41 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9853.586699999985,
-      "inputTokens": 4000,
-      "outputTokens": 165,
+      "latencyMs": 10395.222200000018,
+      "inputTokens": 1825,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N316886",
       "description": "a phone case with magnifier",
       "expected": "9013",
       "candidates": [
-        "9002",
         "9004",
-        "4202"
+        "3926",
+        "9013"
       ],
       "pickedChapters": [
-        "42",
+        "39",
         "90"
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 6248.446799999976,
-      "inputTokens": 4386,
-      "outputTokens": 183,
+      "top3Correct": true,
+      "latencyMs": 7387.505100000009,
+      "inputTokens": 2822,
+      "outputTokens": 196,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N315234",
       "description": "privacy phone booths and components",
       "expected": "9403",
       "candidates": [
-        "9406",
         "9403",
+        "9406",
         "3926"
       ],
       "pickedChapters": [
@@ -1879,35 +1873,35 @@
         "39"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13967.178300000029,
-      "inputTokens": 4028,
-      "outputTokens": 164,
+      "latencyMs": 20023.579700000002,
+      "inputTokens": 1853,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N306755",
       "description": "cell phone lanyard",
       "expected": "5609",
       "candidates": [
+        "6307",
         "3926",
-        "4202",
-        "3924"
+        "6305"
       ],
       "pickedChapters": [
-        "42",
+        "63",
         "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8024.200399999972,
-      "inputTokens": 3994,
-      "outputTokens": 210,
+      "latencyMs": 6989.075699999987,
+      "inputTokens": 1917,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359291",
@@ -1915,21 +1909,21 @@
       "expected": "8504",
       "candidates": [
         "8504",
-        "8543",
-        "8516"
+        "8507",
+        "8543"
       ],
       "pickedChapters": [
         "85",
-        "84"
+        "90"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 17614.305699999968,
-      "inputTokens": 7755,
-      "outputTokens": 167,
+      "latencyMs": 26752.197400000005,
+      "inputTokens": 3632,
+      "outputTokens": 183,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359612",
@@ -1938,6 +1932,28 @@
       "candidates": [
         "8467",
         "8479",
+        "8436"
+      ],
+      "pickedChapters": [
+        "84",
+        "85"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8241.007000000041,
+      "inputTokens": 5586,
+      "outputTokens": 208,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N359248",
+      "description": "a robotic pool skimmer",
+      "expected": "8421",
+      "candidates": [
+        "8479",
+        "8421",
         "8543"
       ],
       "pickedChapters": [
@@ -1947,33 +1963,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5704.539199999999,
-      "inputTokens": 7761,
-      "outputTokens": 200,
+      "latencyMs": 51654.98720000003,
+      "inputTokens": 5580,
+      "outputTokens": 206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N359248",
-      "description": "a robotic pool skimmer",
-      "expected": "8421",
-      "candidates": [
-        "8479",
-        "8543",
-        "8421"
-      ],
-      "pickedChapters": [
-        "84",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 25704.132700000016,
-      "inputTokens": 7755,
-      "outputTokens": 188,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359206",
@@ -1981,21 +1975,21 @@
       "expected": "8479",
       "candidates": [
         "8479",
-        "8481",
+        "8413",
         "8424"
       ],
       "pickedChapters": [
         "84",
-        "34"
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11729.445899999992,
-      "inputTokens": 6453,
-      "outputTokens": 165,
+      "latencyMs": 16862.031599999988,
+      "inputTokens": 5584,
+      "outputTokens": 193,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356789",
@@ -2003,8 +1997,8 @@
       "expected": "8504",
       "candidates": [
         "8504",
-        "8543",
-        "8507"
+        "8507",
+        "8543"
       ],
       "pickedChapters": [
         "85",
@@ -2013,11 +2007,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 18043.467500000028,
-      "inputTokens": 7751,
-      "outputTokens": 171,
+      "latencyMs": 18456.396800000046,
+      "inputTokens": 5576,
+      "outputTokens": 185,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356778",
@@ -2026,20 +2020,20 @@
       "candidates": [
         "4901",
         "4911",
-        "4902"
+        "4909"
       ],
       "pickedChapters": [
         "49",
-        "48"
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10389.889200000034,
-      "inputTokens": 4276,
-      "outputTokens": 159,
+      "latencyMs": 18207.764399999985,
+      "inputTokens": 2752,
+      "outputTokens": 178,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356154",
@@ -2047,8 +2041,8 @@
       "expected": "8479",
       "candidates": [
         "8479",
-        "8543",
-        "8487"
+        "8471",
+        "8543"
       ],
       "pickedChapters": [
         "84",
@@ -2057,11 +2051,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 17834.286299999978,
-      "inputTokens": 7747,
-      "outputTokens": 159,
+      "latencyMs": 39424.49720000004,
+      "inputTokens": 5572,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355848",
@@ -2069,7 +2063,7 @@
       "expected": "8467",
       "candidates": [
         "8206",
-        "8507",
+        "8205",
         "8543"
       ],
       "pickedChapters": [
@@ -2079,33 +2073,33 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 15028.256599999964,
-      "inputTokens": 5264,
-      "outputTokens": 183,
+      "latencyMs": 27732.354399999953,
+      "inputTokens": 3089,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353154",
       "description": "portable oxygen concentrators",
       "expected": "9019",
       "candidates": [
-        "8419",
-        "8421",
-        "9032"
+        "9019",
+        "9018",
+        "8479"
       ],
       "pickedChapters": [
-        "84",
-        "90"
+        "90",
+        "84"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11834.324699999997,
-      "inputTokens": 7329,
-      "outputTokens": 202,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 13269.326000000001,
+      "inputTokens": 5154,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352352",
@@ -2113,30 +2107,30 @@
       "expected": "9021",
       "candidates": [
         "9021",
-        "3926",
+        "9018",
         "9033"
       ],
       "pickedChapters": [
         "90",
-        "39"
+        "84"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 20296.99959999998,
-      "inputTokens": 5013,
-      "outputTokens": 217,
+      "latencyMs": 36171.81569999998,
+      "inputTokens": 5174,
+      "outputTokens": 219,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N350173",
       "description": "an LED clip-on light",
       "expected": "8513",
       "candidates": [
-        "8539",
+        "9405",
         "8513",
-        "9405"
+        "8539"
       ],
       "pickedChapters": [
         "85",
@@ -2145,11 +2139,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 20424.711899999995,
-      "inputTokens": 4836,
-      "outputTokens": 180,
+      "latencyMs": 26357.998099999968,
+      "inputTokens": 2661,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N346962",
@@ -2157,52 +2151,52 @@
       "expected": "9505",
       "candidates": [
         "9505",
-        "3926",
-        "3924"
+        "9403",
+        "9405"
       ],
       "pickedChapters": [
         "95",
-        "39"
+        "94"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4494.599700000021,
-      "inputTokens": 4068,
-      "outputTokens": 164,
+      "latencyMs": 15507.012999999977,
+      "inputTokens": 1312,
+      "outputTokens": 184,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N344651",
       "description": "a liquid crystal lighting device",
       "expected": "9013",
       "candidates": [
+        "9405",
         "8539",
-        "8543",
         "8524"
       ],
       "pickedChapters": [
-        "85",
-        "90"
+        "94",
+        "85"
       ],
-      "chapterRecall": true,
+      "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 17204.222699999984,
-      "inputTokens": 5803,
-      "outputTokens": 171,
+      "latencyMs": 16428.28450000001,
+      "inputTokens": 2659,
+      "outputTokens": 174,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N337034",
       "description": "LED lamp boards",
       "expected": "8539",
       "candidates": [
+        "8534",
         "8541",
-        "8539",
-        "8542"
+        "8548"
       ],
       "pickedChapters": [
         "85",
@@ -2210,12 +2204,12 @@
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 5675.52489999996,
-      "inputTokens": 4830,
-      "outputTokens": 170,
+      "top3Correct": false,
+      "latencyMs": 16155.72570000001,
+      "inputTokens": 2655,
+      "outputTokens": 168,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N334432",
@@ -2224,7 +2218,7 @@
       "candidates": [
         "9405",
         "8539",
-        "8512"
+        "8543"
       ],
       "pickedChapters": [
         "94",
@@ -2233,33 +2227,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12315.009899999946,
-      "inputTokens": 4828,
-      "outputTokens": 202,
+      "latencyMs": 22173.758199999982,
+      "inputTokens": 2653,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N351198",
       "description": "piano overlays",
       "expected": "4911",
       "candidates": [
+        "9209",
         "9201",
-        "3926",
-        "9209"
+        "8543"
       ],
       "pickedChapters": [
-        "92",
-        "39"
+        "85",
+        "92"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 20577.513200000045,
-      "inputTokens": 4086,
-      "outputTokens": 178,
+      "latencyMs": 13499.86910000001,
+      "inputTokens": 2719,
+      "outputTokens": 176,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N318809",
@@ -2267,8 +2261,8 @@
       "expected": "8471",
       "candidates": [
         "8471",
-        "8543",
-        "8501"
+        "8473",
+        "8543"
       ],
       "pickedChapters": [
         "84",
@@ -2277,33 +2271,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6110.36950000003,
-      "inputTokens": 7761,
-      "outputTokens": 157,
+      "latencyMs": 19009.301699999953,
+      "inputTokens": 5586,
+      "outputTokens": 199,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N310447",
       "description": "a Kurio Next Tablet",
       "expected": "8471",
       "candidates": [
-        "8528",
+        "8517",
         "8471",
-        "8517"
+        "8543"
       ],
       "pickedChapters": [
         "85",
-        "90"
+        "95"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 22113.78469999996,
-      "inputTokens": 5807,
-      "outputTokens": 169,
+      "latencyMs": 20487.443400000047,
+      "inputTokens": 2709,
+      "outputTokens": 198,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N303442",
@@ -2311,8 +2305,8 @@
       "expected": "8471",
       "candidates": [
         "8471",
-        "8543",
-        "8473"
+        "8473",
+        "8543"
       ],
       "pickedChapters": [
         "84",
@@ -2321,11 +2315,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7330.007500000065,
-      "inputTokens": 7753,
-      "outputTokens": 175,
+      "latencyMs": 19279.40849999996,
+      "inputTokens": 5578,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N295452",
@@ -2343,11 +2337,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 23943.575300000026,
-      "inputTokens": 5801,
-      "outputTokens": 169,
+      "latencyMs": 27529.9841,
+      "inputTokens": 3626,
+      "outputTokens": 163,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N289518",
@@ -2356,20 +2350,20 @@
       "candidates": [
         "9004",
         "8528",
-        "9013"
+        "8543"
       ],
       "pickedChapters": [
-        "90",
-        "85"
+        "85",
+        "90"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5510.77350000001,
-      "inputTokens": 5811,
-      "outputTokens": 200,
+      "latencyMs": 25663.820200000075,
+      "inputTokens": 3636,
+      "outputTokens": 178,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N289540",
@@ -2377,30 +2371,118 @@
       "expected": "9002",
       "candidates": [
         "9002",
-        "9001",
-        "9013"
+        "9013",
+        "9001"
       ],
       "pickedChapters": [
         "90",
-        "85"
+        "70"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 19945.94060000009,
-      "inputTokens": 5801,
-      "outputTokens": 171,
+      "latencyMs": 49172.45869999996,
+      "inputTokens": 2712,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N289532",
       "description": "drone propellers and propeller guards",
       "expected": "8803",
       "candidates": [
-        "8487",
+        "8807",
+        "8806",
+        "3926"
+      ],
+      "pickedChapters": [
+        "88",
+        "39"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 12629.745400000014,
+      "inputTokens": 1822,
+      "outputTokens": 191,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N334094",
+      "description": "a power bank kiosk",
+      "expected": "8504",
+      "candidates": [
+        "8507",
         "8543",
-        "8548"
+        "8537"
+      ],
+      "pickedChapters": [
+        "85",
+        "94"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8236.687999999966,
+      "inputTokens": 2661,
+      "outputTokens": 198,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N328222",
+      "description": "an electric outboard motor",
+      "expected": "8501",
+      "candidates": [
+        "8501",
+        "8412",
+        "8479"
+      ],
+      "pickedChapters": [
+        "85",
+        "84"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 13150.379900000058,
+      "inputTokens": 5576,
+      "outputTokens": 188,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N306841",
+      "description": "a jump starter and power pack set and a power bank",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8504",
+        "8543"
+      ],
+      "pickedChapters": [
+        "85",
+        "87"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 17458.753299999982,
+      "inputTokens": 2878,
+      "outputTokens": 205,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N305956",
+      "description": "three game machine power supply units",
+      "expected": "9504",
+      "candidates": [
+        "8504",
+        "8473",
+        "8543"
       ],
       "pickedChapters": [
         "85",
@@ -2409,63 +2491,19 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9928.694000000018,
-      "inputTokens": 7755,
-      "outputTokens": 160,
+      "latencyMs": 48249.35509999993,
+      "inputTokens": 5578,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
-      "id": "N334094",
-      "description": "a power bank kiosk",
-      "expected": "8504",
+      "id": "N289736",
+      "description": "a hybrid generator set",
+      "expected": "8502",
       "candidates": [
-        "8476",
-        "8543",
-        "8507"
-      ],
-      "pickedChapters": [
-        "84",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 17619.46100000001,
-      "inputTokens": 7753,
-      "outputTokens": 189,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N328222",
-      "description": "an electric outboard motor",
-      "expected": "8501",
-      "candidates": [
+        "8502",
         "8501",
-        "8543",
-        "8708"
-      ],
-      "pickedChapters": [
-        "87",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 13896.903600000078,
-      "inputTokens": 5041,
-      "outputTokens": 178,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N306841",
-      "description": "a jump starter and power pack set and a power bank",
-      "expected": "8507",
-      "candidates": [
-        "8507",
-        "8543",
         "8504"
       ],
       "pickedChapters": [
@@ -2475,64 +2513,20 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 30781.42040000006,
-      "inputTokens": 7763,
-      "outputTokens": 173,
+      "latencyMs": 12617.628999999957,
+      "inputTokens": 5574,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N305956",
-      "description": "three game machine power supply units",
-      "expected": "9504",
-      "candidates": [
-        "8504",
-        "8543",
-        "8548"
-      ],
-      "pickedChapters": [
-        "85",
-        "84"
-      ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 12242.509000000078,
-      "inputTokens": 7753,
-      "outputTokens": 170,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N289736",
-      "description": "a hybrid generator set",
-      "expected": "8502",
-      "candidates": [
-        "8502",
-        "8501",
-        "8479"
-      ],
-      "pickedChapters": [
-        "84",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 9670.26649999991,
-      "inputTokens": 7749,
-      "outputTokens": 184,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N288408",
       "description": "charging kits",
       "expected": "8507",
       "candidates": [
-        "8544",
-        "8536",
-        "8543"
+        "8504",
+        "8507",
+        "8544"
       ],
       "pickedChapters": [
         "85",
@@ -2540,12 +2534,12 @@
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 20184.133799999952,
-      "inputTokens": 7747,
-      "outputTokens": 184,
+      "top3Correct": true,
+      "latencyMs": 20370.379200000083,
+      "inputTokens": 5572,
+      "outputTokens": 183,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357549",
@@ -2554,7 +2548,7 @@
       "candidates": [
         "6912",
         "6911",
-        "6914"
+        "6913"
       ],
       "pickedChapters": [
         "69",
@@ -2563,11 +2557,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10788.002800000017,
-      "inputTokens": 4165,
-      "outputTokens": 183,
+      "latencyMs": 22608.72880000004,
+      "inputTokens": 1990,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353512",
@@ -2576,20 +2570,20 @@
       "candidates": [
         "6912",
         "6911",
-        "6914"
+        "6913"
       ],
       "pickedChapters": [
         "69",
-        "70"
+        "94"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 16232.370099999942,
-      "inputTokens": 4165,
-      "outputTokens": 154,
+      "latencyMs": 13649.903200000059,
+      "inputTokens": 1515,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N334248",
@@ -2598,42 +2592,42 @@
       "candidates": [
         "6912",
         "6911",
-        "6914"
+        "6913"
       ],
       "pickedChapters": [
         "69",
-        "82"
+        "96"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11988.11970000004,
-      "inputTokens": 4108,
-      "outputTokens": 169,
+      "latencyMs": 23159.081999999937,
+      "inputTokens": 2006,
+      "outputTokens": 184,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N345071",
       "description": "a stuffed food preparation",
       "expected": "1902",
       "candidates": [
+        "2106",
         "1902",
-        "1904",
-        "2106"
+        "2104"
       ],
       "pickedChapters": [
         "21",
         "19"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 23060.96419999993,
-      "inputTokens": 3534,
-      "outputTokens": 174,
+      "latencyMs": 19049.23450000002,
+      "inputTokens": 1359,
+      "outputTokens": 208,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N286356",
@@ -2641,21 +2635,21 @@
       "expected": "7615",
       "candidates": [
         "7615",
-        "7616",
-        "8210"
+        "7323",
+        "7616"
       ],
       "pickedChapters": [
         "76",
-        "82"
+        "73"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 3809.926499999943,
-      "inputTokens": 4109,
-      "outputTokens": 154,
+      "latencyMs": 17377.86910000001,
+      "inputTokens": 2226,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358245",
@@ -2663,21 +2657,21 @@
       "expected": "8205",
       "candidates": [
         "8214",
-        "8205",
-        "8211"
+        "8204",
+        "6804"
       ],
       "pickedChapters": [
         "82",
-        "96"
+        "68"
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": true,
-      "latencyMs": 5540.676900000079,
-      "inputTokens": 4360,
-      "outputTokens": 190,
+      "top3Correct": false,
+      "latencyMs": 7843.556600000011,
+      "inputTokens": 2082,
+      "outputTokens": 205,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352117",
@@ -2685,7 +2679,7 @@
       "expected": "6302",
       "candidates": [
         "6302",
-        "6304",
+        "6301",
         "6307"
       ],
       "pickedChapters": [
@@ -2695,11 +2689,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7831.915600000066,
-      "inputTokens": 4028,
-      "outputTokens": 202,
+      "latencyMs": 16738.26820000005,
+      "inputTokens": 1853,
+      "outputTokens": 230,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347281",
@@ -2707,21 +2701,21 @@
       "expected": "8214",
       "candidates": [
         "9605",
-        "9614",
-        "8214"
+        "8214",
+        "9615"
       ],
       "pickedChapters": [
-        "82",
-        "96"
+        "96",
+        "82"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9045.609400000074,
-      "inputTokens": 4366,
-      "outputTokens": 178,
+      "latencyMs": 11666.14149999991,
+      "inputTokens": 2191,
+      "outputTokens": 194,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N341177",
@@ -2734,16 +2728,16 @@
       ],
       "pickedChapters": [
         "82",
-        "83"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9439.754200000083,
-      "inputTokens": 4183,
-      "outputTokens": 217,
+      "latencyMs": 9007.409099999932,
+      "inputTokens": 2269,
+      "outputTokens": 219,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N333596",
@@ -2751,21 +2745,21 @@
       "expected": "8211",
       "candidates": [
         "8211",
-        "8215",
-        "8206"
+        "8206",
+        "8215"
       ],
       "pickedChapters": [
         "82",
-        "83"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15665.45419999992,
-      "inputTokens": 4199,
-      "outputTokens": 202,
+      "latencyMs": 13234.898000000045,
+      "inputTokens": 2285,
+      "outputTokens": 194,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N324986",
@@ -2783,11 +2777,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7750.114700000035,
-      "inputTokens": 4000,
-      "outputTokens": 171,
+      "latencyMs": 7189.173399999971,
+      "inputTokens": 1825,
+      "outputTokens": 186,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N283661",
@@ -2795,43 +2789,43 @@
       "expected": "8211",
       "candidates": [
         "8211",
-        "8214",
+        "8206",
         "8215"
       ],
       "pickedChapters": [
         "82",
-        "83"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7490.726699999999,
-      "inputTokens": 4187,
-      "outputTokens": 179,
+      "latencyMs": 13759.664400000009,
+      "inputTokens": 2273,
+      "outputTokens": 210,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360646",
       "description": "a household kitchen cutting board",
       "expected": "7323",
       "candidates": [
-        "3924",
         "4419",
-        "3926"
+        "3924",
+        "4421"
       ],
       "pickedChapters": [
-        "39",
-        "44"
+        "44",
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5902.488100000075,
-      "inputTokens": 4560,
-      "outputTokens": 147,
+      "latencyMs": 12962.828899999964,
+      "inputTokens": 2385,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356962",
@@ -2839,43 +2833,43 @@
       "expected": "8544",
       "candidates": [
         "8544",
-        "8548",
+        "8547",
         "8536"
       ],
       "pickedChapters": [
         "85",
-        "84"
+        "74"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8306.908600000083,
-      "inputTokens": 7747,
-      "outputTokens": 161,
+      "latencyMs": 12101.543900000048,
+      "inputTokens": 2816,
+      "outputTokens": 198,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348734",
       "description": "a pressure belt",
       "expected": "8441",
       "candidates": [
-        "8483",
-        "5910",
-        "8481"
+        "8420",
+        "4010",
+        "8479"
       ],
       "pickedChapters": [
         "84",
-        "59"
+        "40"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 22097.882900000084,
-      "inputTokens": 6537,
-      "outputTokens": 189,
+      "latencyMs": 13408.22609999997,
+      "inputTokens": 4464,
+      "outputTokens": 179,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360484",
@@ -2893,11 +2887,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13296.1152,
-      "inputTokens": 3513,
-      "outputTokens": 177,
+      "latencyMs": 25017.358800000045,
+      "inputTokens": 1338,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359790",
@@ -2905,43 +2899,43 @@
       "expected": "9404",
       "candidates": [
         "9404",
-        "3924",
-        "3926"
+        "9403",
+        "5703"
       ],
       "pickedChapters": [
         "94",
-        "39"
+        "57"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10263.724000000046,
-      "inputTokens": 4028,
-      "outputTokens": 182,
+      "latencyMs": 21194.252499999944,
+      "inputTokens": 1234,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358599",
       "description": "heated lumbar pillow and heated back rest",
       "expected": "9404",
       "candidates": [
-        "8516",
         "9404",
-        "8543"
+        "8516",
+        "9401"
       ],
       "pickedChapters": [
         "94",
         "85"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 17115.74470000004,
-      "inputTokens": 4842,
-      "outputTokens": 178,
+      "latencyMs": 20838.762199999997,
+      "inputTokens": 2667,
+      "outputTokens": 187,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358305",
@@ -2949,8 +2943,8 @@
       "expected": "9105",
       "candidates": [
         "9105",
-        "9107",
-        "8531"
+        "9102",
+        "8543"
       ],
       "pickedChapters": [
         "91",
@@ -2959,33 +2953,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4975.97239999997,
-      "inputTokens": 4930,
-      "outputTokens": 169,
+      "latencyMs": 7184.7347999999765,
+      "inputTokens": 2755,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353814",
       "description": "Optilife chin straps",
       "expected": "9019",
       "candidates": [
-        "6507",
-        "6506",
-        "6505"
+        "9019",
+        "9021",
+        "6217"
       ],
       "pickedChapters": [
-        "64",
-        "65"
+        "90",
+        "62"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11652.63049999997,
-      "inputTokens": 3486,
-      "outputTokens": 192,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8176.955499999924,
+      "inputTokens": 2732,
+      "outputTokens": 215,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360755",
@@ -2994,42 +2988,42 @@
       "candidates": [
         "6301",
         "6304",
-        "6302"
+        "6307"
       ],
       "pickedChapters": [
         "63",
-        "62"
+        "61"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9716.057900000014,
-      "inputTokens": 3998,
-      "outputTokens": 172,
+      "latencyMs": 11666.292200000025,
+      "inputTokens": 1784,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352005",
       "description": "knitted and woven blankets",
       "expected": "6301",
       "candidates": [
-        "6001",
-        "6006",
-        "6004"
+        "6301",
+        "6110",
+        "6304"
       ],
       "pickedChapters": [
-        "60",
-        "62"
+        "63",
+        "61"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8686.126099999994,
-      "inputTokens": 3985,
-      "outputTokens": 200,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11950.02760000003,
+      "inputTokens": 1792,
+      "outputTokens": 195,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348968",
@@ -3042,16 +3036,16 @@
       ],
       "pickedChapters": [
         "84",
-        "82"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9534.51669999992,
-      "inputTokens": 6782,
-      "outputTokens": 205,
+      "latencyMs": 14373.644100000034,
+      "inputTokens": 4766,
+      "outputTokens": 197,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N324162",
@@ -3060,42 +3054,42 @@
       "candidates": [
         "6303",
         "6304",
-        "6307"
+        "6302"
       ],
       "pickedChapters": [
-        "62",
-        "63"
+        "63",
+        "62"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12274.375499999966,
-      "inputTokens": 4012,
-      "outputTokens": 173,
+      "latencyMs": 8150.735899999971,
+      "inputTokens": 1837,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N318689",
       "description": "String Lights",
       "expected": "9405",
       "candidates": [
-        "8539",
         "9405",
-        "8544"
+        "8539",
+        "8543"
       ],
       "pickedChapters": [
         "94",
         "85"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 15742.35839999991,
-      "inputTokens": 4830,
-      "outputTokens": 152,
+      "latencyMs": 20883.563599999994,
+      "inputTokens": 2655,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N316502",
@@ -3104,7 +3098,7 @@
       "candidates": [
         "7610",
         "7308",
-        "7616"
+        "7604"
       ],
       "pickedChapters": [
         "76",
@@ -3112,34 +3106,34 @@
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 7379.895599999931,
-      "inputTokens": 4401,
-      "outputTokens": 181,
+      "top3Correct": true,
+      "latencyMs": 16419.986399999936,
+      "inputTokens": 2226,
+      "outputTokens": 189,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N312202",
       "description": "the Plus Bionics POD",
       "expected": "9027",
       "candidates": [
-        "8479",
         "9021",
-        "8487"
+        "9019",
+        "8543"
       ],
       "pickedChapters": [
-        "84",
-        "90"
+        "90",
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 16589.159600000014,
-      "inputTokens": 7337,
-      "outputTokens": 171,
+      "latencyMs": 28442.0713999999,
+      "inputTokens": 3634,
+      "outputTokens": 214,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N308394",
@@ -3147,43 +3141,43 @@
       "expected": "6303",
       "candidates": [
         "6303",
-        "6304",
-        "9404"
+        "6302",
+        "6304"
       ],
       "pickedChapters": [
-        "94",
-        "63"
+        "63",
+        "62"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9704.457600000082,
-      "inputTokens": 3511,
-      "outputTokens": 190,
+      "latencyMs": 6715.724099999992,
+      "inputTokens": 1825,
+      "outputTokens": 162,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357291",
       "description": "a hearing aid vacuum cleaner",
       "expected": "8508",
       "candidates": [
-        "8414",
-        "8421",
-        "9021"
+        "9021",
+        "8508",
+        "8543"
       ],
       "pickedChapters": [
         "90",
-        "84"
+        "85"
       ],
-      "chapterRecall": false,
+      "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 12274.146100000013,
-      "inputTokens": 7333,
-      "outputTokens": 195,
+      "top3Correct": true,
+      "latencyMs": 20384.920399999944,
+      "inputTokens": 3630,
+      "outputTokens": 211,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356793",
@@ -3191,73 +3185,7 @@
       "expected": "8508",
       "candidates": [
         "8508",
-        "8509",
-        "8543"
-      ],
-      "pickedChapters": [
-        "85",
-        "84"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 27529.087699999916,
-      "inputTokens": 7775,
-      "outputTokens": 194,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N354669",
-      "description": "an aquarium gravel cleaner",
-      "expected": "8421",
-      "candidates": [
-        "8421",
-        "8424",
-        "8479"
-      ],
-      "pickedChapters": [
-        "84",
-        "90"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 10535.468699999969,
-      "inputTokens": 7335,
-      "outputTokens": 187,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N343613",
-      "description": "a pool vacuum cleaner",
-      "expected": "8421",
-      "candidates": [
-        "8508",
-        "8509",
-        "8543"
-      ],
-      "pickedChapters": [
-        "84",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 16111.387099999934,
-      "inputTokens": 7751,
-      "outputTokens": 170,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N326460",
-      "description": "a robotic vacuum cleaner",
-      "expected": "8508",
-      "candidates": [
-        "8508",
-        "8543",
+        "8479",
         "8509"
       ],
       "pickedChapters": [
@@ -3267,108 +3195,64 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 20812.913300000015,
-      "inputTokens": 7753,
-      "outputTokens": 177,
+      "latencyMs": 52679.91799999995,
+      "inputTokens": 5600,
+      "outputTokens": 205,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
-      "id": "N316258",
-      "description": "the Shine Bathroom Assistant",
-      "expected": "8424",
+      "id": "N354669",
+      "description": "an aquarium gravel cleaner",
+      "expected": "8421",
       "candidates": [
-        "8509",
-        "8508",
-        "8543"
+        "8421",
+        "8479",
+        "3926"
       ],
       "pickedChapters": [
         "84",
-        "85"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 15799.178200000082,
-      "inputTokens": 7753,
-      "outputTokens": 172,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N312802",
-      "description": "a jewelry cleaner",
-      "expected": "8509",
-      "candidates": [
-        "3402",
-        "3405",
-        "3401"
-      ],
-      "pickedChapters": [
-        "34",
-        "38"
-      ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 18163.82090000005,
-      "inputTokens": 4323,
-      "outputTokens": 165,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N360909",
-      "description": "“Lao Xie Zhen Frozen Seafood Cheese Rice Burger”",
-      "expected": "1904",
-      "candidates": [
-        "1602",
-        "1605",
-        "1901"
-      ],
-      "pickedChapters": [
-        "16",
-        "19"
-      ],
-      "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 12476.078799999901,
-      "inputTokens": 3509,
-      "outputTokens": 173,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N359553",
-      "description": "a temperature control unit",
-      "expected": "8419",
-      "candidates": [
-        "8419",
-        "8415",
-        "8516"
-      ],
-      "pickedChapters": [
-        "84",
-        "85"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12178.028600000078,
-      "inputTokens": 7749,
-      "outputTokens": 181,
+      "latencyMs": 12435.454900000012,
+      "inputTokens": 4772,
+      "outputTokens": 228,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
-      "id": "N359156",
-      "description": "a battery assembly",
-      "expected": "8507",
+      "id": "N343613",
+      "description": "a pool vacuum cleaner",
+      "expected": "8421",
       "candidates": [
-        "8507",
-        "8541",
-        "8548"
+        "8508",
+        "8543",
+        "8479"
+      ],
+      "pickedChapters": [
+        "84",
+        "85"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 17977.7659,
+      "inputTokens": 5576,
+      "outputTokens": 174,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N326460",
+      "description": "a robotic vacuum cleaner",
+      "expected": "8508",
+      "candidates": [
+        "8508",
+        "8543",
+        "8479"
       ],
       "pickedChapters": [
         "85",
@@ -3377,11 +3261,121 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 16970.657000000007,
-      "inputTokens": 7747,
-      "outputTokens": 176,
+      "latencyMs": 14280.181700000074,
+      "inputTokens": 5578,
+      "outputTokens": 188,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N316258",
+      "description": "the Shine Bathroom Assistant",
+      "expected": "8424",
+      "candidates": [
+        "8543",
+        "8517",
+        "8531"
+      ],
+      "pickedChapters": [
+        "85",
+        "94"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 32668.34519999998,
+      "inputTokens": 2661,
+      "outputTokens": 164,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N312802",
+      "description": "a jewelry cleaner",
+      "expected": "8509",
+      "candidates": [
+        "3405",
+        "3402",
+        "3824"
+      ],
+      "pickedChapters": [
+        "34",
+        "38"
+      ],
+      "chapterRecall": false,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 28016.618999999948,
+      "inputTokens": 2148,
+      "outputTokens": 156,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N360909",
+      "description": "“Lao Xie Zhen Frozen Seafood Cheese Rice Burger”",
+      "expected": "1904",
+      "candidates": [
+        "1904",
+        "1605",
+        "1602"
+      ],
+      "pickedChapters": [
+        "19",
+        "16"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 31038.821999999927,
+      "inputTokens": 1334,
+      "outputTokens": 214,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N359553",
+      "description": "a temperature control unit",
+      "expected": "8419",
+      "candidates": [
+        "8419",
+        "8543",
+        "8415"
+      ],
+      "pickedChapters": [
+        "84",
+        "85"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 25216.985600000015,
+      "inputTokens": 5574,
+      "outputTokens": 177,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N359156",
+      "description": "a battery assembly",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8548",
+        "8506"
+      ],
+      "pickedChapters": [
+        "85",
+        "84"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7771.465800000005,
+      "inputTokens": 5572,
+      "outputTokens": 197,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N349794",
@@ -3389,43 +3383,43 @@
       "expected": "7324",
       "candidates": [
         "7324",
-        "7309",
+        "7323",
         "7326"
       ],
       "pickedChapters": [
         "73",
-        "72"
+        "69"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9885.498599999934,
-      "inputTokens": 4699,
-      "outputTokens": 187,
+      "latencyMs": 26147.827099999995,
+      "inputTokens": 2225,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348430",
       "description": "five watch boxes",
       "expected": "4202",
       "candidates": [
-        "9111",
         "9112",
+        "4202",
         "9114"
       ],
       "pickedChapters": [
         "91",
-        "94"
+        "42"
       ],
-      "chapterRecall": false,
+      "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 20349.69709999999,
-      "inputTokens": 3537,
-      "outputTokens": 166,
+      "top3Correct": true,
+      "latencyMs": 16566.569800000056,
+      "inputTokens": 1332,
+      "outputTokens": 177,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347087",
@@ -3433,8 +3427,8 @@
       "expected": "8419",
       "candidates": [
         "8416",
-        "8479",
-        "8468"
+        "8417",
+        "8479"
       ],
       "pickedChapters": [
         "84",
@@ -3443,11 +3437,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 12136.215699999942,
-      "inputTokens": 7757,
-      "outputTokens": 194,
+      "latencyMs": 19713.037699999986,
+      "inputTokens": 5582,
+      "outputTokens": 216,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360838",
@@ -3456,42 +3450,42 @@
       "candidates": [
         "7610",
         "7616",
-        "7615"
+        "8302"
       ],
       "pickedChapters": [
         "76",
-        "82"
+        "83"
       ],
-      "chapterRecall": false,
+      "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 15500.052399999928,
-      "inputTokens": 4111,
-      "outputTokens": 155,
+      "latencyMs": 15165.45809999993,
+      "inputTokens": 1834,
+      "outputTokens": 161,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359791",
       "description": "a Day of the Dead ofrenda altar",
       "expected": "4420",
       "candidates": [
-        "9406",
+        "9505",
         "9403",
-        "9405"
+        "9401"
       ],
       "pickedChapters": [
         "94",
-        "96"
+        "95"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 6543.9236000000965,
-      "inputTokens": 3948,
-      "outputTokens": 165,
+      "latencyMs": 17860.9375,
+      "inputTokens": 1324,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N359705",
@@ -3500,42 +3494,42 @@
       "candidates": [
         "8306",
         "8307",
-        "9505"
+        "9405"
       ],
       "pickedChapters": [
-        "95",
-        "83"
+        "83",
+        "94"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 18947.192299999995,
-      "inputTokens": 3815,
-      "outputTokens": 171,
+      "latencyMs": 20716.90619999997,
+      "inputTokens": 1594,
+      "outputTokens": 198,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356897",
       "description": "a Paint-By-Number Kit",
       "expected": "3213",
       "candidates": [
-        "3213",
         "9503",
-        "3209"
+        "3213",
+        "9505"
       ],
       "pickedChapters": [
         "95",
         "32"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5150.525699999998,
-      "inputTokens": 3912,
-      "outputTokens": 209,
+      "latencyMs": 7416.479999999981,
+      "inputTokens": 1737,
+      "outputTokens": 183,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356689",
@@ -3544,20 +3538,20 @@
       "candidates": [
         "3926",
         "3924",
-        "3920"
+        "4414"
       ],
       "pickedChapters": [
         "39",
-        "71"
+        "44"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 4948.829099999974,
-      "inputTokens": 4314,
-      "outputTokens": 176,
+      "latencyMs": 7229.38340000005,
+      "inputTokens": 2381,
+      "outputTokens": 154,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353507",
@@ -3565,7 +3559,7 @@
       "expected": "4421",
       "candidates": [
         "4414",
-        "4420",
+        "4409",
         "4421"
       ],
       "pickedChapters": [
@@ -3575,55 +3569,55 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9409.673699999927,
-      "inputTokens": 4558,
-      "outputTokens": 177,
+      "latencyMs": 10965.14300000004,
+      "inputTokens": 2383,
+      "outputTokens": 199,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353362",
       "description": "steel sign frames",
       "expected": "8306",
       "candidates": [
-        "8306",
+        "7308",
         "7326",
-        "8302"
+        "8310"
       ],
       "pickedChapters": [
         "73",
         "83"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 17366.795500000007,
-      "inputTokens": 4475,
-      "outputTokens": 149,
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7023.89730000007,
+      "inputTokens": 2300,
+      "outputTokens": 155,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352141",
       "description": "paperboard picture frame kit",
       "expected": "4823",
       "candidates": [
-        "4819",
+        "4414",
         "4823",
-        "4817"
+        "4819"
       ],
       "pickedChapters": [
         "48",
-        "39"
+        "44"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 6009.540600000066,
-      "inputTokens": 4764,
-      "outputTokens": 166,
+      "latencyMs": 20190.5233,
+      "inputTokens": 2542,
+      "outputTokens": 179,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N350696",
@@ -3631,87 +3625,87 @@
       "expected": "7616",
       "candidates": [
         "9406",
-        "7308",
-        "7326"
+        "4418",
+        "9403"
       ],
       "pickedChapters": [
         "94",
-        "73"
+        "44"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11159.242599999998,
-      "inputTokens": 4157,
-      "outputTokens": 169,
+      "latencyMs": 20085.075199999963,
+      "inputTokens": 1802,
+      "outputTokens": 179,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N339771",
       "description": "a decorative glass article",
       "expected": "7013",
       "candidates": [
+        "7013",
         "7018",
-        "7020",
-        "7013"
+        "7020"
       ],
       "pickedChapters": [
         "70",
-        "71"
+        "83"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9988.462100000004,
-      "inputTokens": 4212,
-      "outputTokens": 144,
+      "latencyMs": 11100.431400000001,
+      "inputTokens": 2065,
+      "outputTokens": 181,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355963",
       "description": "children’s soft books",
       "expected": "4903",
       "candidates": [
+        "9503",
         "4903",
-        "4901",
-        "4911"
+        "4901"
       ],
       "pickedChapters": [
-        "61",
-        "49"
+        "49",
+        "95"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 7638.6542999999365,
-      "inputTokens": 3990,
-      "outputTokens": 180,
+      "latencyMs": 7767.143600000069,
+      "inputTokens": 1411,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340532",
       "description": "a Care Bear Cheer 3D Keychain",
       "expected": "7326",
       "candidates": [
-        "9505",
         "9503",
-        "7117"
+        "8308",
+        "9505"
       ],
       "pickedChapters": [
         "95",
-        "71"
+        "83"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 8491.332700000028,
-      "inputTokens": 3797,
-      "outputTokens": 200,
+      "latencyMs": 8855.586599999922,
+      "inputTokens": 1650,
+      "outputTokens": 203,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N361080",
@@ -3724,16 +3718,16 @@
       ],
       "pickedChapters": [
         "95",
-        "94"
+        "49"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 16351.758700000006,
-      "inputTokens": 3503,
-      "outputTokens": 167,
+      "latencyMs": 7083.059800000046,
+      "inputTokens": 1425,
+      "outputTokens": 175,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353019",
@@ -3742,42 +3736,42 @@
       "candidates": [
         "9504",
         "9503",
-        "9505"
-      ],
-      "pickedChapters": [
-        "95",
-        "94"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 6542.588199999998,
-      "inputTokens": 3491,
-      "outputTokens": 173,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N352320",
-      "description": "“Prism” guided corporate exercises",
-      "expected": "4911",
-      "candidates": [
-        "4901",
-        "4911",
-        "9506"
+        "4911"
       ],
       "pickedChapters": [
         "95",
         "49"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 11547.496300000115,
-      "inputTokens": 3594,
-      "outputTokens": 165,
+      "latencyMs": 16856.32640000002,
+      "inputTokens": 1413,
+      "outputTokens": 170,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N352320",
+      "description": "“Prism” guided corporate exercises",
+      "expected": "4911",
+      "candidates": [
+        "4911",
+        "4901",
+        "8523"
+      ],
+      "pickedChapters": [
+        "49",
+        "85"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6654.731499999994,
+      "inputTokens": 2762,
+      "outputTokens": 150,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N344742",
@@ -3786,7 +3780,7 @@
       "candidates": [
         "9506",
         "9503",
-        "3924"
+        "9505"
       ],
       "pickedChapters": [
         "95",
@@ -3795,77 +3789,77 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7947.435999999987,
-      "inputTokens": 4082,
-      "outputTokens": 154,
+      "latencyMs": 15196.030999999959,
+      "inputTokens": 1907,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N331029",
       "description": "the “Axe Throwing Game Set”",
       "expected": "9506",
       "candidates": [
-        "9506",
         "9504",
-        "8201"
+        "9506",
+        "9503"
       ],
       "pickedChapters": [
         "95",
-        "82"
+        "73"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 6170.404500000062,
-      "inputTokens": 3923,
-      "outputTokens": 177,
+      "latencyMs": 12121.325300000026,
+      "inputTokens": 2040,
+      "outputTokens": 169,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360455",
       "description": "bicycle hitch racks",
       "expected": "8708",
       "candidates": [
-        "8714",
         "8716",
-        "9506"
+        "8708",
+        "8714"
       ],
       "pickedChapters": [
         "87",
-        "95"
+        "73"
       ],
       "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 10223.632599999895,
-      "inputTokens": 3698,
-      "outputTokens": 155,
+      "top3Correct": true,
+      "latencyMs": 7189.744700000039,
+      "inputTokens": 2191,
+      "outputTokens": 179,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355873",
       "description": "printed self-adhesive vinyl bib numbers and helmet stickers",
       "expected": "3919",
       "candidates": [
-        "3919",
         "4911",
-        "3926"
+        "3919",
+        "4908"
       ],
       "pickedChapters": [
         "49",
         "39"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 45284.19010000001,
-      "inputTokens": 4139,
-      "outputTokens": 178,
+      "latencyMs": 16759.88910000003,
+      "inputTokens": 1964,
+      "outputTokens": 202,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N352469",
@@ -3873,29 +3867,7 @@
       "expected": "6506",
       "candidates": [
         "6506",
-        "6505",
-        "6507"
-      ],
-      "pickedChapters": [
-        "64",
-        "65"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 5475.714400000055,
-      "inputTokens": 3478,
-      "outputTokens": 200,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N352475",
-      "description": "helmet accessories",
-      "expected": "6507",
-      "candidates": [
-        "6507",
-        "6506",
+        "9506",
         "6505"
       ],
       "pickedChapters": [
@@ -3905,33 +3877,55 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4703.776000000071,
-      "inputTokens": 3514,
-      "outputTokens": 192,
+      "latencyMs": 12971.949499999988,
+      "inputTokens": 1341,
+      "outputTokens": 173,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N352475",
+      "description": "helmet accessories",
+      "expected": "6507",
+      "candidates": [
+        "6506",
+        "6507",
+        "9506"
+      ],
+      "pickedChapters": [
+        "65",
+        "95"
+      ],
+      "chapterRecall": true,
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7753.544600000023,
+      "inputTokens": 1339,
+      "outputTokens": 202,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N351067",
       "description": "a bicycle work stand",
       "expected": "7616",
       "candidates": [
-        "8714",
-        "8712",
-        "8205"
+        "7326",
+        "9403",
+        "7308"
       ],
       "pickedChapters": [
-        "82",
-        "87"
+        "94",
+        "73"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 4333.16519999993,
-      "inputTokens": 4072,
-      "outputTokens": 172,
+      "latencyMs": 9855.58640000003,
+      "inputTokens": 1982,
+      "outputTokens": 186,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N344662",
@@ -3940,7 +3934,7 @@
       "candidates": [
         "8711",
         "8703",
-        "8501"
+        "8714"
       ],
       "pickedChapters": [
         "87",
@@ -3949,11 +3943,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5009.323700000066,
-      "inputTokens": 5039,
-      "outputTokens": 164,
+      "latencyMs": 13229.126600000076,
+      "inputTokens": 2864,
+      "outputTokens": 190,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N340921",
@@ -3962,42 +3956,42 @@
       "candidates": [
         "8714",
         "8712",
-        "8716"
-      ],
-      "pickedChapters": [
-        "87",
-        "82"
-      ],
-      "chapterRecall": true,
-      "top1Correct": true,
-      "top3Correct": true,
-      "latencyMs": 4346.820600000094,
-      "inputTokens": 4068,
-      "outputTokens": 170,
-      "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
-    },
-    {
-      "id": "N340812",
-      "description": "bicycle wheelset",
-      "expected": "8714",
-      "candidates": [
-        "8712",
-        "8714",
-        "7308"
+        "8708"
       ],
       "pickedChapters": [
         "87",
         "73"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4470.142999999924,
-      "inputTokens": 4362,
-      "outputTokens": 201,
+      "latencyMs": 6480.069299999974,
+      "inputTokens": 2185,
+      "outputTokens": 174,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
+    },
+    {
+      "id": "N340812",
+      "description": "bicycle wheelset",
+      "expected": "8714",
+      "candidates": [
+        "8714",
+        "8712",
+        "7326"
+      ],
+      "pickedChapters": [
+        "87",
+        "73"
+      ],
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 15686.551199999987,
+      "inputTokens": 2187,
+      "outputTokens": 179,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 2177
     },
     {
       "id": "N339879",
@@ -4005,8 +3999,8 @@
       "expected": "8712",
       "candidates": [
         "8712",
-        "9503",
-        "8714"
+        "8714",
+        "9506"
       ],
       "pickedChapters": [
         "87",
@@ -4015,77 +4009,77 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4120.70000000007,
-      "inputTokens": 3694,
-      "outputTokens": 163,
+      "latencyMs": 10715.19750000001,
+      "inputTokens": 1519,
+      "outputTokens": 169,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N337726",
       "description": "electric scooters and e-bike",
       "expected": "8711",
       "candidates": [
-        "8501",
-        "8543",
-        "8714"
+        "8711",
+        "8712",
+        "8703"
       ],
       "pickedChapters": [
-        "85",
-        "87"
+        "87",
+        "85"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 8010.652100000065,
-      "inputTokens": 5047,
-      "outputTokens": 195,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12799.011999999988,
+      "inputTokens": 2872,
+      "outputTokens": 203,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N328813",
       "description": "rubber dog toy",
       "expected": "4016",
       "candidates": [
+        "9503",
         "4016",
-        "4015",
-        "9503"
+        "9506"
       ],
       "pickedChapters": [
         "40",
         "95"
       ],
       "chapterRecall": true,
-      "top1Correct": true,
+      "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 17605.53960000002,
-      "inputTokens": 3768,
-      "outputTokens": 159,
+      "latencyMs": 11963.987399999984,
+      "inputTokens": 1593,
+      "outputTokens": 163,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N336481",
       "description": "Fishing Rod kit",
       "expected": "9507",
       "candidates": [
-        "8467",
-        "9208",
+        "9507",
+        "9506",
         "8479"
       ],
       "pickedChapters": [
-        "92",
+        "95",
         "84"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 5094.71649999998,
-      "inputTokens": 6424,
-      "outputTokens": 184,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 20847.317500000005,
+      "inputTokens": 4231,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N332802",
@@ -4093,21 +4087,21 @@
       "expected": "9507",
       "candidates": [
         "9507",
-        "9506",
-        "9503"
+        "3926",
+        "7326"
       ],
       "pickedChapters": [
-        "97",
-        "95"
+        "95",
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12200.129899999942,
-      "inputTokens": 3470,
-      "outputTokens": 166,
+      "latencyMs": 7202.300099999993,
+      "inputTokens": 1893,
+      "outputTokens": 193,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N330340",
@@ -4115,21 +4109,21 @@
       "expected": "7326",
       "candidates": [
         "9507",
-        "9506",
-        "8708"
+        "3926",
+        "9506"
       ],
       "pickedChapters": [
-        "87",
-        "95"
+        "95",
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5486.122399999993,
-      "inputTokens": 3696,
+      "latencyMs": 10447.143500000006,
+      "inputTokens": 1895,
       "outputTokens": 167,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N321619",
@@ -4138,20 +4132,20 @@
       "candidates": [
         "9507",
         "9506",
-        "9508"
+        "9503"
       ],
       "pickedChapters": [
         "95",
-        "92"
+        "64"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 27732.846099999966,
-      "inputTokens": 3555,
-      "outputTokens": 168,
+      "latencyMs": 17749.276399999973,
+      "inputTokens": 1324,
+      "outputTokens": 173,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N301031",
@@ -4164,25 +4158,25 @@
       ],
       "pickedChapters": [
         "89",
-        "87"
+        "95"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5525.783100000117,
-      "inputTokens": 3654,
-      "outputTokens": 167,
+      "latencyMs": 18017.23219999997,
+      "inputTokens": 1318,
+      "outputTokens": 169,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N295506",
       "description": "a protective sleeve",
       "expected": "4016",
       "candidates": [
+        "4202",
         "3926",
-        "3921",
-        "4202"
+        "6307"
       ],
       "pickedChapters": [
         "42",
@@ -4191,11 +4185,11 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5028.549899999984,
-      "inputTokens": 3992,
-      "outputTokens": 198,
+      "latencyMs": 11698.418599999975,
+      "inputTokens": 1817,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N354413",
@@ -4203,8 +4197,8 @@
       "expected": "8716",
       "candidates": [
         "8716",
-        "8715",
-        "9406"
+        "9406",
+        "8705"
       ],
       "pickedChapters": [
         "87",
@@ -4213,11 +4207,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6671.351699999999,
-      "inputTokens": 3650,
-      "outputTokens": 188,
+      "latencyMs": 9176.768799999962,
+      "inputTokens": 1475,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N311151",
@@ -4230,38 +4224,38 @@
       ],
       "pickedChapters": [
         "87",
-        "94"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5285.316800000146,
-      "inputTokens": 3654,
-      "outputTokens": 205,
+      "latencyMs": 8344.019499999937,
+      "inputTokens": 2060,
+      "outputTokens": 213,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N303866",
       "description": "a backpacking tent and rain fly",
       "expected": "6306",
       "candidates": [
-        "9406",
-        "9404",
-        "6601"
+        "6306",
+        "6307",
+        "6304"
       ],
       "pickedChapters": [
-        "66",
-        "94"
+        "63",
+        "62"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 7312.682499999879,
-      "inputTokens": 3331,
-      "outputTokens": 174,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 19833.59090000007,
+      "inputTokens": 1833,
+      "outputTokens": 166,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N302567",
@@ -4270,7 +4264,7 @@
       "candidates": [
         "6306",
         "4202",
-        "6304"
+        "6307"
       ],
       "pickedChapters": [
         "63",
@@ -4279,33 +4273,33 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6274.342699999921,
-      "inputTokens": 3483,
-      "outputTokens": 172,
+      "latencyMs": 7315.725699999952,
+      "inputTokens": 1308,
+      "outputTokens": 151,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N312986",
       "description": "an electric scooter",
       "expected": "8711",
       "candidates": [
-        "8543",
-        "8501",
-        "8716"
+        "8711",
+        "8703",
+        "8714"
       ],
       "pickedChapters": [
         "87",
         "85"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 5284.2981000000145,
-      "inputTokens": 5041,
-      "outputTokens": 189,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6832.012800000026,
+      "inputTokens": 2866,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N303622",
@@ -4313,21 +4307,21 @@
       "expected": "8482",
       "candidates": [
         "8482",
-        "8483",
-        "7326"
+        "8431",
+        "9506"
       ],
       "pickedChapters": [
-        "73",
-        "84"
+        "84",
+        "95"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10147.610500000184,
-      "inputTokens": 7082,
-      "outputTokens": 169,
+      "latencyMs": 11845.72199999995,
+      "inputTokens": 4239,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358621",
@@ -4335,21 +4329,21 @@
       "expected": "8903",
       "candidates": [
         "8903",
-        "8907",
-        "9506"
+        "9506",
+        "8907"
       ],
       "pickedChapters": [
-        "89",
-        "95"
+        "95",
+        "89"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 19247.517500000075,
-      "inputTokens": 3509,
-      "outputTokens": 169,
+      "latencyMs": 6846.910599999945,
+      "inputTokens": 1334,
+      "outputTokens": 174,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357223",
@@ -4357,43 +4351,43 @@
       "expected": "3824",
       "candidates": [
         "3924",
-        "3923",
-        "3926"
+        "3926",
+        "9021"
       ],
       "pickedChapters": [
         "39",
-        "34"
+        "90"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13888.240299999947,
-      "inputTokens": 4113,
-      "outputTokens": 170,
+      "latencyMs": 17264.0098,
+      "inputTokens": 2824,
+      "outputTokens": 172,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N300984",
       "description": "Binders and File Folders",
       "expected": "4820",
       "candidates": [
+        "4820",
         "4819",
-        "4817",
-        "4823"
+        "3926"
       ],
       "pickedChapters": [
         "48",
         "39"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 3911.2013000000734,
-      "inputTokens": 4768,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 14782.7733,
+      "inputTokens": 2593,
       "outputTokens": 187,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N300397",
@@ -4406,16 +4400,16 @@
       ],
       "pickedChapters": [
         "82",
-        "83"
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 14969.54609999992,
-      "inputTokens": 4189,
-      "outputTokens": 205,
+      "latencyMs": 25707.204099999974,
+      "inputTokens": 2275,
+      "outputTokens": 206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N291864",
@@ -4424,7 +4418,7 @@
       "candidates": [
         "6114",
         "6211",
-        "6110"
+        "6109"
       ],
       "pickedChapters": [
         "61",
@@ -4433,33 +4427,33 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 12188.386699999915,
-      "inputTokens": 4386,
-      "outputTokens": 214,
+      "latencyMs": 10311.467300000018,
+      "inputTokens": 2211,
+      "outputTokens": 190,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N343778",
       "description": "Shamrock glasses",
       "expected": "9004",
       "candidates": [
-        "7013",
-        "7020",
-        "7009"
+        "9004",
+        "9505",
+        "7013"
       ],
       "pickedChapters": [
-        "70",
-        "71"
+        "90",
+        "70"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 7982.5433999998495,
-      "inputTokens": 4210,
-      "outputTokens": 158,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 20369.266599999974,
+      "inputTokens": 2712,
+      "outputTokens": 196,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N343877",
@@ -4467,21 +4461,21 @@
       "expected": "9004",
       "candidates": [
         "9004",
-        "6506",
-        "9003"
+        "9505",
+        "9503"
       ],
       "pickedChapters": [
-        "65",
+        "95",
         "90"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12257.348899999866,
-      "inputTokens": 4443,
-      "outputTokens": 179,
+      "latencyMs": 8804.293999999994,
+      "inputTokens": 2285,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N320210",
@@ -4489,21 +4483,21 @@
       "expected": "6304",
       "candidates": [
         "6302",
-        "6304",
-        "6307"
+        "6307",
+        "6304"
       ],
       "pickedChapters": [
         "63",
-        "62"
+        "94"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 10719.070300000021,
-      "inputTokens": 4004,
-      "outputTokens": 199,
+      "latencyMs": 17636.267200000002,
+      "inputTokens": 1340,
+      "outputTokens": 178,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N315235",
@@ -4512,20 +4506,20 @@
       "candidates": [
         "9003",
         "9004",
-        "9002"
+        "9013"
       ],
       "pickedChapters": [
         "90",
-        "64"
+        "70"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7658.731499999994,
-      "inputTokens": 4434,
-      "outputTokens": 204,
+      "latencyMs": 10698.699200000148,
+      "inputTokens": 2726,
+      "outputTokens": 189,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N306716",
@@ -4533,21 +4527,21 @@
       "expected": "3402",
       "candidates": [
         "6307",
-        "5911",
-        "6310"
+        "3402",
+        "6302"
       ],
       "pickedChapters": [
         "63",
-        "59"
+        "34"
       ],
-      "chapterRecall": false,
+      "chapterRecall": true,
       "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 13546.687600000063,
-      "inputTokens": 3704,
-      "outputTokens": 181,
+      "top3Correct": true,
+      "latencyMs": 11385.603299999959,
+      "inputTokens": 1433,
+      "outputTokens": 205,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N347448",
@@ -4555,7 +4549,7 @@
       "expected": "6601",
       "candidates": [
         "6601",
-        "6602",
+        "6603",
         "9506"
       ],
       "pickedChapters": [
@@ -4565,11 +4559,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6276.179199999897,
-      "inputTokens": 3369,
-      "outputTokens": 167,
+      "latencyMs": 14654.41780000017,
+      "inputTokens": 1194,
+      "outputTokens": 208,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N337801",
@@ -4577,21 +4571,21 @@
       "expected": "6603",
       "candidates": [
         "6603",
-        "6601",
-        "8302"
+        "7326",
+        "7323"
       ],
       "pickedChapters": [
         "66",
-        "83"
+        "73"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6655.541199999861,
-      "inputTokens": 3643,
-      "outputTokens": 174,
+      "latencyMs": 10682.87770000007,
+      "inputTokens": 1862,
+      "outputTokens": 188,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N334613",
@@ -4600,7 +4594,7 @@
       "candidates": [
         "6601",
         "6603",
-        "9405"
+        "9403"
       ],
       "pickedChapters": [
         "66",
@@ -4609,11 +4603,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8841.07250000001,
-      "inputTokens": 3323,
-      "outputTokens": 188,
+      "latencyMs": 6097.053400000092,
+      "inputTokens": 1148,
+      "outputTokens": 183,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N333926",
@@ -4622,7 +4616,7 @@
       "candidates": [
         "8475",
         "8479",
-        "8477"
+        "8464"
       ],
       "pickedChapters": [
         "84",
@@ -4631,11 +4625,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9645.500999999931,
-      "inputTokens": 6841,
-      "outputTokens": 170,
+      "latencyMs": 7261.807700000005,
+      "inputTokens": 4666,
+      "outputTokens": 167,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N303295",
@@ -4644,7 +4638,7 @@
       "candidates": [
         "7318",
         "7317",
-        "7312"
+        "7217"
       ],
       "pickedChapters": [
         "73",
@@ -4653,11 +4647,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 12979.040400000056,
-      "inputTokens": 4697,
-      "outputTokens": 184,
+      "latencyMs": 16432.53509999998,
+      "inputTokens": 2522,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N302391",
@@ -4665,8 +4659,8 @@
       "expected": "6601",
       "candidates": [
         "6601",
-        "6603",
-        "9405"
+        "9403",
+        "9406"
       ],
       "pickedChapters": [
         "66",
@@ -4675,11 +4669,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12898.906599999871,
-      "inputTokens": 3325,
-      "outputTokens": 167,
+      "latencyMs": 14055.121700000018,
+      "inputTokens": 1150,
+      "outputTokens": 174,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N355090",
@@ -4688,7 +4682,7 @@
       "candidates": [
         "8207",
         "8206",
-        "8201"
+        "8205"
       ],
       "pickedChapters": [
         "82",
@@ -4697,11 +4691,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 9731.996599999955,
-      "inputTokens": 6784,
-      "outputTokens": 221,
+      "latencyMs": 18473.03010000009,
+      "inputTokens": 4609,
+      "outputTokens": 187,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N354082",
@@ -4714,16 +4708,16 @@
       ],
       "pickedChapters": [
         "71",
-        "91"
+        "96"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14266.23219999997,
-      "inputTokens": 3839,
-      "outputTokens": 193,
+      "latencyMs": 18929.311700000195,
+      "inputTokens": 2063,
+      "outputTokens": 225,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N354151",
@@ -4741,11 +4735,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14683.12360000005,
-      "inputTokens": 4185,
-      "outputTokens": 189,
+      "latencyMs": 15025.16650000005,
+      "inputTokens": 2010,
+      "outputTokens": 202,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N360074",
@@ -4753,21 +4747,21 @@
       "expected": "9102",
       "candidates": [
         "9102",
-        "9101",
-        "9503"
+        "8543",
+        "9105"
       ],
       "pickedChapters": [
         "91",
-        "95"
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 5603.277699999977,
-      "inputTokens": 3591,
-      "outputTokens": 184,
+      "latencyMs": 25022.202200000174,
+      "inputTokens": 2759,
+      "outputTokens": 180,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357251",
@@ -4776,42 +4770,42 @@
       "candidates": [
         "9102",
         "9101",
-        "9113"
+        "9114"
       ],
       "pickedChapters": [
         "91",
-        "71"
+        "85"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8294.527699999977,
-      "inputTokens": 3835,
-      "outputTokens": 179,
+      "latencyMs": 6890.69709999999,
+      "inputTokens": 2757,
+      "outputTokens": 154,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N322971",
       "description": "a cooling wristband",
       "expected": "7117",
       "candidates": [
+        "6307",
         "3926",
-        "3924",
-        "3920"
+        "6217"
       ],
       "pickedChapters": [
-        "42",
-        "39"
+        "39",
+        "63"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 11677.38360000006,
-      "inputTokens": 3996,
-      "outputTokens": 196,
+      "latencyMs": 16278.672900000121,
+      "inputTokens": 1919,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358456",
@@ -4820,20 +4814,20 @@
       "candidates": [
         "3305",
         "3307",
-        "3402"
+        "3304"
       ],
       "pickedChapters": [
-        "34",
-        "33"
+        "33",
+        "38"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 7511.187099999981,
-      "inputTokens": 3613,
-      "outputTokens": 184,
+      "latencyMs": 16138.437699999893,
+      "inputTokens": 2152,
+      "outputTokens": 194,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N346484",
@@ -4841,21 +4835,21 @@
       "expected": "8205",
       "candidates": [
         "9018",
-        "9021",
-        "9031"
+        "9019",
+        "9603"
       ],
       "pickedChapters": [
         "90",
-        "82"
+        "96"
       ],
-      "chapterRecall": true,
+      "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 7867.212800000096,
-      "inputTokens": 4836,
+      "latencyMs": 19217.073199999984,
+      "inputTokens": 2734,
       "outputTokens": 196,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N344746",
@@ -4863,21 +4857,21 @@
       "expected": "3305",
       "candidates": [
         "3305",
-        "3307",
+        "3401",
         "3402"
       ],
       "pickedChapters": [
-        "34",
-        "33"
+        "33",
+        "34"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 10819.198200000217,
-      "inputTokens": 3751,
-      "outputTokens": 187,
+      "latencyMs": 7341.42379999999,
+      "inputTokens": 1576,
+      "outputTokens": 189,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N344747",
@@ -4885,21 +4879,21 @@
       "expected": "3305",
       "candidates": [
         "3305",
-        "3307",
+        "3401",
         "3402"
       ],
       "pickedChapters": [
-        "34",
-        "33"
+        "33",
+        "34"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8262.39870000002,
-      "inputTokens": 3637,
-      "outputTokens": 162,
+      "latencyMs": 7019.4191999998875,
+      "inputTokens": 1462,
+      "outputTokens": 159,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N329760",
@@ -4917,99 +4911,99 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8375.856900000013,
-      "inputTokens": 3739,
-      "outputTokens": 185,
+      "latencyMs": 15392.926099999808,
+      "inputTokens": 1564,
+      "outputTokens": 197,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N327317",
       "description": "aluminum locking brackets",
       "expected": "8301",
       "candidates": [
-        "7610",
         "7616",
-        "7609"
+        "8302",
+        "7610"
       ],
       "pickedChapters": [
         "76",
-        "73"
+        "83"
       ],
-      "chapterRecall": false,
+      "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 13352.556199999992,
-      "inputTokens": 4393,
-      "outputTokens": 150,
+      "latencyMs": 6932.887000000104,
+      "inputTokens": 1824,
+      "outputTokens": 178,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N302458",
       "description": "a “7 pc. Squeezable Bottle Kit”",
       "expected": "3924",
       "candidates": [
-        "3923",
         "3924",
+        "3923",
         "3926"
       ],
       "pickedChapters": [
         "39",
-        "34"
+        "96"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 7936.474799999967,
-      "inputTokens": 4127,
-      "outputTokens": 163,
+      "latencyMs": 35918.2807,
+      "inputTokens": 2364,
+      "outputTokens": 210,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N302530",
       "description": "SF1173 (D4) and SF1202 (D5)",
       "expected": "2931",
       "candidates": [
-        "3822",
-        "3824",
-        "3815"
+        "8543",
+        "8479",
+        "8421"
       ],
       "pickedChapters": [
-        "90",
-        "38"
+        "85",
+        "84"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 10362.975600000005,
-      "inputTokens": 5235,
-      "outputTokens": 172,
+      "latencyMs": 9151.73760000011,
+      "inputTokens": 5600,
+      "outputTokens": 230,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N298762",
       "description": "a foamer pump engine",
       "expected": "8413",
       "candidates": [
-        "8412",
         "8413",
-        "8479"
+        "8479",
+        "3926"
       ],
       "pickedChapters": [
         "84",
-        "85"
+        "39"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 19799.50360000017,
-      "inputTokens": 7751,
-      "outputTokens": 194,
+      "latencyMs": 21685.68979999982,
+      "inputTokens": 4768,
+      "outputTokens": 203,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N312928",
@@ -5027,11 +5021,11 @@
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6037.75549999997,
-      "inputTokens": 3611,
-      "outputTokens": 208,
+      "latencyMs": 13572.693900000071,
+      "inputTokens": 1436,
+      "outputTokens": 193,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N312634",
@@ -5039,21 +5033,21 @@
       "expected": "3406",
       "candidates": [
         "3406",
-        "1507",
+        "3307",
         "3404"
       ],
       "pickedChapters": [
         "34",
-        "15"
+        "33"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 13832.563299999805,
-      "inputTokens": 4079,
-      "outputTokens": 216,
+      "latencyMs": 7190.910099999979,
+      "inputTokens": 1444,
+      "outputTokens": 200,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N305925",
@@ -5062,7 +5056,7 @@
       "candidates": [
         "3307",
         "3304",
-        "3401"
+        "3305"
       ],
       "pickedChapters": [
         "33",
@@ -5071,55 +5065,55 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 9483.412999999942,
-      "inputTokens": 3625,
-      "outputTokens": 180,
+      "latencyMs": 19616.93709999998,
+      "inputTokens": 1450,
+      "outputTokens": 202,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N353266",
       "description": "a vacuum-insulated stainless steel water bottle",
       "expected": "9617",
       "candidates": [
+        "9617",
         "7310",
-        "7326",
-        "7324"
+        "7323"
       ],
       "pickedChapters": [
-        "73",
-        "84"
+        "96",
+        "73"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 20021.831800000044,
-      "inputTokens": 7088,
-      "outputTokens": 182,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7464.7654999999795,
+      "inputTokens": 2491,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N336485",
       "description": "hand sanitizer",
       "expected": "3808",
       "candidates": [
-        "3402",
-        "3401",
-        "3808"
+        "3808",
+        "3307",
+        "3304"
       ],
       "pickedChapters": [
-        "34",
+        "33",
         "38"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 8073.960000000196,
-      "inputTokens": 4321,
-      "outputTokens": 179,
+      "latencyMs": 13719.050000000047,
+      "inputTokens": 2148,
+      "outputTokens": 210,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N335826",
@@ -5128,20 +5122,20 @@
       "candidates": [
         "3213",
         "3215",
-        "9609"
+        "9505"
       ],
       "pickedChapters": [
-        "96",
+        "95",
         "32"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 4364.747599999886,
-      "inputTokens": 4355,
-      "outputTokens": 150,
+      "latencyMs": 9160.049899999984,
+      "inputTokens": 1731,
+      "outputTokens": 192,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N325431",
@@ -5150,64 +5144,64 @@
       "candidates": [
         "4201",
         "4202",
-        "3926"
+        "6307"
       ],
       "pickedChapters": [
         "42",
-        "39"
+        "63"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6931.4573000001255,
-      "inputTokens": 3992,
-      "outputTokens": 181,
+      "latencyMs": 10841.313700000057,
+      "inputTokens": 1304,
+      "outputTokens": 171,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N357453",
       "description": "Frozen Braised Beef",
       "expected": "1602",
       "candidates": [
+        "1602",
         "0202",
-        "0201",
-        "1602"
+        "1603"
       ],
       "pickedChapters": [
         "16",
         "02"
       ],
       "chapterRecall": true,
-      "top1Correct": false,
+      "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 16949.515299999854,
-      "inputTokens": 3458,
-      "outputTokens": 162,
+      "latencyMs": 12872.040000000037,
+      "inputTokens": 1283,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N349684",
       "description": "the Aspen tumbler",
       "expected": "9617",
       "candidates": [
-        "3924",
-        "7013",
-        "3926"
+        "9617",
+        "7323",
+        "9603"
       ],
       "pickedChapters": [
-        "70",
-        "39"
+        "96",
+        "73"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11657.620300000068,
-      "inputTokens": 4503,
-      "outputTokens": 152,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12796.679699999979,
+      "inputTokens": 2481,
+      "outputTokens": 196,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N350527",
@@ -5215,43 +5209,43 @@
       "expected": "0202",
       "candidates": [
         "0202",
-        "0201",
+        "0210",
         "1602"
       ],
       "pickedChapters": [
-        "16",
-        "02"
+        "02",
+        "16"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6950.343700000085,
-      "inputTokens": 3464,
-      "outputTokens": 161,
+      "latencyMs": 7111.565399999963,
+      "inputTokens": 1289,
+      "outputTokens": 178,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N321134",
       "description": "a stainless steel tumbler",
       "expected": "7323",
       "candidates": [
-        "7326",
+        "9617",
         "7323",
-        "7310"
+        "7326"
       ],
       "pickedChapters": [
         "73",
-        "82"
+        "96"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 11113.968200000003,
-      "inputTokens": 4585,
-      "outputTokens": 171,
+      "latencyMs": 7151.717200000072,
+      "inputTokens": 2483,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N306280",
@@ -5259,65 +5253,65 @@
       "expected": "8301",
       "candidates": [
         "8301",
-        "4202",
-        "8308"
+        "3926",
+        "8302"
       ],
       "pickedChapters": [
         "83",
-        "42"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 6856.71259999997,
-      "inputTokens": 3733,
-      "outputTokens": 193,
+      "latencyMs": 13057.13089999999,
+      "inputTokens": 2169,
+      "outputTokens": 164,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N305865",
       "description": "welding cable locks",
       "expected": "8301",
       "candidates": [
-        "7312",
-        "7318",
-        "7326"
+        "8301",
+        "8544",
+        "8536"
       ],
       "pickedChapters": [
-        "82",
-        "73"
+        "85",
+        "83"
       ],
-      "chapterRecall": false,
-      "top1Correct": false,
-      "top3Correct": false,
-      "latencyMs": 11920.321500000078,
-      "inputTokens": 4579,
-      "outputTokens": 196,
+      "chapterRecall": true,
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 12598.688199999975,
+      "inputTokens": 2977,
+      "outputTokens": 208,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N297759",
       "description": "insulated stainless steel beverage tumblers",
       "expected": "7323",
       "candidates": [
-        "7326",
-        "7324",
-        "7323"
+        "9617",
+        "7323",
+        "7326"
       ],
       "pickedChapters": [
-        "73",
-        "84"
+        "96",
+        "73"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 8670.182299999986,
-      "inputTokens": 7088,
-      "outputTokens": 187,
+      "latencyMs": 10551.75860000006,
+      "inputTokens": 2491,
+      "outputTokens": 184,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N358918",
@@ -5325,21 +5319,21 @@
       "expected": "4901",
       "candidates": [
         "4901",
-        "4911",
-        "4903"
+        "4903",
+        "4911"
       ],
       "pickedChapters": [
         "49",
-        "97"
+        "95"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 12879.90100000007,
-      "inputTokens": 3523,
-      "outputTokens": 153,
+      "latencyMs": 14802.118699999992,
+      "inputTokens": 1411,
+      "outputTokens": 182,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N356833",
@@ -5348,51 +5342,51 @@
       "candidates": [
         "3808",
         "3824",
-        "3815"
+        "3101"
       ],
       "pickedChapters": [
         "38",
-        "29"
+        "31"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 24715.686800000025,
-      "inputTokens": 5327,
-      "outputTokens": 162,
+      "latencyMs": 13593.339700000128,
+      "inputTokens": 2014,
+      "outputTokens": 191,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N351670",
       "description": "oil hose reels",
       "expected": "4009",
       "candidates": [
-        "8428",
-        "7326",
-        "8479"
+        "8479",
+        "8413",
+        "3917"
       ],
       "pickedChapters": [
         "84",
-        "73"
+        "39"
       ],
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 5500.067299999995,
-      "inputTokens": 7076,
-      "outputTokens": 201,
+      "latencyMs": 20414.86360000004,
+      "inputTokens": 4768,
+      "outputTokens": 206,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N348330",
       "description": "ready-to-eat snack mixes",
       "expected": "2008",
       "candidates": [
+        "2106",
         "1904",
-        "1901",
-        "2106"
+        "1905"
       ],
       "pickedChapters": [
         "21",
@@ -5401,11 +5395,11 @@
       "chapterRecall": false,
       "top1Correct": false,
       "top3Correct": false,
-      "latencyMs": 12088.421100000152,
-      "inputTokens": 3542,
-      "outputTokens": 201,
+      "latencyMs": 30314.74130000011,
+      "inputTokens": 1367,
+      "outputTokens": 224,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N342688",
@@ -5413,8 +5407,8 @@
       "expected": "2106",
       "candidates": [
         "2101",
-        "0902",
-        "2106"
+        "2106",
+        "0902"
       ],
       "pickedChapters": [
         "21",
@@ -5423,11 +5417,11 @@
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 9808.257799999788,
-      "inputTokens": 3409,
-      "outputTokens": 161,
+      "latencyMs": 16307.429199999897,
+      "inputTokens": 1234,
+      "outputTokens": 192,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N342775",
@@ -5435,43 +5429,43 @@
       "expected": "2309",
       "candidates": [
         "2309",
-        "2308",
-        "3101"
+        "2936",
+        "2922"
       ],
       "pickedChapters": [
         "23",
-        "31"
+        "29"
       ],
       "chapterRecall": true,
       "top1Correct": true,
       "top3Correct": true,
-      "latencyMs": 14035.06930000009,
-      "inputTokens": 3520,
-      "outputTokens": 160,
+      "latencyMs": 7317.647899999982,
+      "inputTokens": 2483,
+      "outputTokens": 197,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     },
     {
       "id": "N341295",
       "description": "multilayer wood flooring",
       "expected": "4412",
       "candidates": [
-        "4409",
         "4418",
-        "4412"
+        "4412",
+        "4409"
       ],
       "pickedChapters": [
         "44",
-        "64"
+        "39"
       ],
       "chapterRecall": true,
       "top1Correct": false,
       "top3Correct": true,
-      "latencyMs": 5137.195399999851,
-      "inputTokens": 3987,
-      "outputTokens": 158,
+      "latencyMs": 8117.000400000019,
+      "inputTokens": 2385,
+      "outputTokens": 205,
       "cacheWriteTokens": 0,
-      "cacheReadTokens": 0
+      "cacheReadTokens": 2177
     }
   ]
 }

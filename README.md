@@ -17,9 +17,13 @@ against the heading CBP actually assigned.
 | Haiku 4.5 | v1 baseline | 36.7% | 55.2% | $0.93 | 6.6 s |
 | Haiku 4.5 | v2 +rules | 40.7% | 59.3% | $1.38 | 6.8 s |
 | Haiku 4.5 | v3 +taxonomy | 50.0% | 67.7% | $4.53 | 7.6 s |
+| Haiku 4.5 | two-stage | 48.4% | 67.3% | $5.73 | 11.1 s |
 | Sonnet 4.6 | v1 baseline | 54.8% | 73.4% | $2.95 | 7.8 s |
 | Sonnet 4.6 | **v2 +rules** | 54.4% | **79.0%** | **$4.40** | 9.1 s |
-| Sonnet 4.6 | v3 +taxonomy | **56.0%** | 76.6% | $14.31 | 14.3 s |
+| Sonnet 4.6 | v3 +taxonomy | 56.0% | 76.6% | $14.31 | 14.3 s |
+| Sonnet 4.6 | two-stage | **58.9%** | 77.0% | $11.36 | 14.9 s |
+
+*Total API spend for this entire study, including dirty-run reruns: ≈ $14.*
 
 **Headline findings**
 
@@ -32,8 +36,17 @@ against the heading CBP actually assigned.
   cost tripled.
 - **At the same price point, the bigger model with the cheaper prompt wins.** Sonnet v2
   ($4.40/1K) beats Haiku v3 ($4.53/1K) by 4.4pt top-1 and 11.3pt top-3.
+- **Two-stage classification (chapter → heading) is accuracy-bounded by stage 1 and
+  cost-bounded by cache economics.** Pipeline accuracy ≈ chapter recall × in-chapter
+  accuracy: Sonnet picks the right chapter (top-2) 83.9% of the time and, given the
+  right chapter, hits 89.9% top-3 — so stage 1, not stage 2, is the lever. It yields
+  the best fully-automated number (58.9% top-1) and is the natural architecture for
+  going to 6 digits. But it's *not* cheaper than the monolith: its short dynamic
+  prompts can't use the prompt cache (below Haiku's 4,096-token cacheable minimum,
+  and stage 2 varies per request), while v3's 40K-token list reads at 0.1× — "shorter
+  prompt = cheaper" inverts under caching.
 - Recommended configuration today: **Sonnet 4.6 + v2 prompt** — 79% top-3 at $4.40 per
-  1,000 SKUs.
+  1,000 SKUs. For a fully-automated path, Sonnet two-stage at 58.9% top-1.
 
 ## Dataset: real rulings, not synthetic labels
 
@@ -77,6 +90,21 @@ a plausible-but-wrong neighbor among dozens of similar headings. v3 embeds all 1
 valid 4-digit headings with official titles in the cached system prompt. Result: the
 big Haiku jump (+9.3pt), marginal for Sonnet.
 
+**v3 → two-stage: decompose the decision.** `run-eval-twostage.ts` asks for the top-2
+chapters first (96 options), then chooses 3 headings among only those chapters' ~20-60
+codes. Per-item results record which stage failed, so the pipeline decomposes cleanly:
+
+| | Chapter recall (top-2) | Top-3 given right chapter | End-to-end top-3 |
+|---|---:|---:|---:|
+| Haiku 4.5 | 80.2% | 83.4% | 67.3% |
+| Sonnet 4.6 | 83.9% | 89.9% | 77.0% |
+
+Stage 1 is the bottleneck for both models — widening it to top-3 chapters is the
+obvious next experiment. An operational lesson surfaced here too: rate-limited
+requests (429s) silently count as failures and skewed two runs by up to 3.6pt until
+rerun cleanly; production evals need retry budgets and error accounting, not just
+accuracy.
+
 ## Limitations (read before quoting the numbers)
 
 - **These are upper-bound numbers.** CROSS subject lines are written by customs
@@ -93,9 +121,9 @@ big Haiku jump (+9.3pt), marginal for Sonnet.
 
 ## What I'd do next in production
 
-1. **Two-stage classification**: chapter (2-digit) first, then choose among that
-   chapter's headings only — shrinks the choice space ~50× and lets stage 2 include
-   subheading detail for 6-digit output.
+1. **Extend two-stage to 6 digits**: stage 1 already picks chapters; widen it to
+   top-3 chapters (the measured bottleneck), then add a third stage choosing among a
+   heading's subheadings — each stage stays a small constrained choice.
 2. **Confidence-based routing**: Haiku first; escalate to Sonnet (or a human) when
    candidates disagree or confidence is low — most of Sonnet's accuracy at a fraction
    of the cost.
@@ -115,6 +143,7 @@ echo "ANTHROPIC_API_KEY=sk-ant-..." > .env
 pnpm fetch-dataset                      # rebuild eval set from CROSS API
 pnpm tsx scripts/fetch-headings.ts      # rebuild heading list (v3)
 pnpm eval --model haiku --prompt v1     # any of: haiku|sonnet × v1|v2|v3
+pnpm tsx scripts/run-eval-twostage.ts --model sonnet   # two-stage pipeline
 ```
 
 Flags: `--limit N` (subset), `--concurrency N` (default 8; use 3 on low API tiers).
