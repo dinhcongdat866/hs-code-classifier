@@ -1,18 +1,22 @@
 # HS Code Classification — an eval-driven study
 
-A TypeScript backend that **measures speed, accuracy, and cost** of LLMs classifying
-products into customs (HS) codes — against real ground truth from US Customs
-rulings — then **improves the setup iteration by iteration** and records what each
-change was worth.
+A TypeScript (Node.js) backend that **measures speed, accuracy, and cost** of AI
+models classifying products into customs (HS) codes.
+
+The experiment:
+
+- Give the model **248 real product descriptions** and ask for the HS code. The
+  correct answers come from official US Customs rulings.
+- Score two ways: **top-1** = the model's first suggestion is correct.
+  **top-3** = the correct code is among its 3 suggestions, and a human picks it.
+- Compare two models and four setups on accuracy, speed, and cost — then improve
+  the setup step by step and measure what each change was worth.
 
 **The takeaway in one line:** you don't pick a *model* — you measure a
 **model × prompt × architecture** combination, because the best one is not the one
 intuition picks.
 
 ## Results
-
-248 real products. Each request returns 3 ranked candidate headings; accuracy is
-checked against the code US Customs actually assigned.
 
 | Model | Setup | Top-1 | Top-3 | Cost / 1K SKUs | Latency |
 |---|---|---:|---:|---:|---:|
@@ -29,10 +33,9 @@ checked against the code US Customs actually assigned.
 
 ## What the numbers taught us
 
-- **Letting the AI suggest 3 codes and a human pick one is more realistic than
-  full automation.** In this study, the best fully-automated score was 59%. With
-  3 suggestions and a human picking, it reached **79%**. That 20-point gap is the
-  measured value of keeping a person in the loop.
+- **Top-3 beats top-1 by 20 points — that gap is the value of a human reviewer.**
+  In this study the best top-1 score is 59%; the best top-3 score is **79%**. So
+  "AI suggests 3, a human picks one" is the realistic way to ship this today.
 
 - **The same prompt improvement helped the small model a lot and the big model
   almost not at all.** Pasting the full code list into the prompt lifted Haiku by
@@ -48,7 +51,7 @@ checked against the code US Customs actually assigned.
   prompts are too small to be cached, so they pay full price every time — and end
   up costing more.
 
-- **Splitting one hard question into two easy ones gives the best automation score —
+- **Splitting one hard question into two easy ones gives the best top-1 score —
   and shows you which half is failing.** Two-stage asks "which chapter?" then
   "which code inside that chapter?". Measuring each step separately showed the
   chapter step is the weak one (80-84% correct), not the code step (84-90%). Now we
@@ -77,14 +80,14 @@ codes that *sound* right but don't exist, or near-miss neighbors. So we gave it 
 
 **Step 4 — split one question into two (two-stage).** First ask "which chapter?"
 (97 options), then "which code inside that chapter?" (~20-60 options).
-→ The best fully-automated score in the study (Sonnet **58.9%**), plus separate
-scores for each step so we know which one to improve.
+→ The best top-1 score in the study (Sonnet **58.9%**), plus separate scores for
+each step so we know which one to improve.
 
 > **The punchline:** balancing speed, accuracy, and cost at scale is not about
 > picking the "best model" — it's about measuring. Every step above changed the
-> answer to "which setup should we ship?": human review → Sonnet v2; full
-> automation → Sonnet two-stage; tight budget → Haiku v3. None of this was
-> predictable without measuring — and all of it cost $14.
+> answer to "which setup should we ship?": best top-3 (human picks) → Sonnet v2;
+> best top-1 (no human) → Sonnet two-stage; tight budget → Haiku v3. None of this
+> was predictable without measuring — and all of it cost $14.
 
 ## Honest caveats
 
