@@ -28,8 +28,9 @@ intuition picks.
 | Sonnet 4.6 | **v2 +rules** | 54.4% | **79.0%** | **$4.40** | 9.1 s |
 | Sonnet 4.6 | v3 +taxonomy | 56.0% | 76.6% | $14.31 | 14.3 s |
 | Sonnet 4.6 | two-stage | **58.9%** | 77.0% | $11.36 | 14.9 s |
+| Sonnet 4.6 | v2, Japanese input | 52.0% | 71.8% | $4.47 | 6.9 s |
 
-*Entire study: ≈ $14 in API credits.*
+*Entire study, including the Japanese-input test: ≈ $15 in API credits.*
 
 ## What the numbers taught us
 
@@ -87,7 +88,7 @@ each step so we know which one to improve.
 > picking the "best model" — it's about measuring. Every step above changed the
 > answer to "which setup should we ship?": best top-3 (human picks) → Sonnet v2;
 > best top-1 (no human) → Sonnet two-stage; tight budget → Haiku v3. None of this
-> was predictable without measuring — and all of it cost $14.
+> was predictable without measuring — and all of it cost about $15.
 
 ## Bonus: does it survive Japanese input?
 
