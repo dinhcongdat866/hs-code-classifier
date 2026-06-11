@@ -29,68 +29,74 @@ checked against the code US Customs actually assigned.
 
 ## What the numbers taught us
 
-- **Top-3 is the production metric, not top-1.** Full automation tops out at 59%,
-  but "AI proposes 3, a human picks one" reaches **79%** — that 20-point gap is the
-  measured value of a human-review queue.
+- **Letting the AI suggest 3 codes and a human pick one is more realistic than
+  full automation.** In this study, the best fully-automated score was 59%. With
+  3 suggestions and a human picking, it reached **79%**. That 20-point gap is the
+  measured value of keeping a person in the loop.
 
-- **The same prompt improvement is worth +9pt on one model and nothing on another.**
-  Giving the model the full list of 1,229 valid headings (v3) lifted Haiku
-  40.7% → 50.0%, but lifted Sonnet only +1.6pt **while tripling cost** — Sonnet
-  already knows the taxonomy.
+- **The same prompt improvement helped the small model a lot and the big model
+  almost not at all.** Pasting the full code list into the prompt lifted Haiku by
+  **+9 points**. It lifted Sonnet by only 1.6 points **at 3× the cost** — Sonnet
+  already knows these codes.
 
-- **At the same price, the bigger model with the cheaper prompt wins.** Sonnet v2
-  ($4.40/1K) beats Haiku v3 ($4.53/1K) on every metric. "Save money with the small
-  model" is not automatically true.
+- **The small model is not always the cheaper option.** At the same price
+  (~$4.50 per 1K products), Sonnet with a simple prompt beats Haiku with an
+  expensive prompt on every metric.
 
-- **"Shorter prompt = cheaper" inverts under prompt caching.** The two-stage
-  pipeline's short dynamic prompts cost *more* per request than v3's 40K-token
-  heading list, because the list is cached (reads at 0.1×) and the short prompts
-  are too small to cache at all.
+- **A shorter prompt is not always cheaper.** Our 40K-token code list is cached by
+  the API and re-read at 10% of the normal price. The two-stage pipeline's short
+  prompts are too small to be cached, so they pay full price every time — and end
+  up costing more.
 
-- **In a pipeline, accuracy multiplies — find the weak stage.** Two-stage accuracy
-  ≈ chapter recall × in-chapter accuracy. Measurement showed stage 1 (picking the
-  chapter, 80-84%) is the bottleneck, not stage 2 (84-90%) — so we know exactly
-  where to work next.
+- **Splitting one hard question into two easy ones gives the best automation score —
+  and shows you which half is failing.** Two-stage asks "which chapter?" then
+  "which code inside that chapter?". Measuring each step separately showed the
+  chapter step is the weak one (80-84% correct), not the code step (84-90%). Now we
+  know exactly what to fix next.
 
 ## The evaluation, step by step
 
-**Step 0 — build ground truth.** 248 product descriptions from binding US Customs
-rulings ([CROSS](https://rulings.cbp.gov)), each paired with the HS heading Customs
-legally assigned. Filtered for answer leakage, trade-remedy codes, duplicates, and
-unclassifiable one-liners (`scripts/fetch-dataset.ts`).
+**Step 0 — get real answers to grade against.** 248 product descriptions from
+official US Customs rulings ([CROSS](https://rulings.cbp.gov)), each with the HS
+code Customs legally assigned. Cleaned of rulings that leak the answer, duplicate
+items, and descriptions too vague to classify (`scripts/fetch-dataset.ts`).
 
-**Step 1 — naive baseline (v1).** Just ask the model to classify.
-→ Sonnet 54.8% top-1. Now we know where we stand.
+**Step 1 — no customization (v1).** Just ask the model: "classify this product."
+→ Sonnet gets 54.8% right on the first suggestion. Now we know our starting point.
 
-**Step 2 — read the failures, teach the rules (v2).** The misses clustered on
-classification *rules* the model fails to apply: knitted vs woven apparel, Halloween
-costumes ≠ clothing, vacuum tumblers ≠ kitchenware. Wrote ~10 such rules into the
-prompt. → Sonnet top-3 **73.4% → 79.0%**.
+**Step 2 — study the wrong answers, add rules (v2).** The model kept breaking the
+same customs rules: knitted vs woven clothing go in different chapters, Halloween
+costumes don't count as clothing, vacuum tumblers don't count as kitchenware.
+We wrote ~10 of these rules into the prompt.
+→ Sonnet's top-3 score: **73.4% → 79.0%**.
 
-**Step 3 — ground it in the real taxonomy (v3).** Remaining misses were
-"plausible-but-wrong neighbor" picks in dense chapters (machinery, electronics).
-Embedded all 1,229 valid headings in a cached system prompt: "choose only from this
-list." → Haiku **+9.3pt**; Sonnet barely moved at 3× the cost.
+**Step 3 — paste the full code list into the prompt (v3).** The model kept picking
+codes that *sound* right but don't exist, or near-miss neighbors. So we gave it all
+1,229 valid codes and said: only choose from this list.
+→ Haiku **+9.3 points**. Sonnet: almost no change, at 3× the cost.
 
-**Step 4 — decompose the decision (two-stage).** First pick the *chapter* (2-digit,
-97 options), then pick the heading among only that chapter's ~20-60 codes.
-→ Best fully-automated score (Sonnet **58.9%** top-1), and per-stage metrics that
-show precisely which stage to improve.
+**Step 4 — split one question into two (two-stage).** First ask "which chapter?"
+(97 options), then "which code inside that chapter?" (~20-60 options).
+→ The best fully-automated score in the study (Sonnet **58.9%**), plus separate
+scores for each step so we know which one to improve.
 
-> **The punchline:** balancing speed, accuracy, and cost at scale is not a
-> model-picking decision — it's a measurement discipline. Every step above changed
-> the answer to "which setup should we ship?": human-in-the-loop → Sonnet v2; full
-> automation → Sonnet two-stage; tight budget → Haiku v3. None of these choices were
-> predictable without measuring — and the whole measurement cost $14.
+> **The punchline:** balancing speed, accuracy, and cost at scale is not about
+> picking the "best model" — it's about measuring. Every step above changed the
+> answer to "which setup should we ship?": human review → Sonnet v2; full
+> automation → Sonnet two-stage; tight budget → Haiku v3. None of this was
+> predictable without measuring — and all of it cost $14.
 
 ## Honest caveats
 
-- Ruling descriptions are written by customs attorneys — **cleaner than real
-  marketplace titles**, so these numbers are an upper bound.
-- 4-digit headings only (6/10-digit decomposes naturally via the two-stage
-  architecture).
-- Prompt rules were tuned on this same eval set; production would hold out a test
-  split.
+- The product descriptions in customs rulings are **cleaner than real marketplace
+  titles** ("Cute Cat Hoodie Soft Warm Winter XL Gift"). Real-world accuracy will
+  be lower than these numbers.
+- This study classifies to 4-digit codes. Full 6/10-digit classification is harder,
+  but the two-stage approach extends to it naturally.
+- We improved the prompt by studying the same 248 products we score on, so the
+  prompt may be over-fitted to them. The clean way: improve prompts on one set of
+  products, then measure on a *different* set the prompt has never seen. With only
+  248 samples we chose not to split them — a production eval should.
 
 ## What I'd build next in production
 
