@@ -1,0 +1,4236 @@
+{
+  "summary": {
+    "model": "sonnet",
+    "modelId": "claude-sonnet-4-6",
+    "prompt": "v2",
+    "timestamp": "2026-06-11T14:07:14.505Z",
+    "n": 248,
+    "top1Accuracy": 0.5201612903225806,
+    "top3Accuracy": 0.717741935483871,
+    "errors": 0,
+    "meanLatencyMs": 6873.455474193548,
+    "p95LatencyMs": 8783.075000000012,
+    "totalInputTokens": 210257,
+    "totalOutputTokens": 31825,
+    "totalCostUsd": 1.108146,
+    "costPer1kSkusUsd": 4.4683306451612905
+  },
+  "results": [
+    {
+      "id": "N359709",
+      "description": "レディースジャケット",
+      "expected": "6202",
+      "candidates": [
+        "6204",
+        "6202",
+        "6114"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6008.8705,
+      "inputTokens": 841,
+      "outputTokens": 142,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N346848",
+      "description": "テキスタイル コスチューム トランク",
+      "expected": "9505",
+      "candidates": [
+        "6212",
+        "6211",
+        "6208"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6195.231500000001,
+      "inputTokens": 848,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341320",
+      "description": "レディース リカバリーフーディー",
+      "expected": "6110",
+      "candidates": [
+        "6110",
+        "6114",
+        "6211"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6793.381,
+      "inputTokens": 846,
+      "outputTokens": 158,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N335561",
+      "description": "女性用フード付きブラウス",
+      "expected": "6106",
+      "candidates": [
+        "6206",
+        "6211",
+        "6110"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6225.3188,
+      "inputTokens": 846,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334502",
+      "description": "婦人用ブラウス",
+      "expected": "6106",
+      "candidates": [
+        "6206",
+        "6110",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6012.611100000002,
+      "inputTokens": 844,
+      "outputTokens": 132,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N329523",
+      "description": "「キャットニップカドル」ぬいぐるみと「スタッフドシーグッピー」魚型クッション",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "9404",
+        "6307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6996.259299999998,
+      "inputTokens": 873,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N327601",
+      "description": "メンズフーディープルオーバー",
+      "expected": "6110",
+      "candidates": [
+        "6110",
+        "6211",
+        "6101"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6976.532400000002,
+      "inputTokens": 846,
+      "outputTokens": 176,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N319174",
+      "description": "女性用及び男性用上半身衣類",
+      "expected": "6110",
+      "candidates": [
+        "6110",
+        "6109",
+        "6211"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8257.599499999997,
+      "inputTokens": 849,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N310402",
+      "description": "子供用ジャンプスーツ",
+      "expected": "6211",
+      "candidates": [
+        "6111",
+        "6113",
+        "6114"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5911.258599999997,
+      "inputTokens": 847,
+      "outputTokens": 135,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N306326",
+      "description": "ユニセックスジャケット",
+      "expected": "6102",
+      "candidates": [
+        "6201",
+        "6101",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6190.457499999997,
+      "inputTokens": 844,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N286274",
+      "description": "女の子用ジャケット",
+      "expected": "6102",
+      "candidates": [
+        "6202",
+        "6102",
+        "6104"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9588.031500000001,
+      "inputTokens": 844,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336897",
+      "description": "ポリエチレン製小売用キャリアバッグ",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "4819"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6910.9535,
+      "inputTokens": 853,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336728",
+      "description": "レディースニット衣料品",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6109",
+        "6104"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4062.9383000000016,
+      "inputTokens": 843,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N332869",
+      "description": "男の子用衣料品",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6109",
+        "6203"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6682.203600000001,
+      "inputTokens": 843,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N331830",
+      "description": "不織布製Tシャツ型バッグ",
+      "expected": "6307",
+      "candidates": [
+        "4202",
+        "6305",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7821.0167,
+      "inputTokens": 850,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N325544",
+      "description": "生分解性プラスチック袋",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "6305"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6132.232400000001,
+      "inputTokens": 846,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N309146",
+      "description": "生分解性プラスチック小売用キャリアバッグ",
+      "expected": "3923",
+      "candidates": [
+        "3923",
+        "3926",
+        "4819"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6319.900400000006,
+      "inputTokens": 855,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N305981",
+      "description": "メンズニット衣類",
+      "expected": "6109",
+      "candidates": [
+        "6110",
+        "6109",
+        "6101"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5799.215599999996,
+      "inputTokens": 842,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N301538",
+      "description": "メンズワークシャツ",
+      "expected": "6211",
+      "candidates": [
+        "6205",
+        "6110",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6017.881600000001,
+      "inputTokens": 843,
+      "outputTokens": 125,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N323309",
+      "description": "メンズパンツ",
+      "expected": "6203",
+      "candidates": [
+        "6203",
+        "6211",
+        "6114"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6402.8471999999965,
+      "inputTokens": 841,
+      "outputTokens": 142,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N303026",
+      "description": "レディースパンツ",
+      "expected": "6204",
+      "candidates": [
+        "6204",
+        "6211",
+        "6104"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5736.467700000001,
+      "inputTokens": 841,
+      "outputTokens": 161,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360990",
+      "description": "テキスタイル ハロウィン バスケット",
+      "expected": "6307",
+      "candidates": [
+        "9505",
+        "4602",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6125.802899999995,
+      "inputTokens": 850,
+      "outputTokens": 125,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360145",
+      "description": "金属家具",
+      "expected": "9403",
+      "candidates": [
+        "9403",
+        "9401",
+        "9402"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6235.786,
+      "inputTokens": 839,
+      "outputTokens": 109,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360271",
+      "description": "テキスタイル家具",
+      "expected": "9403",
+      "candidates": [
+        "9401",
+        "9403",
+        "6304"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6651.861700000001,
+      "inputTokens": 842,
+      "outputTokens": 174,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358985",
+      "description": "ビブ型テキスタイルカバリング",
+      "expected": "6307",
+      "candidates": [
+        "6211",
+        "6113",
+        "6307"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6268.3105,
+      "inputTokens": 849,
+      "outputTokens": 166,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358801",
+      "description": "フレーム付きキャンバスプリント",
+      "expected": "4911",
+      "candidates": [
+        "9701",
+        "4911",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5735.0147,
+      "inputTokens": 848,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357841",
+      "description": "2着のコスチューム",
+      "expected": "9505",
+      "candidates": [
+        "9505",
+        "6211",
+        "6110"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5843.381799999996,
+      "inputTokens": 843,
+      "outputTokens": 129,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N361012",
+      "description": "女性用トップス",
+      "expected": "6211",
+      "candidates": [
+        "6109",
+        "6110",
+        "6206"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6698.556799999991,
+      "inputTokens": 841,
+      "outputTokens": 155,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359769",
+      "description": "重合反応器",
+      "expected": "8419",
+      "candidates": [
+        "8419",
+        "8479",
+        "8443"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6140.584300000002,
+      "inputTokens": 840,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357848",
+      "description": "足部義肢とその個別部品",
+      "expected": "9021",
+      "candidates": [
+        "9021",
+        "9021",
+        "8484"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5767.686600000001,
+      "inputTokens": 846,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355778",
+      "description": "ウェーディングブーツ",
+      "expected": "6402",
+      "candidates": [
+        "6401",
+        "6402",
+        "6404"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5245.088499999998,
+      "inputTokens": 844,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355201",
+      "description": "ワークアウトシューズ",
+      "expected": "6405",
+      "candidates": [
+        "6404",
+        "6402",
+        "6403"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4895.594200000007,
+      "inputTokens": 844,
+      "outputTokens": 101,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N350749",
+      "description": "非表示国からの靴下",
+      "expected": "6115",
+      "candidates": [
+        "6115",
+        "6111",
+        "6117"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5755.2485000000015,
+      "inputTokens": 844,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348907",
+      "description": "AFO対称ストラップ",
+      "expected": "9021",
+      "candidates": [
+        "9021",
+        "6307",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6514.258100000006,
+      "inputTokens": 843,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N339073",
+      "description": "アクリル毛糸",
+      "expected": "5509",
+      "candidates": [
+        "5111",
+        "5509",
+        "5402"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7489.741299999994,
+      "inputTokens": 842,
+      "outputTokens": 158,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N339080",
+      "description": "紡績テクスチャー加工ポリプロピレン糸",
+      "expected": "5402",
+      "candidates": [
+        "5402",
+        "5404",
+        "5509"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9954.077900000004,
+      "inputTokens": 856,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340134",
+      "description": "乳幼児用靴下",
+      "expected": "6111",
+      "candidates": [
+        "6111",
+        "6115",
+        "6112"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5601.724999999991,
+      "inputTokens": 844,
+      "outputTokens": 133,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334203",
+      "description": "フットワーク リフレクソロジーキット",
+      "expected": "9019",
+      "candidates": [
+        "9019",
+        "8543",
+        "3304"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5604.358800000002,
+      "inputTokens": 849,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N329665",
+      "description": "スチール製ハンガー3本セット",
+      "expected": "8302",
+      "candidates": [
+        "7326",
+        "7317",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5798.079899999997,
+      "inputTokens": 847,
+      "outputTokens": 100,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N323706",
+      "description": "綿糸",
+      "expected": "5205",
+      "candidates": [
+        "5205",
+        "5206",
+        "5207"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6347.625,
+      "inputTokens": 839,
+      "outputTokens": 152,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N318785",
+      "description": "ガラス繊維製品",
+      "expected": "7019",
+      "candidates": [
+        "7019",
+        "7020",
+        "6814"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6441.137400000007,
+      "inputTokens": 843,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N326678",
+      "description": "ライト付き舌部分のフットウェア",
+      "expected": "6403",
+      "candidates": [
+        "6404",
+        "6402",
+        "6405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7631.71590000001,
+      "inputTokens": 849,
+      "outputTokens": 135,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N287202",
+      "description": "レイザー「ジェッツ DLX」",
+      "expected": "9506",
+      "candidates": [
+        "6404",
+        "6402",
+        "6403"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6648.870600000009,
+      "inputTokens": 849,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354200",
+      "description": "一体成型クロッグ",
+      "expected": "6402",
+      "candidates": [
+        "6402",
+        "6405",
+        "6404"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7324.939199999993,
+      "inputTokens": 844,
+      "outputTokens": 148,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354301",
+      "description": "一体成型のスリップオンシューズ",
+      "expected": "6402",
+      "candidates": [
+        "6404",
+        "6402",
+        "6405"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 4262.490399999995,
+      "inputTokens": 849,
+      "outputTokens": 125,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356922",
+      "description": "ダブルウォール真空断熱ステンレス製タンブラー",
+      "expected": "9617",
+      "candidates": [
+        "9617",
+        "7323",
+        "7615"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6403.769899999999,
+      "inputTokens": 857,
+      "outputTokens": 108,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355693",
+      "description": "電磁刺激装置",
+      "expected": "8543",
+      "candidates": [
+        "9019",
+        "9018",
+        "8543"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6745.231800000009,
+      "inputTokens": 843,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353548",
+      "description": "野球帽",
+      "expected": "6505",
+      "candidates": [
+        "6505",
+        "6506",
+        "6504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5918.500599999999,
+      "inputTokens": 839,
+      "outputTokens": 102,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N325666",
+      "description": "キャップ インサート",
+      "expected": "6507",
+      "candidates": [
+        "6506",
+        "6217",
+        "5911"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7233.712700000004,
+      "inputTokens": 841,
+      "outputTokens": 148,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356180",
+      "description": "女性用スカート",
+      "expected": "3926",
+      "candidates": [
+        "6204",
+        "6104",
+        "6211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5643.034899999999,
+      "inputTokens": 841,
+      "outputTokens": 152,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347381",
+      "description": "アウトソールラフニング・サンディングマシン",
+      "expected": "8477",
+      "candidates": [
+        "8460",
+        "8453",
+        "8464"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7203.306700000001,
+      "inputTokens": 851,
+      "outputTokens": 149,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336251",
+      "description": "レディースベルト",
+      "expected": "3926",
+      "candidates": [
+        "6217",
+        "4205",
+        "6615"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5450.728000000003,
+      "inputTokens": 840,
+      "outputTokens": 104,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N330959",
+      "description": "緊急用サバイバルバックパックキット",
+      "expected": "8527",
+      "candidates": [
+        "4202",
+        "6307",
+        "9020"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6050.462500000009,
+      "inputTokens": 850,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N315669",
+      "description": "フェイクレザージャケット",
+      "expected": "3926",
+      "candidates": [
+        "6210",
+        "6211",
+        "6201"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6728.564700000003,
+      "inputTokens": 844,
+      "outputTokens": 162,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352981",
+      "description": "リモートマウントコントロールユニット",
+      "expected": "8517",
+      "candidates": [
+        "8537",
+        "8543",
+        "8536"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6690.592299999989,
+      "inputTokens": 847,
+      "outputTokens": 141,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N350114",
+      "description": "パーソナルアシスタントロボット",
+      "expected": "8543",
+      "candidates": [
+        "8479",
+        "8543",
+        "8471"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7949.564600000012,
+      "inputTokens": 847,
+      "outputTokens": 144,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348181",
+      "description": "スマートリング",
+      "expected": "9031",
+      "candidates": [
+        "8517",
+        "9021",
+        "8543"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5766.153999999995,
+      "inputTokens": 839,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347828",
+      "description": "エフェクトペダル",
+      "expected": "8543",
+      "candidates": [
+        "8543",
+        "8518",
+        "9207"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6079.751500000013,
+      "inputTokens": 842,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341281",
+      "description": "ホログラム対応ワイヤレスBluetoothスピーカー",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8543",
+        "8528"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6419.662199999992,
+      "inputTokens": 857,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340401",
+      "description": "プラスチック製ウォーターボトル",
+      "expected": "3924",
+      "candidates": [
+        "3924",
+        "3926",
+        "9617"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8553.098799999992,
+      "inputTokens": 848,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340388",
+      "description": "3種類のBluetoothラウドスピーカー",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8543",
+        "8517"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8283.3033,
+      "inputTokens": 851,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340130",
+      "description": "5ツール コンボキット パワーツールセット",
+      "expected": "8467",
+      "candidates": [
+        "8467",
+        "8508",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6441.84169999999,
+      "inputTokens": 851,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N337970",
+      "description": "携帯電話/腕時計",
+      "expected": "8517",
+      "candidates": [
+        "8517",
+        "9102",
+        "9101"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5315.836899999995,
+      "inputTokens": 845,
+      "outputTokens": 108,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N335141",
+      "description": "電動ゴーカート",
+      "expected": "8703",
+      "candidates": [
+        "8703",
+        "8711",
+        "9508"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6017.313599999994,
+      "inputTokens": 843,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N326117",
+      "description": "Bluetoothパーティースピーカー",
+      "expected": "8518",
+      "candidates": [
+        "8518",
+        "8543",
+        "8527"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7234.138799999986,
+      "inputTokens": 846,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N322422",
+      "description": "ホバーボードアクセサリー",
+      "expected": "8714",
+      "candidates": [
+        "8714",
+        "8543",
+        "8708"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9203.982199999999,
+      "inputTokens": 846,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N315726",
+      "description": "デジタルメディアプレイヤー",
+      "expected": "8517",
+      "candidates": [
+        "8521",
+        "8543",
+        "8519"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6328.945999999996,
+      "inputTokens": 847,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N313553",
+      "description": "ラジオ放送受信機",
+      "expected": "8527",
+      "candidates": [
+        "8527",
+        "8525",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6353.850199999986,
+      "inputTokens": 844,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357069",
+      "description": "耳鳴り治療装置",
+      "expected": "9018",
+      "candidates": [
+        "9018",
+        "8543",
+        "8519"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6862.783100000001,
+      "inputTokens": 845,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352742",
+      "description": "時計ベルト",
+      "expected": "9113",
+      "candidates": [
+        "9113",
+        "7117",
+        "4205"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6526.131800000003,
+      "inputTokens": 841,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N339719",
+      "description": "FightCampコンソールとトラッカーセット",
+      "expected": "9031",
+      "candidates": [
+        "8543",
+        "9506",
+        "9031"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6438.889200000005,
+      "inputTokens": 850,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N296023",
+      "description": "「Herovision」拡張現実（AR）セット",
+      "expected": "9004",
+      "candidates": [
+        "9013",
+        "8543",
+        "8528"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6788.7538999999815,
+      "inputTokens": 851,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N287497",
+      "description": "「R2-D2」スマートトイロボット",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "8542",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7322.260099999985,
+      "inputTokens": 850,
+      "outputTokens": 137,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N287580",
+      "description": "「カーズ ライトニング・マックイーン」スマートトイ",
+      "expected": "9503",
+      "candidates": [
+        "9503",
+        "9504",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6546.2359,
+      "inputTokens": 858,
+      "outputTokens": 125,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347600",
+      "description": "メタル六角形ステッカー",
+      "expected": "7326",
+      "candidates": [
+        "3919",
+        "8310",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7446.63930000001,
+      "inputTokens": 845,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347798",
+      "description": "LCDホームオートメーションハブ",
+      "expected": "8531",
+      "candidates": [
+        "8537",
+        "8543",
+        "8531"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7774.582699999999,
+      "inputTokens": 847,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341056",
+      "description": "木材鑑定キット",
+      "expected": "9013",
+      "candidates": [
+        "9027",
+        "9023",
+        "4421"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6659.97629999998,
+      "inputTokens": 843,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N337421",
+      "description": "カードホルダー",
+      "expected": "4202",
+      "candidates": [
+        "4202",
+        "3926",
+        "4205"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6624.698699999979,
+      "inputTokens": 840,
+      "outputTokens": 105,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336903",
+      "description": "カード機能付きスマートフォンケース",
+      "expected": "4202",
+      "candidates": [
+        "4202",
+        "3926",
+        "4205"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6534.868199999997,
+      "inputTokens": 848,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336451",
+      "description": "ストリーミングセット",
+      "expected": "9620",
+      "candidates": [
+        "8525",
+        "8543",
+        "8471"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6936.854099999997,
+      "inputTokens": 842,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N335514",
+      "description": "MagSafe フィンガーループスタンド",
+      "expected": "7616",
+      "candidates": [
+        "8473",
+        "8517",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6168.4663,
+      "inputTokens": 848,
+      "outputTokens": 108,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N326427",
+      "description": "フットウェア インソール",
+      "expected": "6406",
+      "candidates": [
+        "6406",
+        "6404",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6790.199299999978,
+      "inputTokens": 842,
+      "outputTokens": 107,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N325560",
+      "description": "Aavia ピルケース",
+      "expected": "9031",
+      "candidates": [
+        "3923",
+        "3926",
+        "4202"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6578.54270000002,
+      "inputTokens": 842,
+      "outputTokens": 91,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N316886",
+      "description": "虫眼鏡付きスマートフォンケース",
+      "expected": "9013",
+      "candidates": [
+        "4202",
+        "9013",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 11123.221900000004,
+      "inputTokens": 852,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N315234",
+      "description": "プライバシー電話ボース及びコンポーネント",
+      "expected": "9403",
+      "candidates": [
+        "8517",
+        "8302",
+        "9403"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7225.8217,
+      "inputTokens": 852,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N306755",
+      "description": "携帯電話ストラップ",
+      "expected": "5609",
+      "candidates": [
+        "3926",
+        "6307",
+        "7117"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6479.335999999981,
+      "inputTokens": 845,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359291",
+      "description": "航空用ヘッドセット用バッテリーチャージャー",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8507",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7402.930599999992,
+      "inputTokens": 856,
+      "outputTokens": 134,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359612",
+      "description": "コードレス電動ハンドヘルドスプレッダーキット",
+      "expected": "8479",
+      "candidates": [
+        "8424",
+        "8467",
+        "8432"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7493.20670000001,
+      "inputTokens": 856,
+      "outputTokens": 152,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359248",
+      "description": "ロボット式プール スキマー",
+      "expected": "8421",
+      "candidates": [
+        "8479",
+        "8543",
+        "8421"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7840.811300000001,
+      "inputTokens": 845,
+      "outputTokens": 123,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359206",
+      "description": "エレベーターケーブルクリーニング及び潤滑システム",
+      "expected": "8479",
+      "candidates": [
+        "8479",
+        "8413",
+        "8467"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6938.150099999999,
+      "inputTokens": 856,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356789",
+      "description": "ユニバーサルバッテリーチャージャー",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8507",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6957.704399999988,
+      "inputTokens": 851,
+      "outputTokens": 129,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356778",
+      "description": "ユーザーガイド",
+      "expected": "4901",
+      "candidates": [
+        "4901",
+        "4911",
+        "4900"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6982.986399999994,
+      "inputTokens": 842,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356154",
+      "description": "ロボットプラットフォーム",
+      "expected": "8479",
+      "candidates": [
+        "8479",
+        "8543",
+        "8486"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6642.4413999999815,
+      "inputTokens": 845,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355848",
+      "description": "電池式ハンドヘルドツールセット",
+      "expected": "8467",
+      "candidates": [
+        "8467",
+        "8205",
+        "8466"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7149.964400000026,
+      "inputTokens": 850,
+      "outputTokens": 145,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353154",
+      "description": "ポータブル酸素濃縮器",
+      "expected": "9019",
+      "candidates": [
+        "9019",
+        "9018",
+        "8421"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6817.1630000000005,
+      "inputTokens": 847,
+      "outputTokens": 106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352352",
+      "description": "義手セットと義肘セット",
+      "expected": "9021",
+      "candidates": [
+        "9021",
+        "9026",
+        "8479"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7527.482799999998,
+      "inputTokens": 845,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N350173",
+      "description": "LED クリップライト",
+      "expected": "8513",
+      "candidates": [
+        "9405",
+        "8543",
+        "8512"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6545.031900000002,
+      "inputTokens": 840,
+      "outputTokens": 104,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N346962",
+      "description": "クリスマスデコレーション",
+      "expected": "9505",
+      "candidates": [
+        "9505",
+        "6307",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6596.545100000018,
+      "inputTokens": 844,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N344651",
+      "description": "液晶照明デバイス",
+      "expected": "9013",
+      "candidates": [
+        "8543",
+        "8512",
+        "9405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7991.067600000009,
+      "inputTokens": 844,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N337034",
+      "description": "LEDランプボード",
+      "expected": "8539",
+      "candidates": [
+        "8543",
+        "9405",
+        "8531"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7114.031500000012,
+      "inputTokens": 840,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334432",
+      "description": "照明器具",
+      "expected": "9405",
+      "candidates": [
+        "9405",
+        "8539",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6181.412899999996,
+      "inputTokens": 839,
+      "outputTokens": 110,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N351198",
+      "description": "ピアノオーバーレイ",
+      "expected": "4911",
+      "candidates": [
+        "9209",
+        "9207",
+        "9205"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6693.627999999997,
+      "inputTokens": 845,
+      "outputTokens": 111,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N318809",
+      "description": "ポータブル自動データ処理機械",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8473",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6074.488400000002,
+      "inputTokens": 847,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N310447",
+      "description": "クリオ ネクスト タブレット",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8543",
+        "8517"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6794.241899999994,
+      "inputTokens": 847,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N303442",
+      "description": "パーソナルコンピュータ（PC）",
+      "expected": "8471",
+      "candidates": [
+        "8471",
+        "8473",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5764.988400000002,
+      "inputTokens": 848,
+      "outputTokens": 84,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N295452",
+      "description": "LCDディスプレイモニター",
+      "expected": "8528",
+      "candidates": [
+        "8528",
+        "8531",
+        "8473"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6765.923699999985,
+      "inputTokens": 845,
+      "outputTokens": 114,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N289518",
+      "description": "VR(バーチャルリアリティ)ゴーグル",
+      "expected": "8528",
+      "candidates": [
+        "9005",
+        "8528",
+        "9004"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6585.690900000016,
+      "inputTokens": 854,
+      "outputTokens": 118,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N289540",
+      "description": "ニュートラルデンシティフィルター",
+      "expected": "9002",
+      "candidates": [
+        "9002",
+        "9007",
+        "9013"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6855.753300000011,
+      "inputTokens": 848,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N289532",
+      "description": "ドローンプロペラおよびプロペラガード",
+      "expected": "8803",
+      "candidates": [
+        "8806",
+        "8807",
+        "8473"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7497.997600000002,
+      "inputTokens": 851,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334094",
+      "description": "パワーバンクキオスク",
+      "expected": "8504",
+      "candidates": [
+        "8504",
+        "8543",
+        "8476"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6930.918000000005,
+      "inputTokens": 844,
+      "outputTokens": 114,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N328222",
+      "description": "電動船外機",
+      "expected": "8501",
+      "candidates": [
+        "8412",
+        "8501",
+        "8407"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7207.241899999994,
+      "inputTokens": 840,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N306841",
+      "description": "ジャンプスターターとパワーパックセット、パワーバンク",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8543",
+        "8544"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 11045.833600000013,
+      "inputTokens": 857,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N305956",
+      "description": "３個のゲーム機電源ユニット",
+      "expected": "9504",
+      "candidates": [
+        "8504",
+        "8473",
+        "9504"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6781.426399999997,
+      "inputTokens": 849,
+      "outputTokens": 118,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N289736",
+      "description": "ハイブリッド発電セット",
+      "expected": "8502",
+      "candidates": [
+        "8502",
+        "8501",
+        "8504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6598.914000000019,
+      "inputTokens": 845,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N288408",
+      "description": "充電キット",
+      "expected": "8507",
+      "candidates": [
+        "8504",
+        "8507",
+        "8544"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8279.181699999986,
+      "inputTokens": 839,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357549",
+      "description": "セラミックマグとハンドル付きセラミックカップ",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "6911",
+        "6914"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6110.362800000003,
+      "inputTokens": 854,
+      "outputTokens": 117,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353512",
+      "description": "セラミックカップとセラミックコースターセット",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "6911",
+        "6913"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6512.757400000002,
+      "inputTokens": 850,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334248",
+      "description": "セラミックカップとスプーン",
+      "expected": "6912",
+      "candidates": [
+        "6912",
+        "6911",
+        "8215"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6442.268999999971,
+      "inputTokens": 845,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N345071",
+      "description": "詰め物料理セット",
+      "expected": "1902",
+      "candidates": [
+        "2106",
+        "1602",
+        "2104"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7523.552200000035,
+      "inputTokens": 843,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N286356",
+      "description": "ノンスティックアルミニウムフライパン",
+      "expected": "7615",
+      "candidates": [
+        "7615",
+        "7323",
+        "8516"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5026.074200000032,
+      "inputTokens": 850,
+      "outputTokens": 132,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358245",
+      "description": "ナイフシャープナー",
+      "expected": "8205",
+      "candidates": [
+        "8214",
+        "8205",
+        "8467"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6170.678399999975,
+      "inputTokens": 843,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352117",
+      "description": "掛け布団カバー、食器用タオル、ボックスシーツ、ビーチタオル、ハンドタオル",
+      "expected": "6302",
+      "candidates": [
+        "6302",
+        "6301",
+        "6304"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7825.85970000003,
+      "inputTokens": 875,
+      "outputTokens": 175,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347281",
+      "description": "グルーミングセット6点",
+      "expected": "8214",
+      "candidates": [
+        "8214",
+        "8215",
+        "3304"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8036.164199999999,
+      "inputTokens": 843,
+      "outputTokens": 144,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341177",
+      "description": "3点のナイフセット",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8214",
+        "8215"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6664.238599999982,
+      "inputTokens": 843,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N333596",
+      "description": "3本の個別ナイフと3本ナイフセット",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8214",
+        "8215"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9015.540900000022,
+      "inputTokens": 853,
+      "outputTokens": 151,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N324986",
+      "description": "掛け布団カバー",
+      "expected": "6302",
+      "candidates": [
+        "6302",
+        "6304",
+        "6301"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7047.223300000012,
+      "inputTokens": 843,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N283661",
+      "description": "ペアリングナイフセット",
+      "expected": "8211",
+      "candidates": [
+        "8211",
+        "8214",
+        "8215"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6633.54640000005,
+      "inputTokens": 844,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360646",
+      "description": "家庭用キッチンまな板",
+      "expected": "7323",
+      "candidates": [
+        "3924",
+        "4416",
+        "4419"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6457.34520000004,
+      "inputTokens": 846,
+      "outputTokens": 103,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356962",
+      "description": "電気ケーブル",
+      "expected": "8544",
+      "candidates": [
+        "8544",
+        "8545",
+        "8537"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6078.510100000014,
+      "inputTokens": 842,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348734",
+      "description": "プレッシャーベルト",
+      "expected": "8441",
+      "candidates": [
+        "8431",
+        "8448",
+        "4010"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6331.031999999948,
+      "inputTokens": 843,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360484",
+      "description": "装飾クッション2個セット",
+      "expected": "9404",
+      "candidates": [
+        "9404",
+        "6304",
+        "5407"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7662.449599999993,
+      "inputTokens": 845,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359790",
+      "description": "幼児用スリープマット",
+      "expected": "9404",
+      "candidates": [
+        "9404",
+        "9503",
+        "5705"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5352.434000000008,
+      "inputTokens": 844,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358599",
+      "description": "加熱腰部クッションと加熱背もたれ",
+      "expected": "9404",
+      "candidates": [
+        "6304",
+        "8516",
+        "6217"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6876.244499999972,
+      "inputTokens": 853,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358305",
+      "description": "振動アラーム時計",
+      "expected": "9105",
+      "candidates": [
+        "9105",
+        "9103",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6605.037200000021,
+      "inputTokens": 843,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353814",
+      "description": "オプティライフ チンストラップ",
+      "expected": "9019",
+      "candidates": [
+        "9020",
+        "9021",
+        "6217"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7012.829099999974,
+      "inputTokens": 846,
+      "outputTokens": 142,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360755",
+      "description": "スローブランケット",
+      "expected": "6301",
+      "candidates": [
+        "6301",
+        "6304",
+        "6302"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6587.045600000012,
+      "inputTokens": 840,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352005",
+      "description": "ニット製とウーブン製のブランケット",
+      "expected": "6301",
+      "candidates": [
+        "6301",
+        "6110",
+        "5407"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 9242.719900000026,
+      "inputTokens": 849,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348968",
+      "description": "射出成形金型",
+      "expected": "8480",
+      "candidates": [
+        "8480",
+        "8207",
+        "8479"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7619.361199999985,
+      "inputTokens": 841,
+      "outputTokens": 172,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N324162",
+      "description": "キッチンウィンドウバランスとティアカーテンセット",
+      "expected": "6303",
+      "candidates": [
+        "6303",
+        "6304",
+        "6302"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7030.223300000012,
+      "inputTokens": 855,
+      "outputTokens": 134,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N318689",
+      "description": "ストリングライト",
+      "expected": "9405",
+      "candidates": [
+        "9405",
+        "8539",
+        "8544"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7373.762500000012,
+      "inputTokens": 840,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N316502",
+      "description": "カーテンウォールフレームと玄関ドアフレーム",
+      "expected": "7604",
+      "candidates": [
+        "7610",
+        "7308",
+        "3925"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7587.2598,
+      "inputTokens": 855,
+      "outputTokens": 108,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N312202",
+      "description": "プラス・バイオニクス POD",
+      "expected": "9027",
+      "candidates": [
+        "9021",
+        "8479",
+        "8543"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7380.338199999998,
+      "inputTokens": 846,
+      "outputTokens": 134,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N308394",
+      "description": "ベッドバランス",
+      "expected": "6303",
+      "candidates": [
+        "6304",
+        "6302",
+        "6303"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6885.5622999999905,
+      "inputTokens": 841,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357291",
+      "description": "補聴器用掃除機",
+      "expected": "8508",
+      "candidates": [
+        "9021",
+        "8509",
+        "8543"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7119.09739999997,
+      "inputTokens": 844,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356793",
+      "description": "モッピング機能、自動洗浄・自動乾燥機能付きロボット掃除機",
+      "expected": "8508",
+      "candidates": [
+        "8508",
+        "8479",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7420.123499999987,
+      "inputTokens": 865,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354669",
+      "description": "水槽用底砂クリーナー",
+      "expected": "8421",
+      "candidates": [
+        "8421",
+        "9506",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7678.440100000007,
+      "inputTokens": 847,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N343613",
+      "description": "プール掃除機",
+      "expected": "8421",
+      "candidates": [
+        "8543",
+        "8479",
+        "8509"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7420.931900000025,
+      "inputTokens": 840,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N326460",
+      "description": "ロボット掃除機",
+      "expected": "8508",
+      "candidates": [
+        "8508",
+        "8479",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5812.623300000036,
+      "inputTokens": 842,
+      "outputTokens": 101,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N316258",
+      "description": "シャイン バスルームアシスタント",
+      "expected": "8424",
+      "candidates": [
+        "8543",
+        "9032",
+        "8509"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 9189.624199999962,
+      "inputTokens": 847,
+      "outputTokens": 160,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N312802",
+      "description": "ジュエリークリーナー",
+      "expected": "8509",
+      "candidates": [
+        "3405",
+        "3402",
+        "3824"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6600.297399999981,
+      "inputTokens": 844,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360909",
+      "description": "ラオシエチェン冷凍シーフードチーズライスバーガー",
+      "expected": "1904",
+      "candidates": [
+        "1601",
+        "1904",
+        "1605"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7524.597699999984,
+      "inputTokens": 859,
+      "outputTokens": 151,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359553",
+      "description": "温度制御ユニット",
+      "expected": "8419",
+      "candidates": [
+        "8419",
+        "9032",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6831.094800000021,
+      "inputTokens": 843,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359156",
+      "description": "バッテリーアセンブリ",
+      "expected": "8507",
+      "candidates": [
+        "8507",
+        "8506",
+        "8504"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8189.847999999998,
+      "inputTokens": 845,
+      "outputTokens": 132,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N349794",
+      "description": "スチール製のソーキングタブ 2個セット",
+      "expected": "7324",
+      "candidates": [
+        "7323",
+        "7326",
+        "3922"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6734.886100000003,
+      "inputTokens": 851,
+      "outputTokens": 108,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348430",
+      "description": "ファイブ・ウォッチボックス",
+      "expected": "4202",
+      "candidates": [
+        "9112",
+        "4202",
+        "3923"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7028.39109999995,
+      "inputTokens": 848,
+      "outputTokens": 133,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347087",
+      "description": "超低NOxバーナー",
+      "expected": "8419",
+      "candidates": [
+        "8416",
+        "8417",
+        "8419"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7609.839700000011,
+      "inputTokens": 843,
+      "outputTokens": 153,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360838",
+      "description": "アルミニウムフレーム（ピンクリップシステム付き）",
+      "expected": "8306",
+      "candidates": [
+        "7610",
+        "7616",
+        "8302"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7074.5476999999955,
+      "inputTokens": 857,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359791",
+      "description": "亡くなった方々を偲ぶ日本の伝統的なオフレンダ祭壇です。メキシコの死者の日(Día de Muertos)の文化を表現した装飾用の祭壇で、花、ろうそく、写真、食べ物などを飾ることができます。大切な人を追悼し、思い出を共有するための美しいディスプレイとしてご利用いただけます。",
+      "expected": "4420",
+      "candidates": [
+        "9505",
+        "4420",
+        "6304"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8783.075000000012,
+      "inputTokens": 965,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N359705",
+      "description": "装飾的なワイヤーかぼちゃ",
+      "expected": "8306",
+      "candidates": [
+        "9505",
+        "8306",
+        "6702"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7081.275499999989,
+      "inputTokens": 852,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356897",
+      "description": "ペイント・バイ・ナンバー キット",
+      "expected": "3213",
+      "candidates": [
+        "9503",
+        "3213",
+        "4820"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6933.181700000016,
+      "inputTokens": 850,
+      "outputTokens": 105,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356689",
+      "description": "プラスチック製フォトフレーム",
+      "expected": "3924",
+      "candidates": [
+        "3924",
+        "3926",
+        "4414"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6264.126899999974,
+      "inputTokens": 847,
+      "outputTokens": 99,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353507",
+      "description": "額縁モールディング",
+      "expected": "4421",
+      "candidates": [
+        "4414",
+        "4409",
+        "3916"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7646.788100000005,
+      "inputTokens": 842,
+      "outputTokens": 162,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353362",
+      "description": "スチール製サイン フレーム",
+      "expected": "8306",
+      "candidates": [
+        "8302",
+        "7326",
+        "9405"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7048.510299999965,
+      "inputTokens": 845,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352141",
+      "description": "段ボール製ピクチャーフレームキット",
+      "expected": "4823",
+      "candidates": [
+        "4414",
+        "4823",
+        "4421"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7561.598400000017,
+      "inputTokens": 851,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N350696",
+      "description": "モジュール式建築部品",
+      "expected": "7616",
+      "candidates": [
+        "9406",
+        "7308",
+        "3925"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6112.214800000016,
+      "inputTokens": 843,
+      "outputTokens": 143,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N339771",
+      "description": "装飾ガラス製品",
+      "expected": "7013",
+      "candidates": [
+        "7013",
+        "7018",
+        "7020"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6064.762099999993,
+      "inputTokens": 844,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355963",
+      "description": "子ども向けソフトブック",
+      "expected": "4903",
+      "candidates": [
+        "4903",
+        "9503",
+        "4901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6651.987200000032,
+      "inputTokens": 845,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340532",
+      "description": "ケアベア チアー 3Dキーチェーン",
+      "expected": "7326",
+      "candidates": [
+        "9503",
+        "6307",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8388.706600000034,
+      "inputTokens": 852,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N361080",
+      "description": "大型「戦艦」ボードゲーム",
+      "expected": "9504",
+      "candidates": [
+        "9504",
+        "9503",
+        "4901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7276.58600000001,
+      "inputTokens": 850,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353019",
+      "description": "モノポリー ゲーム",
+      "expected": "9504",
+      "candidates": [
+        "9504",
+        "9503",
+        "4901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8887.601800000004,
+      "inputTokens": 844,
+      "outputTokens": 141,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352320",
+      "description": "「プリズム」ガイド付き企業向けエクササイズ",
+      "expected": "4911",
+      "candidates": [
+        "4901",
+        "4911",
+        "9506"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6626.965199999977,
+      "inputTokens": 857,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N344742",
+      "description": "「ツイスター スプラッシュ」ウォーターゲーム",
+      "expected": "9506",
+      "candidates": [
+        "9504",
+        "9506",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6963.042100000021,
+      "inputTokens": 858,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N331029",
+      "description": "斧投げゲームセット",
+      "expected": "9506",
+      "candidates": [
+        "9504",
+        "9506",
+        "9505"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9273.24900000001,
+      "inputTokens": 844,
+      "outputTokens": 99,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360455",
+      "description": "自転車ヒッチラック",
+      "expected": "8708",
+      "candidates": [
+        "8716",
+        "8708",
+        "8714"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8081.190700000036,
+      "inputTokens": 845,
+      "outputTokens": 179,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355873",
+      "description": "プリント済み粘着性ビニール製ビブナンバーとヘルメットステッカー",
+      "expected": "3919",
+      "candidates": [
+        "3919",
+        "4911",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6088.031000000017,
+      "inputTokens": 865,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352469",
+      "description": "自転車ヘルメット",
+      "expected": "6506",
+      "candidates": [
+        "6506",
+        "9506",
+        "6505"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7764.383000000031,
+      "inputTokens": 844,
+      "outputTokens": 105,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N352475",
+      "description": "ヘルメットアクセサリー",
+      "expected": "6507",
+      "candidates": [
+        "6506",
+        "9506",
+        "8714"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5738.194599999988,
+      "inputTokens": 846,
+      "outputTokens": 120,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N351067",
+      "description": "自転車ワークスタンド",
+      "expected": "7616",
+      "candidates": [
+        "8716",
+        "8487",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6619.984499999962,
+      "inputTokens": 845,
+      "outputTokens": 136,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N344662",
+      "description": "電動バイク",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "8703",
+        "8714"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5112.7800999999745,
+      "inputTokens": 840,
+      "outputTokens": 114,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340921",
+      "description": "自転車パーツ",
+      "expected": "8714",
+      "candidates": [
+        "8714",
+        "8712",
+        "8716"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6575.885999999999,
+      "inputTokens": 842,
+      "outputTokens": 109,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N340812",
+      "description": "自転車ホイールセット",
+      "expected": "8714",
+      "candidates": [
+        "8714",
+        "8712",
+        "7326"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7815.552299999981,
+      "inputTokens": 844,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N339879",
+      "description": "マウンテンバイク",
+      "expected": "8712",
+      "candidates": [
+        "8712",
+        "8714",
+        "8716"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5915.781900000002,
+      "inputTokens": 842,
+      "outputTokens": 117,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N337726",
+      "description": "電動スクーターと電動バイク",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "8712",
+        "8479"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6746.166200000036,
+      "inputTokens": 847,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N328813",
+      "description": "ゴム製犬おもちゃ",
+      "expected": "4016",
+      "candidates": [
+        "9503",
+        "4016",
+        "4014"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6829.085699999996,
+      "inputTokens": 847,
+      "outputTokens": 105,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336481",
+      "description": "釣竿キット",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "9506",
+        "8543"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7515.943499999994,
+      "inputTokens": 841,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N332802",
+      "description": "フィッシングロッドホルダー",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "8302",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6863.775000000023,
+      "inputTokens": 846,
+      "outputTokens": 125,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N330340",
+      "description": "フィッシング カップホルダー",
+      "expected": "7326",
+      "candidates": [
+        "9507",
+        "8302",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7800.708700000017,
+      "inputTokens": 845,
+      "outputTokens": 106,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N321619",
+      "description": "フライフィッシングキット",
+      "expected": "9507",
+      "candidates": [
+        "9507",
+        "9506",
+        "8481"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7056.61189999996,
+      "inputTokens": 843,
+      "outputTokens": 149,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N301031",
+      "description": "レクリエーションボート",
+      "expected": "8903",
+      "candidates": [
+        "8903",
+        "8906",
+        "8901"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6863.6726999999955,
+      "inputTokens": 842,
+      "outputTokens": 154,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N295506",
+      "description": "保護スリーブ",
+      "expected": "4016",
+      "candidates": [
+        "3926",
+        "3917",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6824.805800000031,
+      "inputTokens": 842,
+      "outputTokens": 117,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354413",
+      "description": "モバイルハウジングトレーラー",
+      "expected": "8716",
+      "candidates": [
+        "8716",
+        "9406",
+        "8705"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6359.536000000022,
+      "inputTokens": 847,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N311151",
+      "description": "トラックベッドキャノピー",
+      "expected": "8708",
+      "candidates": [
+        "8708",
+        "3925",
+        "7308"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6572.513199999987,
+      "inputTokens": 845,
+      "outputTokens": 123,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N303866",
+      "description": "バックパッキング用テントとレインフライ",
+      "expected": "6306",
+      "candidates": [
+        "6306",
+        "3926",
+        "6210"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6549.421299999987,
+      "inputTokens": 849,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N302567",
+      "description": "テント・バックパックセット",
+      "expected": "6306",
+      "candidates": [
+        "6306",
+        "4202",
+        "6306"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6004.009099999967,
+      "inputTokens": 843,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N312986",
+      "description": "電動スクーター",
+      "expected": "8711",
+      "candidates": [
+        "8711",
+        "8712",
+        "8479"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6761.289600000018,
+      "inputTokens": 841,
+      "outputTokens": 123,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N303622",
+      "description": "スケートボード用ウィール用ベアリング",
+      "expected": "8482",
+      "candidates": [
+        "8482",
+        "9506",
+        "8483"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5930.6664000000455,
+      "inputTokens": 850,
+      "outputTokens": 98,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358621",
+      "description": "エアー式カヤック/スタンドアップパドルボード",
+      "expected": "8903",
+      "candidates": [
+        "9506",
+        "8903",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7003.044999999984,
+      "inputTokens": 854,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357223",
+      "description": "タイタン プロ アイスパック セット",
+      "expected": "3824",
+      "candidates": [
+        "3824",
+        "3926",
+        "9018"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7605.848700000031,
+      "inputTokens": 848,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N300984",
+      "description": "バインダーとファイルフォルダー",
+      "expected": "4820",
+      "candidates": [
+        "3926",
+        "4820",
+        "4821"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6436.73060000001,
+      "inputTokens": 847,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N300397",
+      "description": "マルチファンクショナルツール",
+      "expected": "9017",
+      "candidates": [
+        "8205",
+        "8467",
+        "8211"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6963.169799999974,
+      "inputTokens": 845,
+      "outputTokens": 139,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N291864",
+      "description": "ユニセックスガーメント",
+      "expected": "6210",
+      "candidates": [
+        "6211",
+        "6110",
+        "6109"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6705.323899999959,
+      "inputTokens": 844,
+      "outputTokens": 141,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N343778",
+      "description": "シャムロックグラス",
+      "expected": "9004",
+      "candidates": [
+        "7013",
+        "7017",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7503.628800000006,
+      "inputTokens": 842,
+      "outputTokens": 181,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N343877",
+      "description": "パーティーフェイバーサングラス",
+      "expected": "9004",
+      "candidates": [
+        "9004",
+        "9505",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6467.10639999999,
+      "inputTokens": 847,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N320210",
+      "description": "ビーチチェア用ポケットタオル",
+      "expected": "6304",
+      "candidates": [
+        "6302",
+        "6307",
+        "6301"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6444.1327000000165,
+      "inputTokens": 849,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N315235",
+      "description": "アイグラスフレームとクリップオン式サングラス",
+      "expected": "9003",
+      "candidates": [
+        "9003",
+        "9004",
+        "9001"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5702.965700000001,
+      "inputTokens": 853,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N306716",
+      "description": "マイクロファイバーレンズワイプス",
+      "expected": "3402",
+      "candidates": [
+        "3407",
+        "6307",
+        "3401"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7168.726699999999,
+      "inputTokens": 849,
+      "outputTokens": 149,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N347448",
+      "description": "ゴルフ傘",
+      "expected": "6601",
+      "candidates": [
+        "6601",
+        "6602",
+        "6603"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7160.049100000004,
+      "inputTokens": 842,
+      "outputTokens": 129,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N337801",
+      "description": "傘立て",
+      "expected": "6603",
+      "candidates": [
+        "8302",
+        "4421",
+        "3926"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 4781.119400000025,
+      "inputTokens": 839,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N334613",
+      "description": "ガーデンアンブレラ",
+      "expected": "6601",
+      "candidates": [
+        "6601",
+        "9406",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7249.485599999956,
+      "inputTokens": 845,
+      "outputTokens": 122,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N333926",
+      "description": "ガラス旋盤機の分類",
+      "expected": "8445",
+      "candidates": [
+        "8458",
+        "8479",
+        "8464"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7318.695599999977,
+      "inputTokens": 846,
+      "outputTokens": 147,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N303295",
+      "description": "鋼製ファスナーとワイヤー",
+      "expected": "7317",
+      "candidates": [
+        "7317",
+        "7318",
+        "7312"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6606.328899999964,
+      "inputTokens": 850,
+      "outputTokens": 170,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N302391",
+      "description": "パティオアンブレラ\n\nOr more naturally in Japanese marketplace context:\n\nパティオ用傘\n\nOr the most common way it appears in Japanese e-commerce:\n\nガーデンパラソル",
+      "expected": "6601",
+      "candidates": [
+        "6601",
+        "6602",
+        "3926"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7371.441700000025,
+      "inputTokens": 884,
+      "outputTokens": 172,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N355090",
+      "description": "スペードビットセット",
+      "expected": "8207",
+      "candidates": [
+        "8207",
+        "8205",
+        "8466"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 8444.286699999997,
+      "inputTokens": 841,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354082",
+      "description": "ラブラドライト ネックレス",
+      "expected": "7116",
+      "candidates": [
+        "7117",
+        "7116",
+        "7113"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 5926.277799999982,
+      "inputTokens": 846,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N354151",
+      "description": "六角レンチセット",
+      "expected": "8204",
+      "candidates": [
+        "8204",
+        "8206",
+        "8205"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7421.92710000003,
+      "inputTokens": 842,
+      "outputTokens": 127,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N360074",
+      "description": "子供用プロジェクション腕時計",
+      "expected": "9102",
+      "candidates": [
+        "9102",
+        "9105",
+        "9503"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5732.572600000014,
+      "inputTokens": 848,
+      "outputTokens": 113,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357251",
+      "description": "4本の腕時計",
+      "expected": "9102",
+      "candidates": [
+        "9102",
+        "9101",
+        "9103"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6089.45060000004,
+      "inputTokens": 842,
+      "outputTokens": 111,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N322971",
+      "description": "冷却リストバンド",
+      "expected": "7117",
+      "candidates": [
+        "6217",
+        "6307",
+        "6116"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6821.573399999994,
+      "inputTokens": 843,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358456",
+      "description": "犬用シャンプー",
+      "expected": "3307",
+      "candidates": [
+        "3307",
+        "3401",
+        "3402"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6871.926699999953,
+      "inputTokens": 843,
+      "outputTokens": 114,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N346484",
+      "description": "ダーマローラー",
+      "expected": "8205",
+      "candidates": [
+        "9018",
+        "8215",
+        "3304"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 5651.521300000022,
+      "inputTokens": 841,
+      "outputTokens": 107,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N344746",
+      "description": "ルートニックス ゴールデンビオチン シャンプー、ルートニックス R+ マイクロバイオ シャンプー、ルートニックス ブルー キシリトール シャンプー、ルートニックス ヒアルロン酸アロエ シャンプー、ルートニックス アンチフケ シャンプー",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7861.609200000006,
+      "inputTokens": 941,
+      "outputTokens": 137,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N344747",
+      "description": "ルートニックス S.O.S. シカシャンプー",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6139.470700000005,
+      "inputTokens": 853,
+      "outputTokens": 112,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N329760",
+      "description": "Sashapure ヒーリングシャンプー、Sashapure ヒーリングコンディショナー、Sashapure リストラティブ コンディショニングマスク、Sashapure スムージング&シャイン ヘアトリートメント、および Sashapure デファイニング カールクリーム",
+      "expected": "3305",
+      "candidates": [
+        "3305",
+        "3304",
+        "3307"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7011.443499999994,
+      "inputTokens": 931,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N327317",
+      "description": "アルミニウムロック式ブラケット",
+      "expected": "8301",
+      "candidates": [
+        "7616",
+        "8302",
+        "7610"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8034.195299999963,
+      "inputTokens": 848,
+      "outputTokens": 114,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N302458",
+      "description": "「7本セット スクイズボトルキット」",
+      "expected": "3924",
+      "candidates": [
+        "3926",
+        "3924",
+        "3923"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8113.209400000051,
+      "inputTokens": 850,
+      "outputTokens": 115,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N302530",
+      "description": "SF1173（D4）とSF1202（D5）",
+      "expected": "2931",
+      "candidates": [
+        "8544",
+        "8536",
+        "8538"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6914.064299999969,
+      "inputTokens": 850,
+      "outputTokens": 124,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N298762",
+      "description": "フォーマーポンプエンジン",
+      "expected": "8413",
+      "candidates": [
+        "8413",
+        "8424",
+        "3923"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7413.536000000022,
+      "inputTokens": 846,
+      "outputTokens": 153,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N312928",
+      "description": "香り付きキャンドル",
+      "expected": "3406",
+      "candidates": [
+        "3406",
+        "3307",
+        "3814"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7281.017800000031,
+      "inputTokens": 844,
+      "outputTokens": 116,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N312634",
+      "description": "大豆ワックス香りキャンドル",
+      "expected": "3406",
+      "candidates": [
+        "3406",
+        "3402",
+        "3301"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7065.567399999942,
+      "inputTokens": 849,
+      "outputTokens": 128,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N305925",
+      "description": "マルチパーパス スパ ギフトセット",
+      "expected": "9613",
+      "candidates": [
+        "3307",
+        "3304",
+        "3401"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7112.16929999995,
+      "inputTokens": 850,
+      "outputTokens": 157,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N353266",
+      "description": "真空断熱ステンレス製ウォーターボトル",
+      "expected": "9617",
+      "candidates": [
+        "9617",
+        "7323",
+        "3924"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6127.617599999998,
+      "inputTokens": 854,
+      "outputTokens": 97,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N336485",
+      "description": "ハンドサニタイザー",
+      "expected": "3808",
+      "candidates": [
+        "3808",
+        "3307",
+        "3402"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7057.323700000066,
+      "inputTokens": 844,
+      "outputTokens": 130,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N335826",
+      "description": "スノーカラーマーカー",
+      "expected": "3213",
+      "candidates": [
+        "9608",
+        "9609",
+        "3215"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6648.464500000002,
+      "inputTokens": 844,
+      "outputTokens": 168,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N325431",
+      "description": "犬用首輪",
+      "expected": "4201",
+      "candidates": [
+        "6604",
+        "4201",
+        "6217"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 8497.724200000055,
+      "inputTokens": 841,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N357453",
+      "description": "冷凍牛肉の煮込み",
+      "expected": "1602",
+      "candidates": [
+        "0202",
+        "1602",
+        "0201"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7214.56660000002,
+      "inputTokens": 848,
+      "outputTokens": 140,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N349684",
+      "description": "アスペン タンブラー",
+      "expected": "9617",
+      "candidates": [
+        "9617",
+        "7323",
+        "3924"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5624.676899999962,
+      "inputTokens": 843,
+      "outputTokens": 121,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N350527",
+      "description": "味付き冷凍無骨牛肉",
+      "expected": "0202",
+      "candidates": [
+        "0202",
+        "1602",
+        "0210"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6483.311299999943,
+      "inputTokens": 849,
+      "outputTokens": 137,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N321134",
+      "description": "ステンレス製タンブラー",
+      "expected": "7323",
+      "candidates": [
+        "9617",
+        "7323",
+        "3924"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 7902.4843999999575,
+      "inputTokens": 845,
+      "outputTokens": 119,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N306280",
+      "description": "トラベルパドロック",
+      "expected": "8301",
+      "candidates": [
+        "8301",
+        "8302",
+        "8308"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 6661.686699999962,
+      "inputTokens": 842,
+      "outputTokens": 146,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N305865",
+      "description": "溶接ケーブルロック",
+      "expected": "8301",
+      "candidates": [
+        "8311",
+        "8544",
+        "7326"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 8907.905400000047,
+      "inputTokens": 845,
+      "outputTokens": 223,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N297759",
+      "description": "保温・保冷ステンレス製飲料タンブラー",
+      "expected": "7323",
+      "candidates": [
+        "9617",
+        "7323",
+        "7615"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6309.1054,
+      "inputTokens": 855,
+      "outputTokens": 107,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N358918",
+      "description": "美術教材セット",
+      "expected": "4901",
+      "candidates": [
+        "9209",
+        "9609",
+        "3213"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6426.31660000002,
+      "inputTokens": 841,
+      "outputTokens": 159,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N356833",
+      "description": "ニンボ オーガニック殺虫剤",
+      "expected": "3808",
+      "candidates": [
+        "3808",
+        "3402",
+        "2903"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 7479.666099999915,
+      "inputTokens": 850,
+      "outputTokens": 133,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N351670",
+      "description": "オイルホースリール",
+      "expected": "4009",
+      "candidates": [
+        "8487",
+        "8432",
+        "7307"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 7130.5848999999,
+      "inputTokens": 841,
+      "outputTokens": 110,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N348330",
+      "description": "すぐに食べられるスナックミックス",
+      "expected": "2008",
+      "candidates": [
+        "2106",
+        "1904",
+        "2008"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 9113.300900000031,
+      "inputTokens": 848,
+      "outputTokens": 126,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N342688",
+      "description": "インスタント アイスティー",
+      "expected": "2106",
+      "candidates": [
+        "2101",
+        "2202",
+        "0902"
+      ],
+      "top1Correct": false,
+      "top3Correct": false,
+      "latencyMs": 6382.439000000013,
+      "inputTokens": 843,
+      "outputTokens": 134,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N342775",
+      "description": "動物飼料添加物",
+      "expected": "2309",
+      "candidates": [
+        "2309",
+        "2936",
+        "2833"
+      ],
+      "top1Correct": true,
+      "top3Correct": true,
+      "latencyMs": 5957.946200000006,
+      "inputTokens": 843,
+      "outputTokens": 131,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    },
+    {
+      "id": "N341295",
+      "description": "複層フローリング",
+      "expected": "4412",
+      "candidates": [
+        "4418",
+        "4412",
+        "4421"
+      ],
+      "top1Correct": false,
+      "top3Correct": true,
+      "latencyMs": 6095.88340000005,
+      "inputTokens": 841,
+      "outputTokens": 138,
+      "cacheWriteTokens": 0,
+      "cacheReadTokens": 0
+    }
+  ]
+}

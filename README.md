@@ -89,6 +89,22 @@ each step so we know which one to improve.
 > best top-1 (no human) → Sonnet two-stage; tight budget → Haiku v3. None of this
 > was predictable without measuring — and all of it cost $14.
 
+## Bonus: does it survive Japanese input?
+
+Cross-border product data often arrives in Japanese, not English. So we translated
+all 248 descriptions into Japanese (e.g. *"a women's recovery hoodie"* →
+*"レディース リカバリーフーディー"*) and re-ran the best setup, Sonnet v2:
+
+| Input language | Top-1 | Top-3 | Cost / 1K SKUs |
+|---|---:|---:|---:|
+| English | 54.4% | 79.0% | $4.40 |
+| Japanese | 52.0% | 71.8% | $4.47 |
+
+**Top-1 barely moves (−2.4 points): the model classifies Japanese directly — no
+translation step needed.** Top-3 loses ~7 points, worth a closer look: some of that
+may be noise from our machine translation rather than the classifier itself
+(`scripts/translate-dataset.ts`).
+
 ## Honest caveats
 
 - The product descriptions in customs rulings are **cleaner than real marketplace

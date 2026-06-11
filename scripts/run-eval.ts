@@ -46,6 +46,8 @@ function parseArgs() {
     prompt: get("prompt", "v1")!,
     limit: Number(get("limit", "0")),
     concurrency: Number(get("concurrency", "8")),
+    dataset: get("dataset", "data/dataset.json")!,
+    tag: get("tag", ""),
   };
 }
 
@@ -119,7 +121,7 @@ function percentile(sorted: number[], p: number): number {
 }
 
 async function main() {
-  const { model, prompt, limit, concurrency } = parseArgs();
+  const { model, prompt, limit, concurrency, dataset, tag } = parseArgs();
   const modelCfg = MODELS[model];
   const promptCfg = PROMPTS[prompt];
   if (!modelCfg) throw new Error(`Unknown model "${model}". Options: ${Object.keys(MODELS).join(", ")}`);
@@ -128,7 +130,7 @@ async function main() {
     throw new Error("ANTHROPIC_API_KEY not set. Put it in .env or the environment.");
   }
 
-  let rows: DatasetRow[] = JSON.parse(readFileSync("data/dataset.json", "utf8"));
+  let rows: DatasetRow[] = JSON.parse(readFileSync(dataset, "utf8"));
   if (limit > 0) rows = rows.slice(0, limit);
 
   const client = new Anthropic({ maxRetries: 5 });
@@ -177,7 +179,7 @@ async function main() {
   };
 
   mkdirSync("results", { recursive: true });
-  const outPath = `results/${prompt}-${model}.json`;
+  const outPath = `results/${prompt}-${model}${tag ? `-${tag}` : ""}.json`;
   writeFileSync(outPath, JSON.stringify(run, null, 2));
 
   const s = run.summary;
