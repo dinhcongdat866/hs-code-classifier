@@ -1,8 +1,9 @@
 # HS Code Classification — an eval-driven study
 
-A TypeScript backend that **measures how well LLMs classify products into customs
-(HS) codes** — against real ground truth from US Customs rulings — then **improves
-the setup iteration by iteration** and records what each change was worth.
+A TypeScript backend that **measures speed, accuracy, and cost** of LLMs classifying
+products into customs (HS) codes — against real ground truth from US Customs
+rulings — then **improves the setup iteration by iteration** and records what each
+change was worth.
 
 **The takeaway in one line:** you don't pick a *model* — you measure a
 **model × prompt × architecture** combination, because the best one is not the one
@@ -13,16 +14,16 @@ intuition picks.
 248 real products. Each request returns 3 ranked candidate headings; accuracy is
 checked against the code US Customs actually assigned.
 
-| Model | Setup | Top-1 | Top-3 | Cost / 1K SKUs |
-|---|---|---:|---:|---:|
-| Haiku 4.5 | v1 baseline | 36.7% | 55.2% | $0.93 |
-| Haiku 4.5 | v2 +rules | 40.7% | 59.3% | $1.38 |
-| Haiku 4.5 | v3 +taxonomy | 50.0% | 67.7% | $4.53 |
-| Haiku 4.5 | two-stage | 48.4% | 67.3% | $5.73 |
-| Sonnet 4.6 | v1 baseline | 54.8% | 73.4% | $2.95 |
-| Sonnet 4.6 | **v2 +rules** | 54.4% | **79.0%** | **$4.40** |
-| Sonnet 4.6 | v3 +taxonomy | 56.0% | 76.6% | $14.31 |
-| Sonnet 4.6 | two-stage | **58.9%** | 77.0% | $11.36 |
+| Model | Setup | Top-1 | Top-3 | Cost / 1K SKUs | Latency |
+|---|---|---:|---:|---:|---:|
+| Haiku 4.5 | v1 baseline | 36.7% | 55.2% | $0.93 | 6.6 s |
+| Haiku 4.5 | v2 +rules | 40.7% | 59.3% | $1.38 | 6.8 s |
+| Haiku 4.5 | v3 +taxonomy | 50.0% | 67.7% | $4.53 | 7.6 s |
+| Haiku 4.5 | two-stage | 48.4% | 67.3% | $5.73 | 11.1 s |
+| Sonnet 4.6 | v1 baseline | 54.8% | 73.4% | $2.95 | 7.8 s |
+| Sonnet 4.6 | **v2 +rules** | 54.4% | **79.0%** | **$4.40** | 9.1 s |
+| Sonnet 4.6 | v3 +taxonomy | 56.0% | 76.6% | $14.31 | 14.3 s |
+| Sonnet 4.6 | two-stage | **58.9%** | 77.0% | $11.36 | 14.9 s |
 
 *Entire study: ≈ $14 in API credits.*
 
@@ -76,10 +77,11 @@ list." → Haiku **+9.3pt**; Sonnet barely moved at 3× the cost.
 → Best fully-automated score (Sonnet **58.9%** top-1), and per-stage metrics that
 show precisely which stage to improve.
 
-> **The punchline:** every step changed the answer to "which setup should we ship?"
-> Human-in-the-loop → Sonnet v2. Full automation → Sonnet two-stage. Tight budget →
-> Haiku v3. None of these choices were predictable without measuring — and the whole
-> measurement cost $14.
+> **The punchline:** balancing speed, accuracy, and cost at scale is not a
+> model-picking decision — it's a measurement discipline. Every step above changed
+> the answer to "which setup should we ship?": human-in-the-loop → Sonnet v2; full
+> automation → Sonnet two-stage; tight budget → Haiku v3. None of these choices were
+> predictable without measuring — and the whole measurement cost $14.
 
 ## Honest caveats
 
